@@ -15,7 +15,7 @@ ActiveRecord::Schema.define(version: 4) do
   create_table "characters", force: :cascade do |t|
     t.string  "name"
     t.string  "gender"
-    t.integer "age"
+    t.string  "age"
     t.integer "film_id"
     t.integer "species_id"
   end

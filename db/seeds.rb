@@ -11,8 +11,8 @@ def get_films
     film_string = RestClient.get('https://ghibliapi.herokuapp.com/films')
     film_data = JSON.parse(film_string)
     film_data.each do |film|
-        Film.create(id: film["id"], title: film["title"], description: film["description"],
-                director: film["director"], producer: film["producer"], release_date: film["release_date"].to_i)
+        Film.create(title: film["title"], description: film["description"], director: film["director"],
+                    producer: film["producer"], release_date: film["release_date"].to_i)
     end
 end
 
@@ -20,7 +20,7 @@ def get_species
     species_string = RestClient.get('https://ghibliapi.herokuapp.com/species')
     species_data = JSON.parse(species_string)
     species_data.each do |species|
-        Species.create(id: species["id"], name: species["name"], classification: species["classification"])
+        Species.create(name: species["name"], classification: species["classification"])
     end
 end
 
@@ -37,14 +37,24 @@ def get_characters
     character_string = RestClient.get('https://ghibliapi.herokuapp.com/people')
     character_data = JSON.parse(character_string)
     character_data.each do |character|
-        Location.create(name: character["name"], gender: character["gender"], age: character["age"].to_i,
-                        film_id: 3, species_id: 3)
+        Character.create(name: character["name"], gender: character["gender"], age: character["age"],
+                    film_id: find_film_id(character["films"].first), species_id: find_species_id(character["species"]))
     end
 end
 
 def find_film_id(url)
+    res = RestClient.get(url)
+    title = JSON.parse(res)["title"]
+    Film.find_by(title: title).id
+end
 
+def find_species_id(url)
+    res = RestClient.get(url)
+    name = JSON.parse(res)["name"]
+    Species.find_by(name: name).id
 end
 
 get_films
 get_species
+get_locations
+get_characters
