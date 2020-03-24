@@ -57,3 +57,42 @@ Projects need to be approved prior to launching into them, so take some time to 
 # in config/environment.rb add this line:
 ActiveRecord::Base.logger = nil
 ```
+
+## Biker Project
+** The Biker CLI app is an application that stores information on bike owners, bikes and trips.  
+
+** Standard Use Cases
+* As a user, I want to be able to create a biker account.
+* As a user, I want to be able to associate bikes to my biker account.
+* As a user, I want to be able to be able create trips with my bike.
+* As a user, I want to know how many trips I have taken.
+* As a user, I want to know how many trips I have taken with a certain bike.
+* As a user, I want to know the bike stolen status for all my bikes.
+* As a user, I want to know the bike stolen status for an individual bike. 
+
+bikes>-biker
+bikes-<Trip>-biker
+
+Biker
+  has_many :bikes
+  has_many :trips
+
+Bike
+  belongs_to :biker 
+  has_many :trips 
+
+Trip
+  belongs_to :biker
+  belongs_to :bike
+
+
+** Stretch Goal Use Cases
+* As a user, I want to associate a bike to a manufacturer 
+(Bonus work - pull manufacturer info from https://bikeindex.org/api/v3/manufacturers? url 
+- optional use CSV file with seed data)
+
+Manufacturer 
+
+Bikes
+  belongs_to :manufacturer
+

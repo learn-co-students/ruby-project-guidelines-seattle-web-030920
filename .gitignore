@@ -11,3 +11,6 @@ tmp
 *.swp
 
 db/*.db
+db/*sqlite
+db/schema.rb
+
