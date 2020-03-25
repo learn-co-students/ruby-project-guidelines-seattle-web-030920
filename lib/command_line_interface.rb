@@ -16,7 +16,7 @@ def welcome
     puts "　　　　 〈､_　　　＝三二_ー--　　　　   ﾐ､"
     puts "　　　　 ∠_ 　　　　ｰ＝= 二_ｰ             ﾐ､"
     puts "　 　  ／　¨ヾ､                           ﾐ､"
-    puts "　   ﾉﾍ 　　　ヽ                           l"
+    puts "　    ﾉﾍ　　　ヽ                           l"
 end
 
 def choices
