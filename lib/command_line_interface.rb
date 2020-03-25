@@ -54,11 +54,22 @@ def film_choice
     Film.all.each { |film| puts film.title }
     puts "Input a film from the list you would like to learn about:"
     film = gets.strip
-    print_film(film)
-    film_menu(film)
+    if Film.find_by(title: film)
+        print_film(film)
+        film_menu(film)
+    else
+        puts "That input was invalid. Please try again"
+        film_choice
+    end
 end
 
 def print_film(film)
+    film_object = Film.find_by(title: film)
+    puts "Title: #{film}"
+    puts "Description: #{film_object.description}"
+    puts "Director: #{film_object.director}"
+    puts "Producer: #{film_object.producer}"
+    puts "Release-Date: #{film_object.release_date}"
 end
 
 def film_menu(film)
@@ -69,8 +80,13 @@ def location_choice
     Location.all.each { |location| puts location.name }
     puts "Input a location you would like to learn about:"
     location = gets.strip
-    print_location(location)
-    location_menu(location)
+    if Location.find_by(name: location)
+        print_location(location)
+        location_menu(location)
+    else
+        puts "That input was invalid. Please try again"
+        location_choice
+    end
 end
 
 def print_location(location)
@@ -86,8 +102,13 @@ def character_choice
     Character.all.each { |character| puts character.name }
     puts "Input a character from the list you would like to learn about:"
     character = gets.strip
-    print_character(character)
-    character_menu(character)
+    if Character.find_by(name: character)
+        print_character(character)
+        character_menu(character)
+    else
+        puts "That input was invalid. Please try again"
+        character_choice
+    end
 end
 
 def print_character(character)
@@ -101,8 +122,13 @@ def species_choice
     Species.all.each { |species| puts species.name }
     puts "Input a species from the list you would like to learn about:"
     species = gets.strip
-    print_species(species)
-    species_menu(species)
+    if Species.find_by(name: species)
+        print_species(species)
+        species_menu(species)
+    else
+        puts "That input was invalid. Please try again"
+        species_choice
+    end
 end
 
 def print_species(species)
