@@ -1,7 +1,4 @@
 require_relative '../config/environment.rb'
-#require 'rest-client'
-#require 'json'
-#require 'pry'
 Film.destroy_all
 Species.destroy_all
 Location.destroy_all
@@ -58,3 +55,5 @@ get_films
 get_species
 get_locations
 get_characters
+
+puts "Done!"
