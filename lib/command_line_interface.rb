@@ -90,6 +90,10 @@ def location_choice
 end
 
 def print_location(location)
+    location_object = Location.find_by(name: location)
+    puts "Name: #{location}"
+    puts "Terrain: #{location_object.terrain}"
+    puts "Film: #{location_object.film.title}"
 end
 
 def location_menu(location)
@@ -112,6 +116,12 @@ def character_choice
 end
 
 def print_character(character)
+    character_object = Character.find_by(name: character)
+    puts "Name: #{character}"
+    puts "Gender: #{character_object.gender}"
+    puts "Age: #{character_object.film.title}"
+    puts "Film: #{character_object.film.title}"
+    puts "Species: #{character_object.species.name}"
 end
 
 def character_menu(character)
@@ -132,6 +142,9 @@ def species_choice
 end
 
 def print_species(species)
+    species_object = Species.find_by(name: species)
+    puts "Name: #{species}"
+    puts "Classification: #{species_object.classification}"
 end
 
 def species_menu(species)
