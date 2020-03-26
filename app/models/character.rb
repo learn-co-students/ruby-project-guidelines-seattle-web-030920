@@ -22,4 +22,9 @@ class Character < ActiveRecord::Base
         genders = Character.all.map { |character| character.gender }
         genders.max_by { |gender| genders.count(gender) }
     end
+
+    def self.oldest_character
+        old = Character.all.max_by { |character| character.age.to_i }
+        "#{old.name} at #{old.age} years old"
+    end
 end

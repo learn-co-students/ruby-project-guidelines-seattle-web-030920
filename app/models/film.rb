@@ -27,7 +27,7 @@ class Film < ActiveRecord::Base
         directors = Film.all.map { |film| film.director }
         producers = Film.all.map { |film| film.producer }
         director_producers = directors & producers
-        director_producers.reduce { |line, person| line + "and #{person}" }
+        director_producers.reduce { |line, person| line + " and #{person}" }
     end
 
     def self.most_frequent_release_decade
@@ -38,7 +38,10 @@ class Film < ActiveRecord::Base
             decades << release_dates.select { |year| year / 10 == starting_decade }
             starting_decade += 1
         end
-        decades = decades.sort_by { |decade| decade.length }.reverse
-        (decades[0][0] / 10) * 10
+        (decades.max_by { |decade| decade.length }[0] / 10) * 10
+    end
+
+    def self.most_variety_of_species
+        species_list = Film.all.max_by { |film| film.species.uniq.length }.title
     end
 end

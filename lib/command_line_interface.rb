@@ -260,10 +260,11 @@ def run_species_choice(species)
 end
 
 def random_fact
-    facts = ["The people who have both directed and produced Ghibli films are#{Film.director_producer}",
-            "The most common species to occur in Ghibli films, behind humans, is #{Species.order_by_most_common[1]}",
+    facts = ["The people who have both directed and produced Ghibli films are #{Film.director_producer}",
+            "The most common species to occur in Ghibli films, behind humans, is #{Species.order_by_most_common[1]}s",
             "The decade with the most Ghibli film releases is the #{Film.most_frequent_release_decade}s",
-            "The Ghibli film with the largest variety of species is #{}"
+            "The Ghibli film with the largest variety of species is #{Film.most_variety_of_species}",
+            "The oldest Ghibli character to date is #{Character.oldest_character}"
         ]
     puts "Input the number of facts you would like to see, from 1-#{facts.length}"
     puts ""
