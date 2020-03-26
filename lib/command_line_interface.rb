@@ -44,7 +44,7 @@ def choices(choice)
         random_fact
     else
         puts "That input was invalid. Please try again"
-        choices(choice)
+        main_menu
     end
 end
 
@@ -53,22 +53,14 @@ def film_choice
     Film.all.each { |film| puts film.title }
     puts "Input a film from the list you would like to learn about:"
     film = gets.strip
-    if Film.find_by(title: film)
-        print_film(film)
+    film_object = Film.find_by(title: film)
+    if film_object
+        film_object.print_film
         film_menu(film)
     else
         puts "That input was invalid. Please try again"
         film_choice
     end
-end
-
-def print_film(film)
-    film_object = Film.find_by(title: film)
-    puts "Title: #{film}"
-    puts "Description: #{film_object.description}"
-    puts "Director: #{film_object.director}"
-    puts "Producer: #{film_object.producer}"
-    puts "Release-Date: #{film_object.release_date}"
 end
 
 def film_menu(film)
@@ -79,8 +71,9 @@ def location_choice
     Location.all.each { |location| puts location.name }
     puts "Input a location you would like to learn about:"
     location = gets.strip
-    if Location.find_by(name: location)
-        print_location(location)
+    location_object = Location.find_by(name: location)
+    if location_object
+        location_object.print_location
         location_menu(location)
     else
         puts "That input was invalid. Please try again"
@@ -88,16 +81,11 @@ def location_choice
     end
 end
 
-def print_location(location)
-    location_object = Location.find_by(name: location)
-    puts "Name: #{location}"
-    puts "Terrain: #{location_object.terrain}"
-    puts "Film: #{location_object.film.title}"
-end
-
 def location_menu(location)
     puts "Input a number for the option you would like to choose:"
-    puts ""
+    puts "1. List all the other locations from the same film"
+    puts "2. List all the other locations that have the same terrain"
+    puts "3. Return whether this location's terrain is the most common"
 end
 
 def character_choice
@@ -105,22 +93,14 @@ def character_choice
     Character.all.each { |character| puts character.name }
     puts "Input a character from the list you would like to learn about:"
     character = gets.strip
-    if Character.find_by(name: character)
-        print_character(character)
+    character_object = Character.find_by(name: character)
+    if character_object
+        character_object.print_character
         character_menu(character)
     else
         puts "That input was invalid. Please try again"
         character_choice
     end
-end
-
-def print_character(character)
-    character_object = Character.find_by(name: character)
-    puts "Name: #{character}"
-    puts "Gender: #{character_object.gender}"
-    puts "Age: #{character_object.age}"
-    puts "Film: #{character_object.film.title}"
-    puts "Species: #{character_object.species.name}"
 end
 
 def character_menu(character)
@@ -131,19 +111,14 @@ def species_choice
     Species.all.each { |species| puts species.name }
     puts "Input a species from the list you would like to learn about:"
     species = gets.strip
-    if Species.find_by(name: species)
-        print_species(species)
+    species_object = Species.find_by(name: species)
+    if species_object
+        species_object.print_species
         species_menu(species)
     else
         puts "That input was invalid. Please try again"
         species_choice
     end
-end
-
-def print_species(species)
-    species_object = Species.find_by(name: species)
-    puts "Name: #{species}"
-    puts "Classification: #{species_object.classification}"
 end
 
 def species_menu(species)
