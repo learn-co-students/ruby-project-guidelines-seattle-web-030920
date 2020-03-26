@@ -64,6 +64,11 @@ def film_choice
 end
 
 def film_menu(film)
+    puts "Input a number for the option you would like to choose:"
+    puts "1. List all the other films with the same director"
+    puts "2. List all the other films with the same producer"
+    puts "3. Return whether this film has the most characters"
+    puts "0. Return to main menu"
 end
 
 def location_choice
@@ -86,6 +91,7 @@ def location_menu(location)
     puts "1. List all the other locations from the same film"
     puts "2. List all the other locations that have the same terrain"
     puts "3. Return whether this location's terrain is the most common"
+    puts "0. Return to main menu"
 end
 
 def character_choice
@@ -104,6 +110,11 @@ def character_choice
 end
 
 def character_menu(character)
+    puts "Input a number for the option you would like to choose:"
+    puts "1. List all the other characters from the same film"
+    puts "2. List all the other characters that have the same species"
+    puts "3. Return whether this character's gender is the most common"
+    puts "0. Return to main menu"
 end
 
 def species_choice
@@ -122,6 +133,11 @@ def species_choice
 end
 
 def species_menu(species)
+    puts "Input a number for the option you would like to choose:"
+    puts "1. List all the other species with the same classification"
+    puts "2. List all the characters with this species"
+    puts "3. List all the films with characters with this species"
+    puts "0. Return to main menu"
 end
 
 def random_fact
