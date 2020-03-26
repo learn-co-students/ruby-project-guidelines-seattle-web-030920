@@ -127,27 +127,33 @@ def location_choice
 end
 
 def location_menu(location)
+    spacing
     puts "Input a number for the option you would like to choose:"
     puts "1. List all the other locations from the same film"
     puts "2. List all the other locations that have the same terrain"
     puts "3. Return whether this location's terrain is the most common"
     puts "0. Return to main menu"
+    spacing
     run_location_choice(location)
 end
 
 def run_location_choice(location)
     choice = gets.strip
+    puts ""
     if choice == "0"
         main_menu
     elsif choice == "1"
         location.print_locations_by_film
+        location_menu(location)
     elsif choice == "2"
         location.print_locations_by_terrain
+        location_menu(location)
     elsif choice == "3"
-        location.terrain == Location.most_common_terrain
+        puts location.terrain == Location.most_common_terrain ? "True" : "False"
+        location_menu(location)
     else
         puts "That input was invalid. Please try again"
-        location_menu
+        location_menu(location)
     end
 end
 
@@ -169,26 +175,33 @@ def character_choice
 end
 
 def character_menu(character)
+    spacing
     puts "Input a number for the option you would like to choose:"
     puts "1. List all the other characters from the same film"
     puts "2. List all the other characters that have the same species"
     puts "3. Return whether this character's gender is the most common"
     puts "0. Return to main menu"
+    spacing
     run_character_choice(character)
 end
 
 def run_character_choice(location)
     choice = gets.strip
+    puts ""
     if choice == "0"
+        main_menu
     elsif choice == "1"
         character.print_characters_by_film
+        character_menu(character)
     elsif choice == "2"
         character.print_characters_by_species
+        character_menu(character)
     elsif choice == "3"
-        character.gender == Character.most_common_gender
+        puts character.gender == Character.most_common_gender ? "True" : "False"
+        character_menu(character)
     else
         puts "That input was invalid. Please try again"
-        character_menu
+        character_menu(character)
     end
 end
 
@@ -210,26 +223,33 @@ def species_choice
 end
 
 def species_menu(species)
+    spacing
     puts "Input a number for the option you would like to choose:"
     puts "1. List all the other species with the same classification"
     puts "2. List all the characters with this species"
     puts "3. List all the films with characters with this species"
     puts "0. Return to main menu"
+    spacing
     run_species_choice(species)
 end
 
 def run_species_choice(species)
     choice = gets.strip
+    puts ""
     if choice == "0"
+        main_menu
     elsif choice == "1"
         species.print_species_by_classification
+        species_menu(species)
     elsif choice == "2"
         species.print_characters_by_species
+        species_menu(species)
     elsif choice == "3"
         species.print_films_by_species
+        species_menu(species)
     else
         puts "That input was invalid. Please try again"
-        species_menu
+        species_menu(species)
     end
 end
 
