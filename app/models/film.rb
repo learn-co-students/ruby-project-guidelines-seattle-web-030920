@@ -22,4 +22,23 @@ class Film < ActiveRecord::Base
     def self.most_characters
         Film.all.max_by { |film| film.characters.count }
     end
+
+    def self.director_producer
+        directors = Film.all.map { |film| film.director }
+        producers = Film.all.map { |film| film.producer }
+        director_producers = directors & producers
+        director_producers.reduce { |line, person| line + "and #{person}" }
+    end
+
+    def self.most_frequent_release_decade
+        release_dates = Film.all.map { |film| film.release_date }.sort
+        starting_decade = release_dates[0] / 10
+        decades = []
+        while starting_decade < 203
+            decades << release_dates.select { |year| year / 10 == starting_decade }
+            starting_decade += 1
+        end
+        decades = decades.sort_by { |decade| decade.length }.reverse
+        (decades[0][0] / 10) * 10
+    end
 end
