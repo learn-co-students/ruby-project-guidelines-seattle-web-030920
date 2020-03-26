@@ -103,10 +103,10 @@ def location_choice
     puts "Here is a list of all Ghibli film location names"
     Location.all.each { |location| puts location.name }
     puts "Input a location you would like to learn about:"
-    location = gets.strip
-    location_object = Location.find_by(name: location)
+    name = gets.strip
+    location = Location.find_by(name: name)
     if location_object
-        location_object.print_location
+        location.print_location
         location_menu(location)
     else
         puts "That input was invalid. Please try again"
@@ -120,16 +120,32 @@ def location_menu(location)
     puts "2. List all the other locations that have the same terrain"
     puts "3. Return whether this location's terrain is the most common"
     puts "0. Return to main menu"
+    run_location_choice(location)
+end
+
+def run_location_choice(location)
+    choice = gets.strip
+    if choice == "0"
+    elsif choice == "1"
+        location.print_locations_by_film
+    elsif choice == "2"
+        location.print_locations_by_terrain
+    elsif choice == "3"
+        location.terrain == Location.most_common_terrain
+    else
+        puts "That input was invalid. Please try again"
+        film_menu
+    end
 end
 
 def character_choice
     puts "Here is a list of all Ghibli film character names"
     Character.all.each { |character| puts character.name }
     puts "Input a character from the list you would like to learn about:"
-    character = gets.strip
-    character_object = Character.find_by(name: character)
+    name = gets.strip
+    character = Character.find_by(name: name)
     if character_object
-        character_object.print_character
+        character.print_character
         character_menu(character)
     else
         puts "That input was invalid. Please try again"
@@ -143,6 +159,22 @@ def character_menu(character)
     puts "2. List all the other characters that have the same species"
     puts "3. Return whether this character's gender is the most common"
     puts "0. Return to main menu"
+    run_character_choice(character)
+end
+
+def run_character_choice(location)
+    choice = gets.strip
+    if choice == "0"
+    elsif choice == "1"
+        character.print_locations_by_film
+    elsif choice == "2"
+        character.print_locations_by_terrain
+    elsif choice == "3"
+        character.terrain == Location.most_common_terrain
+    else
+        puts "That input was invalid. Please try again"
+        film_menu
+    end
 end
 
 def species_choice

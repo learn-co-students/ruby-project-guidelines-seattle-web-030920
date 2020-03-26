@@ -9,4 +9,9 @@ class Character < ActiveRecord::Base
         puts "Film: #{self.film.title}"
         puts "Species: #{self.species.name}"
     end
+
+    def print_characters_by_film
+    end
+
+    def print_characters_by_species
 end
