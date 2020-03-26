@@ -4,7 +4,7 @@ class CreateBikes < ActiveRecord::Migration[5.0]
       t.string :bike_name
       t.integer :biker_id
       t.string :bike_type
-      t.integer :manufacturer
+      t.integer :manufacturer_id
       t.boolean :stolen
     end
   end
