@@ -113,9 +113,11 @@ def location_choice
     puts "Here is a list of all Ghibli film location names:"
     puts ""
     Location.all.each { |location| puts location.name }
+    spacing
     puts "Input a location you would like to learn about:"
     puts ""
     name = gets.strip
+    spacing
     location = Location.find_by(name: name)
     if location
         location.print_location
@@ -161,9 +163,11 @@ def character_choice
     puts "Here is a list of all Ghibli film character names:"
     puts ""
     Character.all.each { |character| puts character.name }
+    spacing
     puts "Input a character from the list you would like to learn about:"
     puts ""
     name = gets.strip
+    spacing
     character = Character.find_by(name: name)
     if character
         character.print_character
@@ -185,7 +189,7 @@ def character_menu(character)
     run_character_choice(character)
 end
 
-def run_character_choice(location)
+def run_character_choice(character)
     choice = gets.strip
     puts ""
     if choice == "0"
@@ -209,9 +213,11 @@ def species_choice
     puts "Here is a list of all Ghibli character species:"
     puts ""
     Species.all.each { |species| puts species.name }
+    spacing
     puts "Input a species from the list you would like to learn about:"
     puts ""
     name = gets.strip
+    spacing
     species = Species.find_by(name: name)
     if species
         species.print_species
@@ -255,17 +261,17 @@ end
 
 def random_fact
     facts = ["me", "myself", "and", "I"]
-    puts "Input the number of facts you would like to see from 1-#{facts.length} or O to return to main menu"
+    puts "Input the number of facts you would like to see, from 1-#{facts.length}"
+    puts ""
     input = gets.strip
-    binding.pry
-    if input == "0"
-        main_menu
-    elsif input > "0" && input <= facts.length.to_s
-        facts.sample(input).each { |fact| puts fact }
+    spacing
+    if input > "0" && input <= facts.length.to_s
+        facts.sample(input.to_i).each { |fact| puts fact }
     else
         puts "That input was invalid. Please try again"
         random_fact
     end
+    main_menu
 end
 
 def run

@@ -3,11 +3,11 @@ class Character < ActiveRecord::Base
     belongs_to :species
 
     def print_character
-        puts "Name: #{self.name}"
-        puts "Gender: #{self.gender}"
-        puts "Age: #{self.age}"
-        puts "Film: #{self.film.title}"
-        puts "Species: #{self.species.name}"
+        puts " * Name: #{self.name}"
+        puts " * Gender: #{self.gender}"
+        puts " * Age: #{self.age}"
+        puts " * Film: #{self.film.title}"
+        puts " * Species: #{self.species.name}"
     end
 
     def print_characters_by_film
@@ -18,7 +18,7 @@ class Character < ActiveRecord::Base
         Character.where("species_id = ?", self.species).each { |character| puts character.name }
     end
 
-    def self.most_commmon_gender
+    def self.most_common_gender
         genders = Character.all.map { |character| character.gender }
         genders.max_by { |gender| genders.count(gender) }
     end

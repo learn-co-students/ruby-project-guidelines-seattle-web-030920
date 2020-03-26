@@ -2,9 +2,9 @@ class Location < ActiveRecord::Base
     belongs_to :film
 
     def print_location
-        puts "Name: #{self.name}"
-        puts "Terrain: #{self.terrain}"
-        puts "Film: #{self.film.title}"
+        puts " * Name: #{self.name}"
+        puts " * Terrain: #{self.terrain}"
+        puts " * Film: #{self.film.title}"
     end
 
     def print_locations_by_film
