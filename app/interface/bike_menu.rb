@@ -15,8 +15,7 @@ class BikeMenu < Menu
         @account = account        
     end
 
-    def input=(input)
-        data_valid = false;        
+    def input=(input)             
         if(input == "!back")
             @input = input
             return
@@ -25,38 +24,38 @@ class BikeMenu < Menu
         if(input.length == 1)        
             valid_choices = ["1", "5", "9"]                        
             if(valid_choices.any?(input))
-                @input = input
-                data_valid = true
+                @input = input                
                 # 1. EDIT A BIKE
                 # 5. ADD A BIKE
                 # 9. USER MENU
                 case input
-                when "1"                         
+                when "1"  
+                    puts "Not yet implemented"                
                     puts "Edit a bike menu"                                                        
                 when "5"
+                    puts "Not yet implemented"
                     puts "Add a bike menu"
                 when "9"                    
                     @menu_to_return_to = MenuHelpers.User  
                 end     
             end
         else
-            data_valid = false
+            bad_selection("Account name is too short. Must be more that 4 or more characters.")           
         end
-
-        if(data_valid)
-            @input = input
-        else
-            @input = nil
-        end 
-
     end
 
-    def menu_routine()             
-        #while(!@input && @input != "9") do                    
-        while(!@input || (@menu_to_return_to == @my_menu_name)) do            
-            bikes = Bike.all.select{|bike| bike.biker_id == @account.id}.map{|bike| bike.to_s}                 
-            super(input: bikes)            
-            self.input=gets.chomp         
+    def sub_menu_data
+        bikes = Bike.all.select{|bike| bike.biker_id == @account.id}.map{|bike| bike.to_s}
+        string_bld1 = "\n********************************* BIKES OWNED BY #{account.full_name} *********************************\n"
+        string_bld2 = "#{bikes}"
+        "#{string_bld1}#{string_bld2}\n"
+    end
+
+    def menu_routine()                                     
+        while(!@input || (@menu_to_return_to == @my_menu_name)) do                                     
+            super(input: sub_menu_data)            
+            self.input=gets.chomp        
+            selection_result_output 
         end        
         @menu_to_return_to   
     end

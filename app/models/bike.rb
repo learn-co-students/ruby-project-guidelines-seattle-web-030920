@@ -6,6 +6,6 @@ class Bike < ActiveRecord::Base
     def to_s
         bike_man = Manufacturer.all.find(self.manufacturer_id).name
         stolen_check = self.stolen ? "Yes" : "No"
-        "Bike name:#{self.bike_name} | biker_id:#{self.biker_id} | bike_type: #{self.bike_type} | manufacturer: #{bike_man} | stoken: #{stolen_check}"
+        "|Bike name:#{self.bike_name} \t|biker_id:#{self.biker_id} \t|bike_type: #{self.bike_type} \t|mnfct:: #{bike_man} \t|stoken: #{stolen_check}"
       end
 end

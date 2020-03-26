@@ -1,5 +1,5 @@
 class Menu
-    attr_reader :menu, :input, :menu_to_return_to, :my_menu_name
+    attr_reader :menu, :input, :menu_to_return_to, :my_menu_name, :sleep_time, :output_statement
     # def initialize()        
     # end    
 
@@ -8,7 +8,29 @@ class Menu
         puts menu
         puts input
         print "\n\t#{prompt}:> "
+        @sleep_time = 0
     end        
+
+    def output_formatting(output)
+        @output_statement = "\n\t#{output}\n"
+    end
+
+    def successful_selection(output)        
+        output_formatting(output)
+        @sleep_time = 1                
+    end
+
+    def bad_selection(output)
+        output_formatting(output)
+        @input = nil     
+        @sleep_time = 3               
+    end
+
+    def selection_result_output        
+        puts @output_statement
+        sleep(@sleep_time)
+        @output_statement = "" 
+    end
 end
 
 class MenuHelpers

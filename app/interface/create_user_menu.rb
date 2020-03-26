@@ -12,30 +12,31 @@ class CreateUserMenu < Menu
 
         @input = nil
         @my_menu_name = MenuHelpers.CreateUser
-        @menu_to_return_to = @my_menu_name
+        @menu_to_return_to = @my_menu_name        
     end    
 
     def input=(input)
         data_valid = false;
-        if(input == "!back")
+        if(input == "!back")            
+            successful_selection("(Cancled action) Returning to main menu")  
             @menu_to_return_to = MenuHelpers.Main
             @input = input
             return
         end
 
         if(input.length<4)
-            bad_data("Account name is too short. Must be more that 4 or more characters.")                        
+            bad_selection("Account name is too short. Must be more that 4 or more characters.")                        
             return
         end
 
         if(input.include?(" "))
-            bad_data("Account name cannot include spaces.")                        
+            bad_selection("Account name cannot include spaces.")                        
             return
         end
 
         existing_user = Biker.all.find_by(account_name: input)
         if(existing_user)
-            bad_data("Account with the same name alread exist. Try a different name.")                        
+            bad_selection("Account with the same name alread exist. Try a different name.")                        
             return
         end
         
@@ -49,30 +50,22 @@ class CreateUserMenu < Menu
 
         
         Biker.new(account_name: input, first_name: first_name, last_name: last_name, address: address).save
-        new_account = Biker.all.find_by(account_name: input)
-        binding.pry
+        new_account = Biker.all.find_by(account_name: input)        
         if(new_account)
-            @output_statement = "Successfully created user #{input}"
+            successful_selection("Successfully created user #{input}")            
             @input = input
             @menu_to_return_to = MenuHelpers.Main
         else
-            bad_data("\nUnable to create account. Please try again\n")                        
+            bad_selection("\nUnable to create account. Please try again\n")                        
             return
         end
-    end
-
-    def bad_data(output)
-        @output_statement = "\n\t#{output}\n"
-        @input = nil                    
     end
 
     def menu_routine                   
         while(!@input || (@menu_to_return_to == @my_menu_name)) do            
             super(prompt: "New Account name")            
             self.input=gets.chomp   
-            puts @output_statement
-            sleep(3)
-            @output_statement = "" 
+            selection_result_output
         end
         @menu_to_return_to
     end

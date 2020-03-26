@@ -1,5 +1,4 @@
-class LoginMenu < Menu
-    
+class LoginMenu < Menu    
     def initialize()        
         @menu = <<-LOGIN_MENU
         ********  Login  **********       
@@ -11,7 +10,7 @@ class LoginMenu < Menu
         
         @input = nil    
         @my_menu_name = MenuHelpers.Login           
-        @menu_to_return_to = @my_menu_name
+        @menu_to_return_to = @my_menu_name        
     end
 
     def input=(input)
@@ -19,6 +18,7 @@ class LoginMenu < Menu
         account = nil
         if(input == "!back")
             @menu_to_return_to = MenuHelpers.Main
+            successful_selection("(Cancled action) Returning to main menu")  
             @input = input
             return
         end
@@ -33,21 +33,27 @@ class LoginMenu < Menu
         end
 
         if(!data_valid)
-            @input = nil
-            puts "Invalid data - account name must not contain spaces.  Try again"            
-        else            
-            @input = "!back"            
-            if(account)                       
+            bad_selection("\nUnable to create account. Please try again\n")                                               
+        else                        
+            @input = "input"        
+            successful_selection("Successfully logged in.")                     
+            selection_result_output            
+            if(account)                                       
                 @menu_to_return_to = UserMenu.new(account).menu_routine
+                output_formatting("")
+                @sleep_time = 0
             end
         end
     end
+
     
+
     def menu_routine()     
         #puts Biker.all.find_by(account_name: "balancepanic").first_name                                
         while(!@input || (@menu_to_return_to == @my_menu_name)) do            
             super(prompt: "Account name")            
-            self.input=gets.chomp                        
+            self.input=gets.chomp    
+            selection_result_output                                
         end         
         @menu_to_return_to       
     end

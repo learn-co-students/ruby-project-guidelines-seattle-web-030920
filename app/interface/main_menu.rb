@@ -27,27 +27,23 @@ class MainMenu < Menu
                 when "5"
                     @menu_to_return_to = CreateUserMenu.new.menu_routine
                 when "7"
+                    puts "Not yet implemented"
                     puts "Admin Menu"
                 when "9"
                     @menu_to_return_to = "exit"
                 end     
             end
         else
-            data_valid = false
-        end   
-        
-        if(data_valid)
-            @input = input
-        else
-            @input = nil
-        end
+            bad_selection("Account name is too short. Must be more that 4 or more characters.")                                    
+        end       
     end
 
     def menu_routine      
         #puts Biker.all.find_by(account_name: "balancepanic").first_name         
         while(!@input || (@menu_to_return_to == @my_menu_name)) do            
             super         
-            self.input=gets.chomp            
+            self.input=gets.chomp    
+            selection_result_output  
         end
         puts "\n\t*****************************************************\n"
         puts "\n\tThank you for using the Biker program.  Byke for now!\n\n"
