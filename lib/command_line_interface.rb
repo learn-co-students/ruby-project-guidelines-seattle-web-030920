@@ -27,11 +27,10 @@ def main_menu
     puts "4. Learn about Ghibli character species"
     puts "5. Learn a random fact about Ghibli films"
     puts "0. Exit the application"
-    gets.strip
+    choices(gets.strip)
 end
 
-def choices
-    choice = main_menu
+def choices(choice)
     if choice == "0"
     elsif choice == "1"
         film_choice
@@ -45,7 +44,7 @@ def choices
         random_fact
     else
         puts "That input was invalid. Please try again"
-        choices
+        choices(choice)
     end
 end
 
@@ -119,7 +118,7 @@ def print_character(character)
     character_object = Character.find_by(name: character)
     puts "Name: #{character}"
     puts "Gender: #{character_object.gender}"
-    puts "Age: #{character_object.film.title}"
+    puts "Age: #{character_object.age}"
     puts "Film: #{character_object.film.title}"
     puts "Species: #{character_object.species.name}"
 end
@@ -151,12 +150,19 @@ def species_menu(species)
 end
 
 def random_fact
-    facts = ["", "", "", "", ""]
+    facts = ["me", "myself", "and", "I"]
+    puts "Input the number of facts you would like to see from 1-#{facts.length} or anything else to return to main menu"
+    input = gets.strip.to_i
+    binding.pry
+    if input > 0 && input <= facts.length
+        facts.sample(input).each { |fact| puts fact }
+    end
+    main_menu
 end
 
 def run
     welcome
-    choices
+    main_menu
 end
 
 run
