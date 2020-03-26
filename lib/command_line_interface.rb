@@ -152,8 +152,5 @@ def random_fact
 end
 
 def run
-    welcome
     main_menu
 end
-
-run
