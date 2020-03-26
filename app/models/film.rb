@@ -10,4 +10,17 @@ class Film < ActiveRecord::Base
         puts "Producer: #{self.producer}"
         puts "Release-Date: #{self.release_date}"
     end
+
+    def print_films_by_director
+        Film.where("director = ?", self.director).each { |film| puts film.title }
+        nil
+    end
+
+    def print_films_by_producer
+        Film.where("producer = ?", self.producer).each { |film| puts film.title }
+    end
+
+    def self.most_characters
+        Film.all.max_by { |film| film.characters.count }
+    end
 end

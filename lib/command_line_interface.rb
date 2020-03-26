@@ -1,6 +1,7 @@
 require_relative '../config/environment.rb'
 
 def welcome
+    spacing
     puts "Welcome to the world of Studio Ghibli!"
     puts "　　　　　　　　　　　　　　　　 ﾍ"
     puts "　　　　　　　　　　　　　　ﾍ　/ |"
@@ -17,6 +18,7 @@ def welcome
     puts "　　　　 ∠_ 　　　　ｰ＝= 二_ｰ             ﾐ､"
     puts "　 　  ／　¨ヾ､                           ﾐ､"
     puts "　    ﾉﾍ　　　ヽ                           l"
+    spacing
 end
 
 def main_menu
@@ -27,7 +29,17 @@ def main_menu
     puts "4. Learn about Ghibli character species"
     puts "5. Learn a random fact about Ghibli films"
     puts "0. Exit the application"
+    spacing
     choices(gets.strip)
+end
+
+def spacing
+    puts ""
+    puts ""
+    puts "----------------------------------------------------------------"
+    puts "----------------------------------------------------------------"
+    puts ""
+    puts ""
 end
 
 def choices(choice)
@@ -52,10 +64,10 @@ def film_choice
     puts "Here is a list of all Ghibli film titles"
     Film.all.each { |film| puts film.title }
     puts "Input a film from the list you would like to learn about:"
-    film = gets.strip
-    film_object = Film.find_by(title: film)
+    title = gets.strip
+    film = Film.find_by(title: title)
     if film_object
-        film_object.print_film
+        film.print_film
         film_menu(film)
     else
         puts "That input was invalid. Please try again"
@@ -69,6 +81,22 @@ def film_menu(film)
     puts "2. List all the other films with the same producer"
     puts "3. Return whether this film has the most characters"
     puts "0. Return to main menu"
+    run_film_choice(film)
+end
+
+def run_film_choice(film)
+    choice = gets.strip
+    if choice == "0"
+    elsif choice == "1"
+        film.print_films_by_director
+    elsif choice == "2"
+        film.print_films_by_producer
+    elsif choice == "3"
+        film == Film.most_characters
+    else
+        puts "That input was invalid. Please try again"
+        film_menu
+    end
 end
 
 def location_choice
@@ -142,13 +170,17 @@ end
 
 def random_fact
     facts = ["me", "myself", "and", "I"]
-    puts "Input the number of facts you would like to see from 1-#{facts.length} or anything else to return to main menu"
-    input = gets.strip.to_i
+    puts "Input the number of facts you would like to see from 1-#{facts.length} or O to return to main menu"
+    input = gets.strip
     binding.pry
-    if input > 0 && input <= facts.length
+    if input == "0"
+        main_menu
+    elsif input > "0" && input <= facts.length.to_s
         facts.sample(input).each { |fact| puts fact }
+    else
+        puts "That input was invalid. Please try again"
+        random_fact
     end
-    main_menu
 end
 
 def run
