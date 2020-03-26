@@ -18,10 +18,10 @@ def welcome
     puts "　　　　 ∠_ 　　　　ｰ＝= 二_ｰ             ﾐ､"
     puts "　 　  ／　¨ヾ､                           ﾐ､"
     puts "　    ﾉﾍ　　　ヽ                           l"
-    spacing
 end
 
 def main_menu
+    spacing
     puts "Please input a number for the option you would like to choose:"
     puts "1. Learn about Ghibli films"
     puts "2. Learn about Ghibli film locations"
@@ -35,14 +35,13 @@ end
 
 def spacing
     puts ""
-    puts "----------------------------------------------------------------"
-    puts "----------------------------------------------------------------"
+    puts "-*----*----*----*----*----*----*----*----*----*----*----*----*----*-"
     puts ""
 end
 
 def choices
     choice = gets.strip
-    spacing
+    puts ""
     if choice == "0"
     elsif choice == "1"
         film_choice
@@ -61,11 +60,14 @@ def choices
 end
 
 def film_choice
-    puts "Here is a list of all Ghibli film titles"
+    puts "Here is a list of all Ghibli film titles:"
     puts ""
     Film.all.each { |film| puts film.title }
+    spacing
     puts "Input a film from the list you would like to learn about:"
+    puts ""
     title = gets.strip
+    spacing
     film = Film.find_by(title: title)
     if film
         film.print_film
@@ -77,34 +79,42 @@ def film_choice
 end
 
 def film_menu(film)
+    spacing
     puts "Input a number for the option you would like to choose:"
     puts "1. List all the other films with the same director"
     puts "2. List all the other films with the same producer"
     puts "3. Return whether this film has the most characters"
     puts "0. Return to main menu"
+    spacing
     run_film_choice(film)
 end
 
 def run_film_choice(film)
     choice = gets.strip
+    puts ""
     if choice == "0"
         main_menu
     elsif choice == "1"
         film.print_films_by_director
+        film_menu(film)
     elsif choice == "2"
         film.print_films_by_producer
+        film_menu(film)
     elsif choice == "3"
-        film == Film.most_characters
+        puts film == Film.most_characters ? "True" : "False"
+        film_menu(film)
     else
         puts "That input was invalid. Please try again"
-        film_menu
+        film_menu(film)
     end
 end
 
 def location_choice
-    puts "Here is a list of all Ghibli film location names"
+    puts "Here is a list of all Ghibli film location names:"
+    puts ""
     Location.all.each { |location| puts location.name }
     puts "Input a location you would like to learn about:"
+    puts ""
     name = gets.strip
     location = Location.find_by(name: name)
     if location
@@ -142,9 +152,11 @@ def run_location_choice(location)
 end
 
 def character_choice
-    puts "Here is a list of all Ghibli film character names"
+    puts "Here is a list of all Ghibli film character names:"
+    puts ""
     Character.all.each { |character| puts character.name }
     puts "Input a character from the list you would like to learn about:"
+    puts ""
     name = gets.strip
     character = Character.find_by(name: name)
     if character
@@ -181,9 +193,11 @@ def run_character_choice(location)
 end
 
 def species_choice
-    puts "Here is a list of all Ghibli character species"
+    puts "Here is a list of all Ghibli character species:"
+    puts ""
     Species.all.each { |species| puts species.name }
     puts "Input a species from the list you would like to learn about:"
+    puts ""
     name = gets.strip
     species = Species.find_by(name: name)
     if species
