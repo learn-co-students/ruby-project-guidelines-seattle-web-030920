@@ -11,7 +11,15 @@ class Character < ActiveRecord::Base
     end
 
     def print_characters_by_film
+        Character.where("film_id = ?", self.film).each { |character| puts character.name }
     end
 
     def print_characters_by_species
+        Character.where("species_id = ?", self.species).each { |character| puts character.name }
+    end
+
+    def self.most_commmon_gender
+        genders = Character.all.map { |character| character.gender }
+        genders.max_by { |gender| genders.count(gender) }
+    end
 end

@@ -13,7 +13,6 @@ class Film < ActiveRecord::Base
 
     def print_films_by_director
         Film.where("director = ?", self.director).each { |film| puts film.title }
-        nil
     end
 
     def print_films_by_producer

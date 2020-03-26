@@ -30,19 +30,19 @@ def main_menu
     puts "5. Learn a random fact about Ghibli films"
     puts "0. Exit the application"
     spacing
-    choices(gets.strip)
+    choices
 end
 
 def spacing
     puts ""
-    puts ""
     puts "----------------------------------------------------------------"
     puts "----------------------------------------------------------------"
-    puts ""
     puts ""
 end
 
-def choices(choice)
+def choices
+    choice = gets.strip
+    spacing
     if choice == "0"
     elsif choice == "1"
         film_choice
@@ -62,11 +62,12 @@ end
 
 def film_choice
     puts "Here is a list of all Ghibli film titles"
+    puts ""
     Film.all.each { |film| puts film.title }
     puts "Input a film from the list you would like to learn about:"
     title = gets.strip
     film = Film.find_by(title: title)
-    if film_object
+    if film
         film.print_film
         film_menu(film)
     else
@@ -87,6 +88,7 @@ end
 def run_film_choice(film)
     choice = gets.strip
     if choice == "0"
+        main_menu
     elsif choice == "1"
         film.print_films_by_director
     elsif choice == "2"
@@ -105,7 +107,7 @@ def location_choice
     puts "Input a location you would like to learn about:"
     name = gets.strip
     location = Location.find_by(name: name)
-    if location_object
+    if location
         location.print_location
         location_menu(location)
     else
@@ -126,6 +128,7 @@ end
 def run_location_choice(location)
     choice = gets.strip
     if choice == "0"
+        main_menu
     elsif choice == "1"
         location.print_locations_by_film
     elsif choice == "2"
@@ -134,7 +137,7 @@ def run_location_choice(location)
         location.terrain == Location.most_common_terrain
     else
         puts "That input was invalid. Please try again"
-        film_menu
+        location_menu
     end
 end
 
@@ -144,7 +147,7 @@ def character_choice
     puts "Input a character from the list you would like to learn about:"
     name = gets.strip
     character = Character.find_by(name: name)
-    if character_object
+    if character
         character.print_character
         character_menu(character)
     else
@@ -166,14 +169,14 @@ def run_character_choice(location)
     choice = gets.strip
     if choice == "0"
     elsif choice == "1"
-        character.print_locations_by_film
+        character.print_characters_by_film
     elsif choice == "2"
-        character.print_locations_by_terrain
+        character.print_characters_by_species
     elsif choice == "3"
-        character.terrain == Location.most_common_terrain
+        character.gender == Character.most_common_gender
     else
         puts "That input was invalid. Please try again"
-        film_menu
+        character_menu
     end
 end
 
@@ -181,10 +184,10 @@ def species_choice
     puts "Here is a list of all Ghibli character species"
     Species.all.each { |species| puts species.name }
     puts "Input a species from the list you would like to learn about:"
-    species = gets.strip
-    species_object = Species.find_by(name: species)
-    if species_object
-        species_object.print_species
+    name = gets.strip
+    species = Species.find_by(name: name)
+    if species
+        species.print_species
         species_menu(species)
     else
         puts "That input was invalid. Please try again"
@@ -198,6 +201,22 @@ def species_menu(species)
     puts "2. List all the characters with this species"
     puts "3. List all the films with characters with this species"
     puts "0. Return to main menu"
+    run_species_choice(species)
+end
+
+def run_species_choice(species)
+    choice = gets.strip
+    if choice == "0"
+    elsif choice == "1"
+        species.print_species_by_classification
+    elsif choice == "2"
+        species.print_characters_by_species
+    elsif choice == "3"
+        species.print_films_by_species
+    else
+        puts "That input was invalid. Please try again"
+        species_menu
+    end
 end
 
 def random_fact
