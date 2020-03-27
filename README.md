@@ -72,7 +72,7 @@ ActiveRecord::Base.logger = nil
 
     rake db:migrate
 
-    ruby db/seeds.rb
+    rake db:seed.rb
   
   Run the application 
     ruby bin/run.rb
