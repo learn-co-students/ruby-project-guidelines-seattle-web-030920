@@ -5,7 +5,7 @@ class MainMenu < Menu
         1. LOGIN
         5. CREATE NEW ACCOUNT
         7. ADMIN - *Not implemented yet
-        9. EXIT  
+        9. EXIT APPLICATION
         **************************      
         MAIN_MENU
         

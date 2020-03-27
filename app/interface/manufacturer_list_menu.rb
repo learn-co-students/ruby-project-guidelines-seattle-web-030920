@@ -5,7 +5,7 @@ class ManufacturerListMenu < Menu
         ********  Manufacturer Search Menu *************       
         Key in manufacturer name to search for
 
-        !b - previous menu
+        !b - (GO BACK)
         ****************************************      
         MANUFACTURER_LIST_MENU
 

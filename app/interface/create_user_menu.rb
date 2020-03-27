@@ -6,7 +6,7 @@ class CreateUserMenu < Menu
         Please enter your account name:
             (no spaces) 
             (must be 4 characters or greater)
-        !back - previous menu
+        !b - (GO BACK)
         ****************************************      
         CREATE_MENU
 
@@ -17,7 +17,7 @@ class CreateUserMenu < Menu
 
     def input=(input)
         data_valid = false;
-        if(input == "!back")            
+        if(input == "!b")            
             successful_selection("(Canceled action) Returning to main menu")  
             @menu_to_return_to = MenuHelpers.Main
             @input = input

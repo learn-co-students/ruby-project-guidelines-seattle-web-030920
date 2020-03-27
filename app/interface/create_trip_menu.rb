@@ -4,7 +4,7 @@ class CreateTripMenu < Menu
         @menu = <<-CREATE_TRIP_MENU
         ********  Create Trip Menu *************               
         5. EDIT NEW TRIP DETAILS - WIP NOT FUNCTIONAL
-        9. TRIP MENU
+        9. TRIP MENU - (GO BACK)
         ****************************************      
         CREATE_TRIP_MENU
 

@@ -6,7 +6,7 @@ class String
 
 class ClassHelpers
     def self.SplashASCII
-
+      Screen.clear
         splash = <<-SPLASH       
 
         *************** BIKER APP ***************

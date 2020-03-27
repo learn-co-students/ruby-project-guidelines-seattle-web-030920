@@ -5,7 +5,7 @@ class BikeMenu < Menu
         ********  Bike Menu  **********               
         1. EDIT A BIKE - WIP NOT FUNCTIONAL
         5. ADD A BIKE
-        9. USER MENU
+        9. USER MENU - (GO BACK)
         ***************************
         BIKE_MENU
 
@@ -16,11 +16,6 @@ class BikeMenu < Menu
     end
 
     def input=(input)             
-        # if(input == "!back")
-        #     @input = input
-        #     return
-        # end
-
         if(input.length == 1)        
             valid_choices = ["1", "5", "9"]                        
             if(valid_choices.any?(input))

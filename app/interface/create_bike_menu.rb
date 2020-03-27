@@ -5,7 +5,7 @@ class CreateBikeMenu < Menu
         ********  Create Bike Menu *************       
         1. LIST MANUFACTURERS
         7. EDIT NEW BIKE DETAILS
-        9. BIKE MENU
+        9. BIKE MENU - (GO BACK)
         ****************************************      
         CREATE_BIKE_MENU
         @account = account

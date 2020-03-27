@@ -5,7 +5,7 @@ class UserMenu < Menu
         ********  User Menu  **********       
         1. MY BIKES        
         5. MY TRIPS
-        9. MAIN MENU
+        9. MAIN MENU - (GO BACK)
         ***************************
         USER_MENU
 
@@ -16,11 +16,7 @@ class UserMenu < Menu
     end
 
     def input=(input)
-        data_valid = false;        
-        if(input == "!back")
-            @input = input
-            return
-        end
+        data_valid = false;
 
         if(input.length == 1)        
             valid_choices = ["1", "5", "9"]                        

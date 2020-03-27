@@ -4,7 +4,7 @@ class LoginMenu < Menu
         ********  Login  **********       
         Please enter your account name with no spaces.
         
-        !b - previous menu
+        !b - (GO BACK)
         ***************************       
         LOGIN_MENU
         
@@ -44,9 +44,7 @@ class LoginMenu < Menu
                 @sleep_time = 0
             end
         end
-    end
-
-    
+    end    
 
     def menu_routine()                                      
         while(!@input || (@menu_to_return_to == @my_menu_name)) do            

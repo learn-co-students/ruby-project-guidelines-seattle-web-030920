@@ -5,7 +5,7 @@ class TripMenu < Menu
         ********  Bike Menu  **********                       
         5. ADD A TRIP
         7. TOTAL DISTANCE OF ALL TRIPS
-        9. USER MENU
+        9. USER MENU - (GO BACK)
         ***************************
         TRIP_MENU
 
