@@ -11,8 +11,12 @@ Run ruby bin/run.rb to start the CLI
 
 ## Usage
 
+See project_1_video.mov
+
 ## Contributing
 
 Pull requests are fine, just notify me first.
+
+## Licence
 
 [GitHub](https://github.com/fosterv2/ruby-project-guidelines-seattle-web-030920)
