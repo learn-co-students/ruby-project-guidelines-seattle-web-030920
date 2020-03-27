@@ -33,7 +33,7 @@ class LoginMenu < Menu
         end
 
         if(!data_valid)
-            bad_selection("\nUnable to create account. Please try again\n")                                               
+            bad_selection("\nUnable to locate account #{input}. Please try again with valid account.\n")                                               
         else                        
             @input = "input"        
             successful_selection("Successfully logged in.")                     
@@ -48,8 +48,7 @@ class LoginMenu < Menu
 
     
 
-    def menu_routine()     
-        #puts Biker.all.find_by(account_name: "balancepanic").first_name                                
+    def menu_routine()                                      
         while(!@input || (@menu_to_return_to == @my_menu_name)) do            
             super(prompt: "Account name")            
             self.input=gets.chomp    

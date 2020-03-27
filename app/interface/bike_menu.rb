@@ -3,7 +3,7 @@ class BikeMenu < Menu
     def initialize(account)
         @menu = <<-BIKE_MENU
         ********  Bike Menu  **********               
-        1. EDIT A BIKE - *Not implemented yet
+        1. EDIT A BIKE - WIP NOT FUNCTIONAL
         5. ADD A BIKE
         9. USER MENU
         ***************************

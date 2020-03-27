@@ -102,7 +102,7 @@ ActiveRecord::Base.logger = nil
 ## Standard Use Cases
 * [X] As a user, I want to be able to create a biker account.
 * [X] As a user, I want to be able to associate bikes to my biker account.
-*     As a user, I want to be able to be able create trips with my bike.
+* [X] As a user, I want to be able to be able create trips with my bike.
 * [X] As a user, I want to know how many trips I have taken.
 * [X] As a user, I want to know total miles for all trips.
 *     As a user, I want to know how many trips I have taken with a certain bike.

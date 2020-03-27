@@ -18,7 +18,7 @@ class CreateUserMenu < Menu
     def input=(input)
         data_valid = false;
         if(input == "!back")            
-            successful_selection("(Cancled action) Returning to main menu")  
+            successful_selection("(Canceled action) Returning to main menu")  
             @menu_to_return_to = MenuHelpers.Main
             @input = input
             return
