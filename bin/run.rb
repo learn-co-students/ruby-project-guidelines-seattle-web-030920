@@ -1,5 +1,5 @@
 require_relative '../config/environment'
+# require 'io/console'
 
-
-
-puts "HELLO WORLD"
+app = ComicsApp.new
+app.run
