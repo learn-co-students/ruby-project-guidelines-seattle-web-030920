@@ -64,10 +64,14 @@ ActiveRecord::Base.logger = nil
   https://bikeindex.org/api/v3/manufacturers? (which is the same data used to seed db).
 
 ## Setup
-  Clone repo
-  bundle install
+  Clone repo - git clone git@github.com:jeff-flatiron-bootcamp/ruby-project-guidelines-seattle-web-030920.git
+
+  Run - bundle install
+
   To create and populate the database run the migration then run the seed by the following:
+
     rake db:migrate
+    
     ruby db/seeds.rb
   
   Run the application 
