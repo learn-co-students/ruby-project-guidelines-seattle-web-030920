@@ -82,7 +82,7 @@ ActiveRecord::Base.logger = nil
   a selection from the corresponding menu
 
   To use a practice account use the first account in the db. 
-  
+
             ********  Login  **********       
         Please enter your account name with no spaces.
         
@@ -98,7 +98,7 @@ ActiveRecord::Base.logger = nil
   
   
 
-** Standard Use Cases
+## Standard Use Cases
 * [X] As a user, I want to be able to create a biker account.
 * [X] As a user, I want to be able to associate bikes to my biker account.
 *     As a user, I want to be able to be able create trips with my bike.
