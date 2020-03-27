@@ -50,6 +50,7 @@ If this is your first time run this program. Run "rake db:seed" in console, this
   1. load the bank accounts data for later use, otherwise cannot connect to a bank account. 
   2. clean all the database in all tables. Start fresh and clean.
   3. If you don't want to clean the database next time you run the program, no need to run "rake db:seed" again.
+
 2.
 Run "ruby bin/run.rb" to start the program
 
