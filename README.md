@@ -70,7 +70,8 @@ To link to a bank account:
 5.
 If you want to exit the program, type "100" in the console to exit or log out your account.
 
-
+Fun detail: 
+if you don't have enough money to buy the amount of stocks you want to buy. It will promote the amount you can buy, or promote you to deposit more money.
 
 
 
