@@ -3,7 +3,7 @@ class CreateTripMenu < Menu
     def initialize(account)
         @menu = <<-CREATE_TRIP_MENU
         ********  Create Trip Menu *************               
-        5. EDIT NEW TRIP DETAILS - WIP NOT FUNCTIONAL
+        5. EDIT NEW TRIP DETAILS
         9. TRIP MENU - (GO BACK)
         ****************************************      
         CREATE_TRIP_MENU

@@ -37,8 +37,7 @@ class CreateBikeMenu < Menu
                 @manufacturer = Manufacturer.create(name: "Custom", url: "")                
             end
         end
-        if(@manufacturer == nil)
-            binding.pry
+        if(@manufacturer == nil)            
             @manufacturer = Manufacturer.find(input)            
             if(@manufacturer == nil)
                 @manu_input = nil

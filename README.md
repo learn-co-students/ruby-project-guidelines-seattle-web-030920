@@ -63,6 +63,8 @@ ActiveRecord::Base.logger = nil
   The preliminary version of the application pulls from a CSV file.  Future versions will pull from 
   https://bikeindex.org/api/v3/manufacturers? (which is the same data used to seed db).
 
+  Short demo video - https://youtu.be/CVx3YWbJG2g
+
 ## Setup
   Clone repo - git clone git@github.com:jeff-flatiron-bootcamp/ruby-project-guidelines-seattle-web-030920.git
 
