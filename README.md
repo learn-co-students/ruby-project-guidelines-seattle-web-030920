@@ -91,12 +91,13 @@ ActiveRecord::Base.logger = nil
 
         Account name:> qq
 
-  Once a user is logged in they can:
+  ### Once a user is logged in they can:
+
     View/add bikes to their owned bike list
+
     View/add trips to their trip list
-    Get a total distance of trips
-  
-  
+
+    Get a total distance of trips  
 
 ## Standard Use Cases
 * [X] As a user, I want to be able to create a biker account.
