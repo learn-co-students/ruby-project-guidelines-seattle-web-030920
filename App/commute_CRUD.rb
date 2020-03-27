@@ -28,15 +28,17 @@ module CommuteCRUD
                 else 
                 puts "Here are your commutes and their distances"
                 puts ""
+                distance_array=[]
                 array.each do |commute|
                     label1=UserStop.find_by(stop_id: commute.stops[0].id, user: @user).label
                     label2=UserStop.find_by(stop_id: commute.stops[1].id, user: @user).label
-                    distance = distance_calc(commute.stops[0], commute.stops[1])
-                    puts "#{commute.name.capitalize} commute from #{label1.capitalize} to #{label2.capitalize} is #{distance} miles"
+                    distance = distance_calc_stops(commute.stops[0], commute.stops[1])
+                    distance_array << distance
+                    puts "#{commute.name.capitalize} commute from #{label1.capitalize} to #{label2.capitalize} is #{distance.round(2)} miles"
                     end
                 puts ""
-                #puts "Your shortest commute is #{Commute.shortest(@user).name}, with #{Commute.shortest(@user).distance} miles"
-                #puts "Your longest commute is #{Commute.longest(@user).name}, with #{Commute.longest(@user).distance} miles"
+                puts "Your shortest commute is #{distance_array.min.round(2)} miles"
+                puts "Your longest commute is #{distance_array.max.round(2)} miles"
                 end
                 puts ""
                 puts ""
