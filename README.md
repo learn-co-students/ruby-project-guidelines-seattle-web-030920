@@ -59,7 +59,7 @@ ActiveRecord::Base.logger = nil
 ```
 
 # Biker Project
-* The Biker CLI app is an application that stores information on bike owners, bikes and trips. 
+* The Biker CLI app is an application that stores information on bike (Bicycles) owners, bikes and trips. 
   The preliminary version of the application pulls from a CSV file.  Future versions will pull from 
   https://bikeindex.org/api/v3/manufacturers? (which is the same data used to seed db).
 
@@ -71,7 +71,7 @@ ActiveRecord::Base.logger = nil
   To create and populate the database run the migration then run the seed by the following:
 
     rake db:migrate
-    
+
     ruby db/seeds.rb
   
   Run the application 
@@ -106,26 +106,31 @@ ActiveRecord::Base.logger = nil
 *     As a user, I want to know how many trips I have taken with a certain bike.
 * [x] As a user, I want to know the bike stolen status for all my bikes.
 
-bikes>-biker
-bikes-< Trip >-biker
+## Table Relations
+### Associations
+  bikes>-biker
 
-Biker
+  bikes-< Trip >-biker
+
+### Biker
   has_many :bikes
+
   has_many :trips
 
-Bike
+### Bike
   belongs_to :biker 
-  has_many :trips 
 
-Trip
-  belongs_to :biker
-  belongs_to :bike
-
-Manufacturer 
-
-Bikes
   belongs_to :manufacturer
 
+  has_many :trips 
+
+### Trip
+  belongs_to :biker
+  
+  belongs_to :bike
+
+### Manufacturer   
+  has_many :bikes
 
 ** Stretch Goal Use Cases
 * As a user, I want to associate a bike to a manufacturer 
