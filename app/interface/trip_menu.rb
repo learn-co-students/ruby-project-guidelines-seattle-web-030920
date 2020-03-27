@@ -15,28 +15,30 @@ class TripMenu < Menu
         @menu_to_return_to = @my_menu_name   
     end
 
+    def sub_menu_calulate_total_distance              
+        trip_distance = Trip.all.select{|trip| trip.biker_id == @account.id}.map{|trip| trip.distance_miles}.reduce{|sum, next_item| sum = sum + next_item}
+        string_bld1 = "\n\t\t\t********************************* TOTAL TRIP DISTANCE *********************************\n"
+        string_bld2 = "\n\t\t\t#{trip_distance} miles"        
+        "#{string_bld1}#{string_bld2}\n\n"            
+    end
     
     def input=(input)
         data_valid = false;        
-        if(input.length == 1)    
-            # 5. ADD A TRIP
-            # 7. TOTAL DISTANCE OF ALL TRIPS
-            # 9. USER MENU    
+        if(input.length == 1)      
             valid_choices = ["5", "7", "9"]                        
             if(valid_choices.any?(input))
                 @input = input
                 data_valid = true
                 case input
                 when "5"                  
-                    puts "Not yet implemented"                                          
-                    puts "Add a trip menu"
-                when "7"
-                    puts "Not yet implemented"
-                    puts "Total distance"
+                    @menu_to_return_to = CreateTripMenu.new(@account).menu_routine
+                when "7"                    
+                    puts sub_menu_calulate_total_distance
+                    puts "Press any key to continue"
+                    gets.chomp 
                 when "9"
                     puts "User menu"                    
                     @menu_to_return_to = MenuHelpers.User
-
                 end     
             end
         end

@@ -7,12 +7,12 @@ class String
 class ClassHelpers
     def self.SplashASCII
 
-        welcome = <<-SPLASH       
+        splash = <<-SPLASH       
 
         *************** BIKER APP ***************
         *****************************************
 SPLASH
-        puts welcome
+        puts splash        
     end
 end
 

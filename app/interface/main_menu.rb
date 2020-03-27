@@ -4,10 +4,11 @@ class MainMenu < Menu
         ********  Main Menu **********       
         1. LOGIN
         5. CREATE NEW ACCOUNT
-        7. ADMIN
+        7. ADMIN - *Not implemented yet
         9. EXIT  
         **************************      
         MAIN_MENU
+        
         @input = nil
         @my_menu_name = MenuHelpers.Main
         @menu_to_return_to = @my_menu_name
@@ -30,11 +31,12 @@ class MainMenu < Menu
                     puts "Not yet implemented"
                     puts "Admin Menu"
                 when "9"
-                    @menu_to_return_to = "exit"
+                    @menu_to_return_to = "exit"   
+                    @input = "exit"                 
                 end     
             end
         else
-            bad_selection("Account name is too short. Must be more that 4 or more characters.")                                    
+            bad_selection("Invalid selection. Please try again")                                    
         end       
     end
 
@@ -42,7 +44,7 @@ class MainMenu < Menu
         #puts Biker.all.find_by(account_name: "balancepanic").first_name         
         while(!@input || (@menu_to_return_to == @my_menu_name)) do            
             super         
-            self.input=gets.chomp    
+            self.input=gets.chomp            
             selection_result_output  
         end
         puts "\n\t*****************************************************\n"

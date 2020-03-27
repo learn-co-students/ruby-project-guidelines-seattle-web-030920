@@ -4,7 +4,7 @@ class LoginMenu < Menu
         ********  Login  **********       
         Please enter your account name with no spaces.
         
-        !back - previous menu
+        !b - previous menu
         ***************************       
         LOGIN_MENU
         
@@ -16,7 +16,7 @@ class LoginMenu < Menu
     def input=(input)
         data_valid = false;
         account = nil
-        if(input == "!back")
+        if(input == "!b")
             @menu_to_return_to = MenuHelpers.Main
             successful_selection("(Cancled action) Returning to main menu")  
             @input = input

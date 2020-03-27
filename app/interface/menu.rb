@@ -65,4 +65,8 @@ class MenuHelpers
     def self.CreateTrip
         "create_trip"
     end
+
+    def self.MaufacturerList
+        "create_trip"
+    end
 end

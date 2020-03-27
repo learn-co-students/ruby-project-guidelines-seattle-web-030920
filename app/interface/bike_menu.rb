@@ -3,8 +3,8 @@ class BikeMenu < Menu
     def initialize(account)
         @menu = <<-BIKE_MENU
         ********  Bike Menu  **********               
-        1. EDIT A BIKE
-        7. ADD A BIKE
+        1. EDIT A BIKE - *Not implemented yet
+        5. ADD A BIKE
         9. USER MENU
         ***************************
         BIKE_MENU
@@ -16,10 +16,10 @@ class BikeMenu < Menu
     end
 
     def input=(input)             
-        if(input == "!back")
-            @input = input
-            return
-        end
+        # if(input == "!back")
+        #     @input = input
+        #     return
+        # end
 
         if(input.length == 1)        
             valid_choices = ["1", "5", "9"]                        
@@ -32,9 +32,9 @@ class BikeMenu < Menu
                 when "1"  
                     puts "Not yet implemented"                
                     puts "Edit a bike menu"                                                        
-                when "5"
-                    puts "Not yet implemented"
+                when "5"                    
                     puts "Add a bike menu"
+                    @menu_to_return_to = CreateBikeMenu.new(@account).menu_routine
                 when "9"                    
                     @menu_to_return_to = MenuHelpers.User  
                 end     
@@ -45,8 +45,8 @@ class BikeMenu < Menu
     end
 
     def sub_menu_data
-        bikes = Bike.all.select{|bike| bike.biker_id == @account.id}.map{|bike| bike.to_s}
-        string_bld1 = "\n********************************* BIKES OWNED BY #{account.full_name} *********************************\n"
+        bikes = Bike.all.select{|bike| bike.biker_id == @account.id}.map{|bike| bike.to_s}.reduce{|sum, next_iter| sum = "#{sum}#{next_iter}"}
+        string_bld1 = "\n\n\t\t\t********************************* BIKES OWNED BY #{account.full_name} *********************************\n"
         string_bld2 = "#{bikes}"
         "#{string_bld1}#{string_bld2}\n"
     end

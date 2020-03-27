@@ -59,16 +59,50 @@ ActiveRecord::Base.logger = nil
 ```
 
 ## Biker Project
-** The Biker CLI app is an application that stores information on bike owners, bikes and trips.  
+* The Biker CLI app is an application that stores information on bike owners, bikes and trips. 
+  The preliminary version of the application pulls from a CSV file.  Future versions will pull from 
+  https://bikeindex.org/api/v3/manufacturers? (which is the same data used to seed db).
+
+# Setup
+  Clone repo
+  bundle install
+  To create and populate the database run the migration then run the seed by the following:
+    rake db:migrate
+    ruby db/seeds.rb
+  
+  Run the application 
+    ruby bin/run.rb
+
+## Run Instructions
+  Biker app is composed of different menus.  To move among menus enter 
+  a selection from the corresponding menu
+
+  To use a practice account use the first account in the db. 
+            ********  Login  **********       
+        Please enter your account name with no spaces.
+        
+        !back - previous menu
+        ***************************       
+
+        Account name:> qq
+
+  Once a user is logged in they can:
+    View/add bikes to their owned bike list
+    View/add trips to their trip list
+    Get a total distance of trips
+  
+  
+
+  
 
 ** Standard Use Cases
 * [X] As a user, I want to be able to create a biker account.
-*     As a user, I want to be able to associate bikes to my biker account.
+* [X] As a user, I want to be able to associate bikes to my biker account.
 *     As a user, I want to be able to be able create trips with my bike.
 * [X] As a user, I want to know how many trips I have taken.
+* [X] As a user, I want to know total miles for all trips.
 *     As a user, I want to know how many trips I have taken with a certain bike.
 * [x] As a user, I want to know the bike stolen status for all my bikes.
-*     As a user, I want to know the bike stolen status for an individual bike. 
 
 bikes>-biker
 bikes-<Trip>-biker
@@ -89,7 +123,7 @@ Trip
 ** Stretch Goal Use Cases
 * As a user, I want to associate a bike to a manufacturer 
 (Bonus work - pull manufacturer info from https://bikeindex.org/api/v3/manufacturers? url 
-- optional use CSV file with seed data)
+* [X] optional use CSV file with seed data)
 
 Manufacturer 
 
