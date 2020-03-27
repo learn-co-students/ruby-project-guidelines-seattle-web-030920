@@ -11,7 +11,7 @@ Run ruby bin/run.rb to start the CLI
 
 ## Usage
 
-See video
+[Video](https://youtu.be/z-45ogCEJwM)
 
 ## Contributing
 
