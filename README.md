@@ -45,20 +45,17 @@ UserCashHolding
     belongs_to :bank_account
 
 User Guide
-1.
+
 If this is your first time run this program. Run "rake db:seed" in console, this allows you to: 
   1. load the bank accounts data for later use, otherwise cannot connect to a bank account. 
   2. clean all the database in all tables. Start fresh and clean.
   3. If you don't want to clean the database next time you run the program, no need to run "rake db:seed" again.
 
-2.
 Run "ruby bin/run.rb" to start the program
 
-3.
 If you are a new user: Put in a username, age to sign up. You have to be at least 18 to sign up. 
 If you already signed up before, you can start use this program.
 
-4.
 It will give you a list of choices for you to choose. Any choice related to trade, transfer money, or upgrade the use account require you to link to a bank account first.
 
 To link to a bank account:
@@ -68,7 +65,6 @@ To link to a bank account:
     4. Refresh the "SQLITE EXPLORER" every time after you run "rake db:seed" to refresh the data.
     5. Every bank account has billions of dollars to use!
 
-5.
 If you want to exit the program, type "100" in the console to exit or log out your account.
 
 Fun detail: 
