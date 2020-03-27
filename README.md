@@ -82,6 +82,7 @@ ActiveRecord::Base.logger = nil
   a selection from the corresponding menu
 
   To use a practice account use the first account in the db. 
+  
             ********  Login  **********       
         Please enter your account name with no spaces.
         
