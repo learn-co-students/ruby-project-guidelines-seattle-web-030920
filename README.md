@@ -1,59 +1,80 @@
-# Module One Final Project Guidelines
 
-Congratulations, you're at the end of module one! You've worked crazy hard to get here and have learned a ton.
+User Stories
+1. a user can log in, sign up
+2. a user can link to a bank account and transfer money
+2. a user can search for stocks
+3. a user can trade (buy/sell) stocks
+6. a user can view the list of owned stocks from portfolios table
+7. a user can view trade history from trades table
+8. a user can upgrade to see stock rating and recommendation
+9. a user can check linked bank account
+10. a user can check account_balance (how much cash in the user account)
 
-For your final project, we'll be building a Command Line database application.
+Data relationships
 
-## Project Requirements
+User
+    has_many :trades
+    has_many :stocks, through: :trades
+    has_many :portfolios
+    has_one :user_cash_holding
+    has_one :bank_account, through: :user_cash_holding
 
-### Option One - Data Analytics Project
+Stock
+    has_many :trades
+    has_many :users, through: :trades
+    has_many :portfolios
+    has_one :stock_rating
 
-1. Access a Sqlite3 Database using ActiveRecord.
-2. You should have at minimum three models including one join model. This means you must have a many-to-many relationship.
-3. You should seed your database using data that you collect either from a CSV, a website by scraping, or an API.
-4. Your models should have methods that answer interesting questions about the data. For example, if you've collected info about movie reviews, what is the most popular movie? What movie has the most reviews?
-5. You should provide a CLI to display the return values of your interesting methods.  
-6. Use good OO design patterns. You should have separate classes for your models and CLI interface.
+StockRating
+    belongs_to :stock
 
-  **Resource:** [Easy Access APIs](https://github.com/learn-co-curriculum/easy-access-apis)
+Trade
+    belongs_to :user
+    belongs_to :stock
 
-### Option Two - Command Line CRUD App
+Portfolio
+    belongs_to :user
+    belongs_to :stock
 
-1. Access a Sqlite3 Database using ActiveRecord.
-2. You should have a minimum of three models.
-3. You should build out a CLI to give your user full CRUD ability for at least one of your resources. For example, build out a command line To-Do list. A user should be able to create a new to-do, see all todos, update a todo item, and delete a todo. Todos can be grouped into categories, so that a to-do has many categories and categories have many to-dos.
-4. Use good OO design patterns. You should have separate models for your runner and CLI interface.
+BankAccount
+    has_one :user_cash_holding
+    has_one :user, through: :user_cash_holding
 
-### Brainstorming and Proposing a Project Idea
+UserCashHolding
+    belongs_to :user
+    belongs_to :bank_account
 
-Projects need to be approved prior to launching into them, so take some time to brainstorm project options that will fulfill the requirements above.  You must have a minimum of four [user stories](https://en.wikipedia.org/wiki/User_story) to help explain how a user will interact with your app.  A user story should follow the general structure of `"As a <role>, I want <goal/desire> so that <benefit>"`. In example, if we were creating an app to randomly choose nearby restaurants on Yelp, we might write:
+User Guide
+1.
+If this is your first time run this program. Run "rake db:seed" in console, this allows you to: 
+  1. load the bank accounts data for later use, otherwise cannot connect to a bank account. 
+  2. clean all the database in all tables. Start fresh and clean.
+  3. If you don't want to clean the database next time you run the program, no need to run "rake db:seed" again.
+2.
+Run "ruby bin/run.rb" to start the program
 
-* As a user, I want to be able to enter my name to retrieve my records
-* As a user, I want to enter a location and be given a random nearby restaurant suggestion
-* As a user, I should be able to reject a suggestion and not see that restaurant suggestion again
-* As a user, I want to be able to save to and retrieve a list of favorite restaurant suggestions
+3.
+If you are a new user: Put in a username, age to sign up. You have to be at least 18 to sign up. 
+If you already signed up before, you can start use this program.
 
-## Instructions
+4.
+It will give you a list of choices for you to choose. Any choice related to trade, transfer money, or upgrade the use account require you to link to a bank account first.
 
-1. Fork and clone this repository.
-2. Build your application. Make sure to commit early and commit often. Commit messages should be meaningful (clearly describe what you're doing in the commit) and accurate (there should be nothing in the commit that doesn't match the description in the commit message). Good rule of thumb is to commit every 3-7 mins of actual coding time. Most of your commits should have under 15 lines of code and a 2 line commit is perfectly acceptable.
-3. Make sure to create a good README.md with a short description, install instructions, a contributors guide and a link to the license for your code.
-4. Make sure your project checks off each of the above requirements.
-5. Prepare a video demo (narration helps!) describing how a user would interact with your working project.
-    * The video should:
-      - Have an overview of your project.(2 minutes max)
-6. Prepare a presentation to follow your video.(3 minutes max)
-    * Your presentation should:
-      - Describe something you struggled to build, and show us how you ultimately implemented it in your code.
-      - Discuss 3 things you learned in the process of working on this project.
-      - Address, if anything, what you would change or add to what you have today?
-      - Present any code you would like to highlight.   
-7. *OPTIONAL, BUT RECOMMENDED*: Write a blog post about the project and process.
+To link to a bank account:
+    1. "command+shift+p"  -> search "SQLite: Open Database" -> "development.db"
+    2. you can see "SQLITE EXPLORER" on the bottom left corner, open it. Open "bank_accounts" table.
+    3. Copy a bank account number and paste in your console when it is asking for your bank account.
+    4. Refresh the "SQLITE EXPLORER" every time after you run "rake db:seed" to refresh the data.
+    5. Every bank account has billions of dollars to use!
 
----
-### Common Questions:
-- How do I turn off my SQL logger?
-```ruby
-# in config/environment.rb add this line:
-ActiveRecord::Base.logger = nil
-```
+5.
+If you want to exit the program, type "100" in the console to exit or log out your account.
+
+
+
+
+
+
+
+
+  
