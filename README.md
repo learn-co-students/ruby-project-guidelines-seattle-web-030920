@@ -11,7 +11,7 @@ Run ruby bin/run.rb to start the CLI
 
 ## Usage
 
-See project_1_video.mov
+See video
 
 ## Contributing
 
