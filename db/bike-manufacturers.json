@@ -1,0 +1,5134 @@
+{"manufacturers": 
+  [
+    {
+      "name": "24seven",
+      "company_url": "http://www.leisurelakesbikes.com/bikes/bmx-bikes/b/24seven",
+      "short_name": "24seven",
+      "id": 7
+    },
+    {
+      "name": "333Fab",
+      "company_url": "http://www.333fab.com/",
+      "short_name": "333Fab",
+      "id": 1410
+    },
+    {
+      "name": "3G",
+      "company_url": "http://www.3gbikes.com/",
+      "short_name": "3G",
+      "id": 1125
+    },
+    {
+      "name": "3rensho",
+      "company_url": "",
+      "short_name": "3rensho",
+      "id": 1112
+    },
+    {
+      "name": "6KU",
+      "company_url": "http://6kubikes.com",
+      "short_name": "6KU",
+      "id": 1274
+    },
+    {
+      "name": "9 zero 7",
+      "company_url": "https://www.facebook.com/9Zero7Bikes",
+      "short_name": "9 zero 7",
+      "id": 1113
+    },
+    {
+      "name": "A-bike",
+      "company_url": "http://www.a-bike.co.uk/",
+      "short_name": "A-bike",
+      "id": 8
+    },
+    {
+      "name": "A2B e-bikes",
+      "company_url": "http://www.wearea2b.com/us/",
+      "short_name": "A2B e-bikes",
+      "id": 1212
+    },
+    {
+      "name": "AGang",
+      "company_url": "http://www.agang.eu",
+      "short_name": "AGang",
+      "id": 1255
+    },
+    {
+      "name": "ALAN",
+      "company_url": "http://www.alanbike.it/",
+      "short_name": "ALAN",
+      "id": 24
+    },
+    {
+      "name": "AMF",
+      "company_url": "",
+      "short_name": "AMF",
+      "id": 29
+    },
+    {
+      "name": "Abici",
+      "company_url": "http://www.abici-italia.it/en/index.html",
+      "short_name": "Abici",
+      "id": 9
+    },
+    {
+      "name": "Accell",
+      "company_url": "http://www.accell-group.com/uk/accell-group.asp",
+      "short_name": "Accell",
+      "id": 10
+    },
+    {
+      "name": "Access",
+      "company_url": "https://www.performancebike.com/",
+      "short_name": "Access",
+      "id": 1042
+    },
+    {
+      "name": "Acstar",
+      "company_url": "http://www.acstar.cz/",
+      "short_name": "Acstar",
+      "id": 1293
+    },
+    {
+      "name": "Adams (Trail a bike)",
+      "company_url": "http://www.trail-a-bike.com/",
+      "short_name": "Adams",
+      "id": 1258
+    },
+    {
+      "name": "Adolphe Clément",
+      "company_url": "",
+      "short_name": "Adolphe Clément",
+      "id": 77
+    },
+    {
+      "name": "Advocate",
+      "company_url": "http://advocatecycles.com/",
+      "short_name": "Advocate",
+      "id": 1480
+    },
+    {
+      "name": "Aegis",
+      "company_url": "http://www.aegisbicycles.com/home.html",
+      "short_name": "Aegis",
+      "id": 1260
+    },
+    {
+      "name": "Aerofix Cycles",
+      "company_url": "http://www.aerofixcycles.com/",
+      "short_name": "Aerofix Cycles",
+      "id": 1002
+    },
+    {
+      "name": "Affinity Cycles",
+      "company_url": "http://affinitycycles.com/",
+      "short_name": "Affinity Cycles",
+      "id": 1199
+    },
+    {
+      "name": "Airborne",
+      "company_url": "http://www.airbornebicycles.com/",
+      "short_name": "Airborne",
+      "id": 1133
+    },
+    {
+      "name": "Aist Bicycles",
+      "company_url": "http://aist-bike.com/",
+      "short_name": "Aist Bicycles",
+      "id": 23
+    },
+    {
+      "name": "Alcyon",
+      "company_url": "",
+      "short_name": "Alcyon",
+      "id": 25
+    },
+    {
+      "name": "Alexander Leutner & Co.",
+      "company_url": "",
+      "short_name": "Alexander Leutner & Co.",
+      "id": 214
+    },
+    {
+      "name": "Alien Bikes",
+      "company_url": "http://alienbikes.com/",
+      "short_name": "Alien Bikes",
+      "id": 1013
+    },
+    {
+      "name": "All City",
+      "company_url": "http://allcitycycles.com",
+      "short_name": "All City",
+      "id": 371
+    },
+    {
+      "name": "Alldays & Onions",
+      "company_url": "",
+      "short_name": "Alldays & Onions",
+      "id": 26
+    },
+    {
+      "name": "Alliance",
+      "company_url": "http://alliancebicycles.com/",
+      "short_name": "Alliance",
+      "id": 1257
+    },
+    {
+      "name": "Alton",
+      "company_url": "http://altonus.com/",
+      "short_name": "Alton",
+      "id": 1366
+    },
+    {
+      "name": "American Bicycle Company",
+      "company_url": "",
+      "short_name": "American Bicycle Company",
+      "id": 27
+    },
+    {
+      "name": "American Machine and Foundry",
+      "company_url": "",
+      "short_name": "American Machine and Foundry",
+      "id": 28
+    },
+    {
+      "name": "American Star Bicycle",
+      "company_url": "",
+      "short_name": "American Star Bicycle",
+      "id": 31
+    },
+    {
+      "name": "Amoeba",
+      "company_url": "http://www.amoebaparts.com/",
+      "short_name": "Amoeba",
+      "id": 1355
+    },
+    {
+      "name": "Apache Bicycles",
+      "company_url": "https://apache-bike.cz/en",
+      "short_name": "Apache Bicycles",
+      "id": 1567
+    },
+    {
+      "name": "Apollo",
+      "company_url": "http://www.apollobikes.com/",
+      "short_name": "Apollo",
+      "id": 1099
+    },
+    {
+      "name": "Ares",
+      "company_url": "http://www.aresbikes.com/",
+      "short_name": "Ares",
+      "id": 1379
+    },
+    {
+      "name": "Argo Cargo Bike",
+      "company_url": "https://argobikes.com/",
+      "short_name": "Argo Cargo Bike",
+      "id": 1546
+    },
+    {
+      "name": "Argon 18",
+      "company_url": "http://www.argon18bike.com/velo.html",
+      "short_name": "Argon 18",
+      "id": 32
+    },
+    {
+      "name": "Asama",
+      "company_url": "http://www.asamabicycles.com/",
+      "short_name": "Asama",
+      "id": 1081
+    },
+    {
+      "name": "Atala",
+      "company_url": "",
+      "short_name": "Atala",
+      "id": 17
+    },
+    {
+      "name": "Atomlab",
+      "company_url": "http://www.atomlab.com/",
+      "short_name": "Atomlab",
+      "id": 400
+    },
+    {
+      "name": "Author",
+      "company_url": "http://www.author.eu/",
+      "short_name": "Author",
+      "id": 33
+    },
+    {
+      "name": "Avalon",
+      "company_url": "http://www.walmart.com/",
+      "short_name": "Avalon",
+      "id": 1126
+    },
+    {
+      "name": "Avanti",
+      "company_url": "http://www.avantibikes.com/nz/",
+      "short_name": "Avanti",
+      "id": 34
+    },
+    {
+      "name": "Aventón",
+      "company_url": "http://aventonbikes.com/",
+      "short_name": "Aventón",
+      "id": 1059
+    },
+    {
+      "name": "Azonic",
+      "company_url": "http://www.oneal.com/index.php/home/azonic-prime",
+      "short_name": "Azonic",
+      "id": 1156
+    },
+    {
+      "name": "Azor",
+      "company_url": "http://www.azor.nl/",
+      "short_name": "Azor",
+      "id": 1120
+    },
+    {
+      "name": "Azub",
+      "company_url": "https://azub.eu/",
+      "short_name": "Azub",
+      "id": 1526
+    },
+    {
+      "name": "Azzuri",
+      "company_url": "http://www.azzurribikes.com/",
+      "short_name": "Azzuri",
+      "id": 1101
+    },
+    {
+      "name": "BBF",
+      "company_url": "https://bbf.bike/",
+      "short_name": "BBF",
+      "id": 1577
+    },
+    {
+      "name": "BH Bikes (Beistegui Hermanos)",
+      "company_url": "http://bhbikes-us.com",
+      "short_name": "BH Bikes",
+      "id": 36
+    },
+    {
+      "name": "BMC",
+      "company_url": "http://www.bmc-racing.com",
+      "short_name": "BMC",
+      "id": 359
+    },
+    {
+      "name": "BSP",
+      "company_url": "http://www.bsp-fietsen.nl/",
+      "short_name": "BSP",
+      "id": 1491
+    },
+    {
+      "name": "BULLS Bikes",
+      "company_url": "http://www.bullsbikesusa.com/",
+      "short_name": "BULLS Bikes",
+      "id": 1402
+    },
+    {
+      "name": "Bacchetta",
+      "company_url": "http://www.bacchettabikes.com/",
+      "short_name": "Bacchetta",
+      "id": 989
+    },
+    {
+      "name": "Backward Circle",
+      "company_url": "http://www.backwardcircle.com/",
+      "short_name": "Backward Circle",
+      "id": 1025
+    },
+    {
+      "name": "Badger Bikes",
+      "company_url": "http://www.badgerbikes.com/",
+      "short_name": "Badger Bikes",
+      "id": 1486
+    },
+    {
+      "name": "Bailey",
+      "company_url": "http://www.bailey-bikes.com",
+      "short_name": "Bailey",
+      "id": 958
+    },
+    {
+      "name": "Bamboocycles",
+      "company_url": "http://bamboocycles.com/",
+      "short_name": "Bamboocycles",
+      "id": 1307
+    },
+    {
+      "name": "Banshee Bikes",
+      "company_url": "http://www.bansheebikes.com",
+      "short_name": "Banshee Bikes",
+      "id": 1066
+    },
+    {
+      "name": "Bantam (Bantam Bicycle Works)",
+      "company_url": "http://www.bantambicycles.com/",
+      "short_name": "Bantam",
+      "id": 1362
+    },
+    {
+      "name": "Barracuda",
+      "company_url": "http://www.barracudabikes.co.uk/",
+      "short_name": "Barracuda",
+      "id": 1134
+    },
+    {
+      "name": "Basso",
+      "company_url": "http://www.bassobikes.com/",
+      "short_name": "Basso",
+      "id": 35
+    },
+    {
+      "name": "Batavus",
+      "company_url": "http://www.batavus.com/",
+      "short_name": "Batavus",
+      "id": 18
+    },
+    {
+      "name": "Bazooka",
+      "company_url": "http://www.bazookasports.com/",
+      "short_name": "Bazooka",
+      "id": 1223
+    },
+    {
+      "name": "BeOne",
+      "company_url": "http://www.beone-bikes.com/",
+      "short_name": "BeOne",
+      "id": 1044
+    },
+    {
+      "name": "Bearclaw Bicycle Co.",
+      "company_url": "https://www.bearclawbicycleco.com/",
+      "short_name": "Bearclaw Bicycle Co.",
+      "id": 1524
+    },
+    {
+      "name": "Beater Bikes",
+      "company_url": "http://beaterbikes.net/",
+      "short_name": "Beater Bikes",
+      "id": 1024
+    },
+    {
+      "name": "Benno",
+      "company_url": "https://www.bennobikes.com/",
+      "short_name": "Benno",
+      "id": 1593
+    },
+    {
+      "name": "Benotto",
+      "company_url": "",
+      "short_name": "Benotto",
+      "id": 1110
+    },
+    {
+      "name": "Bergamont",
+      "company_url": "http://www.bergamont.de/",
+      "short_name": "Bergamont",
+      "id": 1031
+    },
+    {
+      "name": "Bertin",
+      "company_url": "",
+      "short_name": "Bertin",
+      "id": 1552
+    },
+    {
+      "name": "Bertoni",
+      "company_url": "",
+      "short_name": "Bertoni",
+      "id": 1383
+    },
+    {
+      "name": "Bianchi",
+      "company_url": "http://www.bianchi.com/",
+      "short_name": "Bianchi",
+      "id": 129
+    },
+    {
+      "name": "Bickerton",
+      "company_url": "",
+      "short_name": "Bickerton",
+      "id": 39
+    },
+    {
+      "name": "Big Cat Bikes",
+      "company_url": "http://www.bigcatbikes.com/",
+      "short_name": "Big Cat Bikes",
+      "id": 1501
+    },
+    {
+      "name": "Big Shot",
+      "company_url": "http://www.bigshotbikes.com/",
+      "short_name": "Big Shot",
+      "id": 1152
+    },
+    {
+      "name": "Bike Friday",
+      "company_url": "http://bikefriday.com/",
+      "short_name": "Bike Friday",
+      "id": 40
+    },
+    {
+      "name": "Bike Mielec",
+      "company_url": "http://www.bikemielec.com/",
+      "short_name": "Bike Mielec",
+      "id": 1017
+    },
+    {
+      "name": "Bike4Life",
+      "company_url": "",
+      "short_name": "Bike4Life",
+      "id": 1148
+    },
+    {
+      "name": "BikeE recumbents",
+      "company_url": "",
+      "short_name": "BikeE recumbents",
+      "id": 1100
+    },
+    {
+      "name": "Bilenky Cycle Works",
+      "company_url": "http://www.bilenky.com/Home.html",
+      "short_name": "Bilenky Cycle Works",
+      "id": 41
+    },
+    {
+      "name": "Biomega",
+      "company_url": "http://biomega.dk/biomega.aspx",
+      "short_name": "Biomega",
+      "id": 42
+    },
+    {
+      "name": "Birdy",
+      "company_url": "http://www.birdybike.com/",
+      "short_name": "Birdy",
+      "id": 255
+    },
+    {
+      "name": "Biria",
+      "company_url": "http://www.biria.com/",
+      "short_name": "Biria",
+      "id": 944
+    },
+    {
+      "name": "Birmingham Small Arms Company",
+      "company_url": "",
+      "short_name": "Birmingham Small Arms Company",
+      "id": 43
+    },
+    {
+      "name": "Bishop",
+      "company_url": "http://bishopbikes.com/",
+      "short_name": "Bishop",
+      "id": 1350
+    },
+    {
+      "name": "Black Market",
+      "company_url": "http://www.blackmarketbikes.com",
+      "short_name": "Black Market",
+      "id": 109
+    },
+    {
+      "name": "Black Mountain Cycles",
+      "company_url": "http://www.blackmtncycles.com/",
+      "short_name": "Black Mountain Cycles",
+      "id": 1178
+    },
+    {
+      "name": "Black Sheep Bikes",
+      "company_url": "http://blacksheepbikes.com/",
+      "short_name": "Black Sheep Bikes",
+      "id": 1034
+    },
+    {
+      "name": "Blix",
+      "company_url": "http://blixbike.com/",
+      "short_name": "Blix",
+      "id": 1512
+    },
+    {
+      "name": "Blue (Blue Competition Cycles)",
+      "company_url": "http://www.rideblue.com/",
+      "short_name": "Blue",
+      "id": 1167
+    },
+    {
+      "name": "Blue Sky Cycle Carts",
+      "company_url": "http://blueskycyclecarts.com/",
+      "short_name": "Blue Sky Cycle Carts",
+      "id": 1506
+    },
+    {
+      "name": "Boardman Bikes",
+      "company_url": "http://www.boardmanbikes.com/",
+      "short_name": "Boardman Bikes",
+      "id": 44
+    },
+    {
+      "name": "Bobbin",
+      "company_url": "http://www.bobbinbikes.co.uk/",
+      "short_name": "Bobbin",
+      "id": 1032
+    },
+    {
+      "name": "Bohemian Bicycles",
+      "company_url": "http://www.bohemianbicycles.com/",
+      "short_name": "Bohemian Bicycles",
+      "id": 45
+    },
+    {
+      "name": "Boo Bicycles",
+      "company_url": "http://boobicycles.com/",
+      "short_name": "Boo Bicycles",
+      "id": 1286
+    },
+    {
+      "name": "Boreal",
+      "company_url": "http://borealbikes.com/",
+      "short_name": "Boreal",
+      "id": 1304
+    },
+    {
+      "name": "Borealis (Borealis Fat Bikes)",
+      "company_url": "http://www.fatbike.com/",
+      "short_name": "Borealis",
+      "id": 1305
+    },
+    {
+      "name": "Borile",
+      "company_url": "http://www.borile.it/gb_chi.html",
+      "short_name": "Borile",
+      "id": 48
+    },
+    {
+      "name": "Bottecchia",
+      "company_url": "http://www.bottecchia.co.uk/",
+      "short_name": "Bottecchia",
+      "id": 49
+    },
+    {
+      "name": "Boulder Bicycles",
+      "company_url": "http://www.renehersebicycles.com/Randonneur%20bikes.htm",
+      "short_name": "Boulder Bicycles",
+      "id": 1016
+    },
+    {
+      "name": "Box Bike Collective",
+      "company_url": "http://www.boxbikecollective.com/",
+      "short_name": "Box Bike Collective",
+      "id": 1485
+    },
+    {
+      "name": "Brasil & Movimento",
+      "company_url": "http://www.brasilemovimento.com.br",
+      "short_name": "Brasil & Movimento",
+      "id": 51
+    },
+    {
+      "name": "Breadwinner",
+      "company_url": "http://breadwinnercycles.com/",
+      "short_name": "Breadwinner",
+      "id": 1354
+    },
+    {
+      "name": "Breakbrake17 Bicycle Co.",
+      "company_url": "http://breakbrake17.com/",
+      "short_name": "Breakbrake17 Bicycle Co.",
+      "id": 1363
+    },
+    {
+      "name": "Breezer",
+      "company_url": "http://www.breezerbikes.com/",
+      "short_name": "Breezer",
+      "id": 941
+    },
+    {
+      "name": "Brennabor",
+      "company_url": "http://brennabor.pl/",
+      "short_name": "Brennabor",
+      "id": 52
+    },
+    {
+      "name": "Bridgestone",
+      "company_url": "http://www.bridgestone.com/",
+      "short_name": "Bridgestone",
+      "id": 53
+    },
+    {
+      "name": "Brilliant Bicycle",
+      "company_url": "http://brilliant.co/",
+      "short_name": "Brilliant Bicycle",
+      "id": 1381
+    },
+    {
+      "name": "British Eagle",
+      "company_url": "",
+      "short_name": "British Eagle",
+      "id": 54
+    },
+    {
+      "name": "Broakland",
+      "company_url": "http://www.broakland.com/",
+      "short_name": "Broakland",
+      "id": 1483
+    },
+    {
+      "name": "Brodie",
+      "company_url": "http://www.brodiebikes.com/2014/",
+      "short_name": "Brodie",
+      "id": 1128
+    },
+    {
+      "name": "Broke Bikes",
+      "company_url": "https://brokebik.es/",
+      "short_name": "Broke Bikes",
+      "id": 1246
+    },
+    {
+      "name": "Brompton Bicycle",
+      "company_url": "http://www.brompton.co.uk/",
+      "short_name": "Brompton Bicycle",
+      "id": 55
+    },
+    {
+      "name": "Brooklyn Bicycle Co.",
+      "company_url": "http://www.brooklynbicycleco.com/",
+      "short_name": "Brooklyn Bicycle Co.",
+      "id": 1098
+    },
+    {
+      "name": "Brother Cycles",
+      "company_url": "https://www.brothercycles.com/",
+      "short_name": "Brother Cycles",
+      "id": 1587
+    },
+    {
+      "name": "Browning",
+      "company_url": "",
+      "short_name": "Browning",
+      "id": 1239
+    },
+    {
+      "name": "Brunswick Corporation",
+      "company_url": "http://www.brunswick.com/",
+      "short_name": "Brunswick Corporation",
+      "id": 56
+    },
+    {
+      "name": "Budnitz",
+      "company_url": "http://budnitzbicycles.com/",
+      "short_name": "Budnitz",
+      "id": 1265
+    },
+    {
+      "name": "Burley Design",
+      "company_url": "http://www.burley.com/",
+      "short_name": "Burley Design",
+      "id": 57
+    },
+    {
+      "name": "CCM",
+      "company_url": "",
+      "short_name": "CCM",
+      "id": 271
+    },
+    {
+      "name": "CETMA Cargo",
+      "company_url": "http://cetmacargo.com/",
+      "short_name": "CETMA Cargo",
+      "id": 1369
+    },
+    {
+      "name": "CHUMBA Racing",
+      "company_url": "http://chumbabikes.com/",
+      "short_name": "CHUMBA Racing",
+      "id": 72
+    },
+    {
+      "name": "CVLN (Civilian)",
+      "company_url": "http://www.ridecvln.com/",
+      "short_name": "CVLN",
+      "id": 1093
+    },
+    {
+      "name": "Calcott Brothers",
+      "company_url": "",
+      "short_name": "Calcott Brothers",
+      "id": 58
+    },
+    {
+      "name": "Calfee Design",
+      "company_url": "http://www.calfeedesign.com/",
+      "short_name": "Calfee Design",
+      "id": 59
+    },
+    {
+      "name": "Caloi",
+      "company_url": "http://www.caloi.com/home/",
+      "short_name": "Caloi",
+      "id": 60
+    },
+    {
+      "name": "Campion Cycle Company",
+      "company_url": "",
+      "short_name": "Campion Cycle Company",
+      "id": 61
+    },
+    {
+      "name": "Canfield Brothers",
+      "company_url": "http://canfieldbrothers.com/",
+      "short_name": "Canfield Brothers",
+      "id": 1183
+    },
+    {
+      "name": "Cannondale",
+      "company_url": "http://www.cannondale.com/",
+      "short_name": "Cannondale",
+      "id": 62
+    },
+    {
+      "name": "Canyon bicycles",
+      "company_url": "http://www.canyon.com/",
+      "short_name": "Canyon bicycles",
+      "id": 63
+    },
+    {
+      "name": "Carrera bicycles",
+      "company_url": "http://www.carrera-podium.it/",
+      "short_name": "Carrera bicycles",
+      "id": 64
+    },
+    {
+      "name": "Carrol Cycles",
+      "company_url": "http://www.carrollcycles.com/",
+      "short_name": "Carrol Cycles",
+      "id": 1553
+    },
+    {
+      "name": "Catrike",
+      "company_url": "http://www.catrike.com/",
+      "short_name": "Catrike",
+      "id": 66
+    },
+    {
+      "name": "Cayne",
+      "company_url": "http://www.sun.bike/",
+      "short_name": "Cayne",
+      "id": 1179
+    },
+    {
+      "name": "Centurion",
+      "company_url": "http://www.centurion.de/en_int",
+      "short_name": "Centurion",
+      "id": 68
+    },
+    {
+      "name": "Cervélo",
+      "company_url": "http://www.cervelo.com/en/",
+      "short_name": "Cervélo",
+      "id": 69
+    },
+    {
+      "name": "Charge",
+      "company_url": "http://www.chargebikes.com/",
+      "short_name": "Charge",
+      "id": 940
+    },
+    {
+      "name": "Chariot",
+      "company_url": "http://www.thule.com/en-us/us/products/active-with-kids",
+      "short_name": "Chariot",
+      "id": 1129
+    },
+    {
+      "name": "Chater-Lea",
+      "company_url": "",
+      "short_name": "Chater-Lea",
+      "id": 70
+    },
+    {
+      "name": "Checker Pig",
+      "company_url": "http://www.checker-pig.com/",
+      "short_name": "Checker Pig",
+      "id": 1576
+    },
+    {
+      "name": "Chicago Bicycle Company",
+      "company_url": "",
+      "short_name": "Chicago Bicycle Company",
+      "id": 71
+    },
+    {
+      "name": "Christiania Bikes",
+      "company_url": "http://christianiabikes.com/en/",
+      "short_name": "Christiania Bikes",
+      "id": 1247
+    },
+    {
+      "name": "Chromag",
+      "company_url": "http://www.chromagbikes.com",
+      "short_name": "Chromag",
+      "id": 456
+    },
+    {
+      "name": "Cicielios",
+      "company_url": "http://www.ciclielios.com",
+      "short_name": "Cicielios",
+      "id": 1537
+    },
+    {
+      "name": "Cicli Barco",
+      "company_url": "http://www.ciclibarco.it/",
+      "short_name": "Cicli Barco",
+      "id": 1520
+    },
+    {
+      "name": "Cicli Olympia",
+      "company_url": "http://www.olympiacicli.it/en/",
+      "short_name": "Cicli Olympia",
+      "id": 1521
+    },
+    {
+      "name": "Cielo",
+      "company_url": "http://cielo.chrisking.com/",
+      "short_name": "Cielo",
+      "id": 1218
+    },
+    {
+      "name": "Cignal",
+      "company_url": "",
+      "short_name": "Cignal",
+      "id": 1084
+    },
+    {
+      "name": "Cilo",
+      "company_url": "",
+      "short_name": "Cilo",
+      "id": 73
+    },
+    {
+      "name": "Cinelli",
+      "company_url": "http://www.cinelli-usa.com/",
+      "short_name": "Cinelli",
+      "id": 74
+    },
+    {
+      "name": "Ciocc",
+      "company_url": "http://www.ciocc.it/",
+      "short_name": "Ciocc",
+      "id": 1130
+    },
+    {
+      "name": "Citizen Bike",
+      "company_url": "http://www.citizenbike.com/",
+      "short_name": "Citizen Bike",
+      "id": 1068
+    },
+    {
+      "name": "City Bicycles Company",
+      "company_url": "http://citybicycleco.com",
+      "short_name": "City Bicycles Company",
+      "id": 937
+    },
+    {
+      "name": "Civia",
+      "company_url": "http://www.civiacycles.com",
+      "short_name": "Civia",
+      "id": 372
+    },
+    {
+      "name": "Clark-Kent",
+      "company_url": "",
+      "short_name": "Clark-Kent",
+      "id": 75
+    },
+    {
+      "name": "Claud Butler",
+      "company_url": "http://claudbutler.co.uk/",
+      "short_name": "Claud Butler",
+      "id": 76
+    },
+    {
+      "name": "Cleary Bikes",
+      "company_url": "https://www.clearybikes.com/",
+      "short_name": "Cleary Bikes",
+      "id": 1583
+    },
+    {
+      "name": "Co-Motion",
+      "company_url": "http://www.co-motion.com/",
+      "short_name": "Co-Motion",
+      "id": 78
+    },
+    {
+      "name": "Coker Tire",
+      "company_url": "http://www.cokertire.com/",
+      "short_name": "Coker Tire",
+      "id": 79
+    },
+    {
+      "name": "Colnago",
+      "company_url": "http://www.colnago.com/bicycles/",
+      "short_name": "Colnago",
+      "id": 80
+    },
+    {
+      "name": "Colony",
+      "company_url": "http://www.colonybmx.com",
+      "short_name": "Colony",
+      "id": 1225
+    },
+    {
+      "name": "Colossi",
+      "company_url": "http://www.colossicycling.com/",
+      "short_name": "Colossi",
+      "id": 1374
+    },
+    {
+      "name": "Columbia",
+      "company_url": "",
+      "short_name": "Columbia",
+      "id": 1146
+    },
+    {
+      "name": "Columbus Tubing",
+      "company_url": "http://www.columbustubi.com/",
+      "short_name": "Columbus Tubing",
+      "id": 1295
+    },
+    {
+      "name": "Condor",
+      "company_url": "http://www.condorcycles.com/",
+      "short_name": "Condor",
+      "id": 959
+    },
+    {
+      "name": "Conor",
+      "company_url": "http://www.conorbikes.com/",
+      "short_name": "Conor",
+      "id": 978
+    },
+    {
+      "name": "Convercycle",
+      "company_url": "http://www.convercycle.com",
+      "short_name": "Convercycle",
+      "id": 1570
+    },
+    {
+      "name": "Cook Bros. Racing",
+      "company_url": "",
+      "short_name": "Cook Bros. Racing",
+      "id": 1060
+    },
+    {
+      "name": "Cooper Bikes",
+      "company_url": "http://www.cooperbikes.com",
+      "short_name": "Cooper Bikes",
+      "id": 936
+    },
+    {
+      "name": "Corima",
+      "company_url": "http://www.corima.com/",
+      "short_name": "Corima",
+      "id": 81
+    },
+    {
+      "name": "Corratec",
+      "company_url": "http://www.corratec.com/",
+      "short_name": "Corratec",
+      "id": 1205
+    },
+    {
+      "name": "Cortina Cycles",
+      "company_url": "http://www.cortinacycles.com/",
+      "short_name": "Cortina Cycles",
+      "id": 82
+    },
+    {
+      "name": "Cove",
+      "company_url": "http://covebike.com/",
+      "short_name": "Cove",
+      "id": 1139
+    },
+    {
+      "name": "Crank2",
+      "company_url": "http://www.crank-2.com",
+      "short_name": "Crank2",
+      "id": 1220
+    },
+    {
+      "name": "Create",
+      "company_url": "http://www.createbikes.com/",
+      "short_name": "Create",
+      "id": 1095
+    },
+    {
+      "name": "Creme Cycles",
+      "company_url": "http://cremecycles.com",
+      "short_name": "Creme Cycles",
+      "id": 1224
+    },
+    {
+      "name": "Crew",
+      "company_url": "http://crewbikeco.com/",
+      "short_name": "Crew",
+      "id": 1253
+    },
+    {
+      "name": "Critical Cycles",
+      "company_url": "http://www.criticalcycles.com/",
+      "short_name": "Critical Cycles",
+      "id": 935
+    },
+    {
+      "name": "Crumpton",
+      "company_url": "http://www.crumptoncycles.com/",
+      "short_name": "Crumpton",
+      "id": 1348
+    },
+    {
+      "name": "Cruzbike",
+      "company_url": "http://cruzbike.com/",
+      "short_name": "Cruzbike",
+      "id": 1391
+    },
+    {
+      "name": "Cube",
+      "company_url": "http://www.cube.eu/en/cube-bikes/",
+      "short_name": "Cube",
+      "id": 83
+    },
+    {
+      "name": "Cuevas",
+      "company_url": "https://www.facebook.com/CUEVAS-BIKES-209970107454/",
+      "short_name": "Cuevas",
+      "id": 1488
+    },
+    {
+      "name": "Cult",
+      "company_url": "http://www.cultcrew.com",
+      "short_name": "Cult",
+      "id": 362
+    },
+    {
+      "name": "Currie Technology (Currietech)",
+      "company_url": "http://www.currietech.com/",
+      "short_name": "Currie Technology",
+      "id": 1115
+    },
+    {
+      "name": "Currys",
+      "company_url": "http://www.currys.co.uk/gbuk/index.html",
+      "short_name": "Currys",
+      "id": 84
+    },
+    {
+      "name": "Curtlo",
+      "company_url": "http://www.curtlo.com/",
+      "short_name": "Curtlo",
+      "id": 1397
+    },
+    {
+      "name": "Cyclamatic",
+      "company_url": "",
+      "short_name": "Cyclamatic",
+      "id": 1367
+    },
+    {
+      "name": "Cycle Force Group",
+      "company_url": "http://www.cyclefg.com/",
+      "short_name": "Cycle Force Group",
+      "id": 89
+    },
+    {
+      "name": "CyclePro",
+      "company_url": "",
+      "short_name": "CyclePro",
+      "id": 964
+    },
+    {
+      "name": "Cycles Fanatic",
+      "company_url": "http://www.cyclesfanatic.com/",
+      "short_name": "Cycles Fanatic",
+      "id": 1291
+    },
+    {
+      "name": "Cycles Follis",
+      "company_url": "",
+      "short_name": "Cycles Follis",
+      "id": 145
+    },
+    {
+      "name": "Cycles Toussaint",
+      "company_url": "http://www.cyclestoussaint.com/",
+      "short_name": "Cycles Toussaint",
+      "id": 1385
+    },
+    {
+      "name": "Cycleurope",
+      "company_url": "http://www.cycleurope.com",
+      "short_name": "Cycleurope",
+      "id": 4
+    },
+    {
+      "name": "Cyfac",
+      "company_url": "http://www.cyfac.fr/index.aspx",
+      "short_name": "Cyfac",
+      "id": 90
+    },
+    {
+      "name": "Cyrusher",
+      "company_url": "https://www.cyrusher.com/",
+      "short_name": "Cyrusher",
+      "id": 1585
+    },
+    {
+      "name": "DEAN",
+      "company_url": "http://www.deanbikes.com",
+      "short_name": "DEAN",
+      "id": 1203
+    },
+    {
+      "name": "DHS",
+      "company_url": "http://www.dhsbike.hu/",
+      "short_name": "DHS",
+      "id": 1127
+    },
+    {
+      "name": "DK Bikes",
+      "company_url": "http://www.dkbicycles.com/",
+      "short_name": "DK Bikes",
+      "id": 1132
+    },
+    {
+      "name": "DMR Bikes",
+      "company_url": "http://www.dmrbikes.com/",
+      "short_name": "DMR Bikes",
+      "id": 496
+    },
+    {
+      "name": "Da Bomb Bikes",
+      "company_url": "http://www.dabombbike.com/",
+      "short_name": "Da Bomb Bikes",
+      "id": 91
+    },
+    {
+      "name": "Daccordi",
+      "company_url": "http://www.daccordicicli.com/",
+      "short_name": "Daccordi",
+      "id": 1292
+    },
+    {
+      "name": "Dahon",
+      "company_url": "http://www.dahon.com/",
+      "short_name": "Dahon",
+      "id": 92
+    },
+    {
+      "name": "Dartmoor",
+      "company_url": "https://dartmoor-bikes.com/",
+      "short_name": "Dartmoor",
+      "id": 1591
+    },
+    {
+      "name": "Davidson",
+      "company_url": "http://davidsonbicycles.com/",
+      "short_name": "Davidson",
+      "id": 1219
+    },
+    {
+      "name": "Dawes Cycles",
+      "company_url": "http://www.dawescycles.com/",
+      "short_name": "Dawes Cycles",
+      "id": 93
+    },
+    {
+      "name": "De Rosa",
+      "company_url": "http://www.derosanews.com/",
+      "short_name": "De Rosa",
+      "id": 96
+    },
+    {
+      "name": "DeBernardi",
+      "company_url": "http://www.zarbikes.com/zar/about-debernardi.html",
+      "short_name": "DeBernardi",
+      "id": 1087
+    },
+    {
+      "name": "DeSalvo Cycles",
+      "company_url": "http://www.desalvocycles.com/",
+      "short_name": "DeSalvo Cycles",
+      "id": 1244
+    },
+    {
+      "name": "Decathlon",
+      "company_url": "http://www.decathlon.fr",
+      "short_name": "Decathlon",
+      "id": 1300
+    },
+    {
+      "name": "Deity",
+      "company_url": "http://www.deitycomponents.com/",
+      "short_name": "Deity",
+      "id": 1008
+    },
+    {
+      "name": "Del Sol",
+      "company_url": "http://www.ridedelsol.com/bikes",
+      "short_name": "Del Sol",
+      "id": 1131
+    },
+    {
+      "name": "Della Santa",
+      "company_url": "http://dellasanta.com/",
+      "short_name": "Della Santa",
+      "id": 1346
+    },
+    {
+      "name": "Den Beste Sykkel",
+      "company_url": "http://www.dbs.no/",
+      "short_name": "Den Beste Sykkel",
+      "id": 95
+    },
+    {
+      "name": "Dengfu",
+      "company_url": "http://dengfubikes.com/",
+      "short_name": "Dengfu",
+      "id": 1242
+    },
+    {
+      "name": "Derby Cycle",
+      "company_url": "http://www.derby-cycle.com/en.html",
+      "short_name": "Derby Cycle",
+      "id": 5
+    },
+    {
+      "name": "Detroit Bikes",
+      "company_url": "http://detroitbikes.com/",
+      "short_name": "Detroit Bikes",
+      "id": 1206
+    },
+    {
+      "name": "Devinci",
+      "company_url": "http://www.devinci.com/home.html",
+      "short_name": "Devinci",
+      "id": 97
+    },
+    {
+      "name": "Di Blasi Industriale",
+      "company_url": "http://www.diblasi.it/?lng=en",
+      "short_name": "Di Blasi Industriale",
+      "id": 98
+    },
+    {
+      "name": "Diadora",
+      "company_url": "http://www.diadoraamerica.com/",
+      "short_name": "Diadora",
+      "id": 1237
+    },
+    {
+      "name": "Diamant",
+      "company_url": "http://www.diamantrad.com/home/",
+      "short_name": "Diamant",
+      "id": 99
+    },
+    {
+      "name": "Diamondback",
+      "company_url": "http://www.diamondback.com/",
+      "short_name": "Diamondback",
+      "id": 199
+    },
+    {
+      "name": "Dillenger",
+      "company_url": "http://dillengerelectricbikes.com/",
+      "short_name": "Dillenger",
+      "id": 1513
+    },
+    {
+      "name": "Doberman",
+      "company_url": "http://dobermannbikes.blogspot.com",
+      "short_name": "Doberman",
+      "id": 1
+    },
+    {
+      "name": "Dodici Milano",
+      "company_url": "http://www.dodicicicli.com/",
+      "short_name": "Dodici Milano",
+      "id": 967
+    },
+    {
+      "name": "Dolan",
+      "company_url": "http://www.dolan-bikes.com/",
+      "short_name": "Dolan",
+      "id": 1057
+    },
+    {
+      "name": "Dorel Industries",
+      "company_url": "http://www.dorel.com/",
+      "short_name": "Dorel Industries",
+      "id": 6
+    },
+    {
+      "name": "Downtube",
+      "company_url": "http://www.downtube.com",
+      "short_name": "Downtube",
+      "id": 1395
+    },
+    {
+      "name": "Drag",
+      "company_url": "https://dragbicycles.com/",
+      "short_name": "Drag",
+      "id": 1573
+    },
+    {
+      "name": "Dynacraft",
+      "company_url": "http://www.dynacraftbike.com/",
+      "short_name": "Dynacraft",
+      "id": 121
+    },
+    {
+      "name": "Dynamic Bicycles",
+      "company_url": "http://www.dynamicbicycles.com/",
+      "short_name": "Dynamic Bicycles",
+      "id": 1208
+    },
+    {
+      "name": "Dyno",
+      "company_url": "",
+      "short_name": "Dyno",
+      "id": 927
+    },
+    {
+      "name": "E. C. Stearns Bicycle Agency",
+      "company_url": "",
+      "short_name": "E. C. Stearns Bicycle Agency",
+      "id": 310
+    },
+    {
+      "name": "EAI (Euro Asia Imports)",
+      "company_url": "http://www.euroasiaimports.com/aboutus.asp",
+      "short_name": "EAI",
+      "id": 356
+    },
+    {
+      "name": "EG Bikes (Metronome)",
+      "company_url": "http://www.egbike.com/",
+      "short_name": "EG Bikes",
+      "id": 1277
+    },
+    {
+      "name": "EGO Movement",
+      "company_url": "https://egomovement.com/",
+      "short_name": "EGO Movement",
+      "id": 1572
+    },
+    {
+      "name": "EMC Bikes",
+      "company_url": "http://www.emcbikes.com/",
+      "short_name": "EMC Bikes",
+      "id": 1200
+    },
+    {
+      "name": "EZ Pedaler (EZ Pedaler electric bikes)",
+      "company_url": "http://www.ezpedaler.com/",
+      "short_name": "EZ Pedaler",
+      "id": 1356
+    },
+    {
+      "name": "Eagle Bicycle Manufacturing Company",
+      "company_url": "",
+      "short_name": "Eagle Bicycle Manufacturing Company",
+      "id": 124
+    },
+    {
+      "name": "East Germany",
+      "company_url": "http://www.easternbikes.com/dealers/",
+      "short_name": "East Germany",
+      "id": 183
+    },
+    {
+      "name": "Eastern",
+      "company_url": "http://easternbikes.com/",
+      "short_name": "Eastern",
+      "id": 505
+    },
+    {
+      "name": "Easy Motion",
+      "company_url": "http://www.emotionbikesusa.com/",
+      "short_name": "Easy Motion",
+      "id": 1196
+    },
+    {
+      "name": "Ebisu",
+      "company_url": "http://www.jitensha.com/eng/aboutframes_e.html",
+      "short_name": "Ebisu",
+      "id": 973
+    },
+    {
+      "name": "Eddy Merckx",
+      "company_url": "http://www.eddymerckx.be/",
+      "short_name": "Eddy Merckx",
+      "id": 225
+    },
+    {
+      "name": "Edinburgh Bicycle Co-operative",
+      "company_url": "http://www.edinburghbicycle.com/",
+      "short_name": "Edinburgh Bicycle Co-operative",
+      "id": 1028
+    },
+    {
+      "name": "EighthInch",
+      "company_url": "http://www.eighthinch.com",
+      "short_name": "EighthInch",
+      "id": 1090
+    },
+    {
+      "name": "Electra",
+      "company_url": "http://www.electrabike.com/",
+      "short_name": "Electra",
+      "id": 125
+    },
+    {
+      "name": "Elliptigo",
+      "company_url": "http://www.elliptigo.com/",
+      "short_name": "Elliptigo",
+      "id": 1233
+    },
+    {
+      "name": "Ellis",
+      "company_url": "http://www.elliscycles.com/",
+      "short_name": "Ellis",
+      "id": 1236
+    },
+    {
+      "name": "Ellis Briggs",
+      "company_url": "http://www.ellisbriggscycles.co.uk/",
+      "short_name": "Ellis Briggs",
+      "id": 126
+    },
+    {
+      "name": "Ellsworth",
+      "company_url": "http://www.ellsworthride.com",
+      "short_name": "Ellsworth",
+      "id": 127
+    },
+    {
+      "name": "Emilio Bozzi",
+      "company_url": "",
+      "short_name": "Emilio Bozzi",
+      "id": 128
+    },
+    {
+      "name": "Engin Cycles",
+      "company_url": "http://www.engincycles.com/",
+      "short_name": "Engin Cycles",
+      "id": 1365
+    },
+    {
+      "name": "Enigma Titanium",
+      "company_url": "http://www.enigmabikes.com/",
+      "short_name": "Enigma Titanium",
+      "id": 130
+    },
+    {
+      "name": "Erickson Bikes",
+      "company_url": "http://www.ericksonbikes.com/",
+      "short_name": "Erickson Bikes",
+      "id": 1498
+    },
+    {
+      "name": "Europa",
+      "company_url": "http://www.europacycles.com.au/",
+      "short_name": "Europa",
+      "id": 1103
+    },
+    {
+      "name": "Evelo",
+      "company_url": "http://www.evelo.com/",
+      "short_name": "Evelo",
+      "id": 1281
+    },
+    {
+      "name": "Evil",
+      "company_url": "http://www.evil-bikes.com",
+      "short_name": "Evil",
+      "id": 1048
+    },
+    {
+      "name": "Evo",
+      "company_url": "http://evobicycle.com/",
+      "short_name": "Evo",
+      "id": 1389
+    },
+    {
+      "name": "Ezee",
+      "company_url": "http://ezeebike.com/",
+      "short_name": "Ezee",
+      "id": 1407
+    },
+    {
+      "name": "FBM",
+      "company_url": "http://fbmbmx.com",
+      "short_name": "FBM",
+      "id": 529
+    },
+    {
+      "name": "FLX",
+      "company_url": "https://flx.bike/",
+      "short_name": "FLX",
+      "id": 1528
+    },
+    {
+      "name": "FRAMED",
+      "company_url": "http://www.framedbikes.com/",
+      "short_name": "FRAMED",
+      "id": 1269
+    },
+    {
+      "name": "Faggin",
+      "company_url": "http://www.fagginbikes.com/en",
+      "short_name": "Faggin",
+      "id": 1259
+    },
+    {
+      "name": "Failure",
+      "company_url": "http://www.failurebikes.com/",
+      "short_name": "Failure",
+      "id": 1009
+    },
+    {
+      "name": "Fairdale",
+      "company_url": "http://fairdalebikes.com/",
+      "short_name": "Fairdale",
+      "id": 526
+    },
+    {
+      "name": "Fairlight ",
+      "company_url": "https://fairlightcycles.com/",
+      "short_name": "Fairlight ",
+      "id": 1589
+    },
+    {
+      "name": "Falco Bikes",
+      "company_url": "http://www.falcobike.com/",
+      "short_name": "Falco Bikes",
+      "id": 1358
+    },
+    {
+      "name": "Falcon",
+      "company_url": "http://www.falconcycles.co.uk/CORP/aboutFalcon.html",
+      "short_name": "Falcon",
+      "id": 132
+    },
+    {
+      "name": "Faraday",
+      "company_url": "http://www.faradaybikes.com/",
+      "short_name": "Faraday",
+      "id": 1256
+    },
+    {
+      "name": "Fat City Cycles",
+      "company_url": "",
+      "short_name": "Fat City Cycles",
+      "id": 134
+    },
+    {
+      "name": "Fatback",
+      "company_url": "http://fatbackbikes.com/",
+      "short_name": "Fatback",
+      "id": 1056
+    },
+    {
+      "name": "Fausto Coppi",
+      "company_url": "",
+      "short_name": "Fausto Coppi",
+      "id": 1217
+    },
+    {
+      "name": "Federal",
+      "company_url": "http://www.federalbikes.com",
+      "short_name": "Federal",
+      "id": 113
+    },
+    {
+      "name": "Felt",
+      "company_url": "http://www.feltbicycles.com/",
+      "short_name": "Felt",
+      "id": 136
+    },
+    {
+      "name": "Fetish",
+      "company_url": "https://www.facebook.com/FetishCycles",
+      "short_name": "Fetish",
+      "id": 1168
+    },
+    {
+      "name": "Fezzari",
+      "company_url": "http://www.fezzari.com/",
+      "short_name": "Fezzari",
+      "id": 1169
+    },
+    {
+      "name": "Field",
+      "company_url": "http://www.fieldcycles.com/",
+      "short_name": "Field",
+      "id": 140
+    },
+    {
+      "name": "Firefly Bicycles",
+      "company_url": "http://fireflybicycles.com/",
+      "short_name": "Firefly Bicycles",
+      "id": 1376
+    },
+    {
+      "name": "Firefox",
+      "company_url": "http://www.firefoxbikes.com/",
+      "short_name": "Firefox",
+      "id": 1153
+    },
+    {
+      "name": "Firenze",
+      "company_url": "",
+      "short_name": "Firenze",
+      "id": 1064
+    },
+    {
+      "name": "Firmstrong",
+      "company_url": "http://www.firmstrong.com/",
+      "short_name": "Firmstrong",
+      "id": 1065
+    },
+    {
+      "name": "Fit bike Co.",
+      "company_url": "",
+      "short_name": "Fit bike Co.",
+      "id": 353
+    },
+    {
+      "name": "Fleet Velo",
+      "company_url": "http://fleetvelo.com/fv/",
+      "short_name": "Fleet Velo",
+      "id": 370
+    },
+    {
+      "name": "Fleetwing",
+      "company_url": "",
+      "short_name": "Fleetwing",
+      "id": 138
+    },
+    {
+      "name": "Flying Pigeon",
+      "company_url": "http://flyingpigeon-la.com/",
+      "short_name": "Flying Pigeon",
+      "id": 141
+    },
+    {
+      "name": "Flying Scot",
+      "company_url": "http://www.flying-scot.com/core/welcome.html",
+      "short_name": "Flying Scot",
+      "id": 142
+    },
+    {
+      "name": "Flyxii",
+      "company_url": "http://www.flyxii.com/",
+      "short_name": "Flyxii",
+      "id": 1378
+    },
+    {
+      "name": "Focale44",
+      "company_url": "http://www.focale44bikes.com/",
+      "short_name": "Focale44",
+      "id": 966
+    },
+    {
+      "name": "Focus",
+      "company_url": "http://www.focus-bikes.com/int/en/home.html",
+      "short_name": "Focus",
+      "id": 143
+    },
+    {
+      "name": "Fokhan",
+      "company_url": "",
+      "short_name": "Fokhan",
+      "id": 1049
+    },
+    {
+      "name": "Folmer & Schwing",
+      "company_url": "",
+      "short_name": "Folmer & Schwing",
+      "id": 158
+    },
+    {
+      "name": "Fondriest",
+      "company_url": "http://www.fondriestbici.com",
+      "short_name": "Fondriest",
+      "id": 1094
+    },
+    {
+      "name": "Forge Bikes",
+      "company_url": "http://forgebikes.com/",
+      "short_name": "Forge Bikes",
+      "id": 1079
+    },
+    {
+      "name": "Fortified",
+      "company_url": "http://fortifiedbike.com/",
+      "short_name": "Fortified",
+      "id": 1359
+    },
+    {
+      "name": "Foundry Cycles",
+      "company_url": "http://foundrycycles.com/",
+      "short_name": "Foundry Cycles",
+      "id": 539
+    },
+    {
+      "name": "Fram",
+      "company_url": "http://wsid9d3eg.homepage.t-online.de",
+      "short_name": "Fram",
+      "id": 146
+    },
+    {
+      "name": "Frances",
+      "company_url": "http://francescycles.com/",
+      "short_name": "Frances",
+      "id": 1345
+    },
+    {
+      "name": "Francesco Moser (F. Moser)",
+      "company_url": "http://www.mosercycles.com/",
+      "short_name": "Francesco Moser",
+      "id": 1221
+    },
+    {
+      "name": "Freddie Grubb",
+      "company_url": "",
+      "short_name": "Freddie Grubb",
+      "id": 147
+    },
+    {
+      "name": "Free Agent",
+      "company_url": "http://www.freeagentbmx.com/",
+      "short_name": "Free Agent",
+      "id": 1102
+    },
+    {
+      "name": "Free Spirit",
+      "company_url": "",
+      "short_name": "Free Spirit",
+      "id": 1172
+    },
+    {
+      "name": "Fuji",
+      "company_url": "http://www.fujibikes.com/",
+      "short_name": "Fuji",
+      "id": 101
+    },
+    {
+      "name": "Fyxation",
+      "company_url": "http://www.fyxation.com/",
+      "short_name": "Fyxation",
+      "id": 546
+    },
+    {
+      "name": "GMC",
+      "company_url": "",
+      "short_name": "GMC",
+      "id": 1138
+    },
+    {
+      "name": "GT Bicycles",
+      "company_url": "http://www.gtbicycles.com/",
+      "short_name": "GT Bicycles",
+      "id": 119
+    },
+    {
+      "name": "Gardin",
+      "company_url": "",
+      "short_name": "Gardin",
+      "id": 1014
+    },
+    {
+      "name": "Gary Fisher",
+      "company_url": "http://www.trekbikes.com/us/en/collections/gary_fisher/",
+      "short_name": "Gary Fisher",
+      "id": 149
+    },
+    {
+      "name": "Gavin",
+      "company_url": "http://www.gavinbikes.com/",
+      "short_name": "Gavin",
+      "id": 1171
+    },
+    {
+      "name": "Gazelle",
+      "company_url": "http://www.gazelle.us.com/",
+      "short_name": "Gazelle",
+      "id": 150
+    },
+    {
+      "name": "GenZe",
+      "company_url": "http://www.genze.com",
+      "short_name": "GenZe",
+      "id": 1510
+    },
+    {
+      "name": "Gendron Bicycles",
+      "company_url": "http://www.gendron-bicycles.ca/",
+      "short_name": "Gendron Bicycles",
+      "id": 151
+    },
+    {
+      "name": "Genesis",
+      "company_url": "http://www.genesisbikes.co.uk/",
+      "short_name": "Genesis",
+      "id": 1137
+    },
+    {
+      "name": "Geotech",
+      "company_url": "http://www.geotechbikes.com",
+      "short_name": "Geotech",
+      "id": 1303
+    },
+    {
+      "name": "Gepida",
+      "company_url": "http://www.gepida.eu/",
+      "short_name": "Gepida",
+      "id": 152
+    },
+    {
+      "name": "Ghost",
+      "company_url": "http://www.ghost-bikes.com",
+      "short_name": "Ghost",
+      "id": 1245
+    },
+    {
+      "name": "Giant (and LIV)",
+      "company_url": "http://www.giant-bicycles.com/",
+      "short_name": "Giant",
+      "id": 153
+    },
+    {
+      "name": "Gilmour",
+      "company_url": "http://www.gilmourbicycles.us/",
+      "short_name": "Gilmour",
+      "id": 1185
+    },
+    {
+      "name": "Giordano",
+      "company_url": "http://giordanobicycles.com/",
+      "short_name": "Giordano",
+      "id": 1174
+    },
+    {
+      "name": "Gitane",
+      "company_url": "http://www.gitaneusa.com/",
+      "short_name": "Gitane",
+      "id": 86
+    },
+    {
+      "name": "Gladiator Cycle Company",
+      "company_url": "http://www.cyclesgladiator.com/",
+      "short_name": "Gladiator Cycle Company",
+      "id": 154
+    },
+    {
+      "name": "Globe",
+      "company_url": "http://www.specialized.com/us/en/bikes/globe",
+      "short_name": "Globe",
+      "id": 943
+    },
+    {
+      "name": "Gnome et Rhône",
+      "company_url": "",
+      "short_name": "Gnome et Rhône",
+      "id": 155
+    },
+    {
+      "name": "Gocycle",
+      "company_url": "http://gocycle.com/",
+      "short_name": "Gocycle",
+      "id": 1396
+    },
+    {
+      "name": "Gomier",
+      "company_url": "",
+      "short_name": "Gomier",
+      "id": 1288
+    },
+    {
+      "name": "Gormully & Jeffery",
+      "company_url": "",
+      "short_name": "Gormully & Jeffery",
+      "id": 156
+    },
+    {
+      "name": "Graflex",
+      "company_url": "http://graflex.org/",
+      "short_name": "Graflex",
+      "id": 157
+    },
+    {
+      "name": "Gravity",
+      "company_url": "http://www.bikesdirect.com/",
+      "short_name": "Gravity",
+      "id": 566
+    },
+    {
+      "name": "Greenspeed",
+      "company_url": "http://www.greenspeed.com.au/",
+      "short_name": "Greenspeed",
+      "id": 1083
+    },
+    {
+      "name": "Growler Performance Bikes",
+      "company_url": "https://growlerbikes.com/",
+      "short_name": "Growler Performance Bikes",
+      "id": 1523
+    },
+    {
+      "name": "Gudereit",
+      "company_url": "http://www.gudereit.de",
+      "short_name": "Gudereit",
+      "id": 1266
+    },
+    {
+      "name": "Guerciotti",
+      "company_url": "http://www.guerciotti.it/",
+      "short_name": "Guerciotti",
+      "id": 159
+    },
+    {
+      "name": "Gunnar",
+      "company_url": "http://gunnarbikes.com/site/",
+      "short_name": "Gunnar",
+      "id": 986
+    },
+    {
+      "name": "Guru",
+      "company_url": "http://www.gurucycles.com/en",
+      "short_name": "Guru",
+      "id": 1193
+    },
+    {
+      "name": "HBBC (Huntington Beach Bicycle, Co)",
+      "company_url": "http://hbbcinc.com/",
+      "short_name": "HBBC",
+      "id": 1214
+    },
+    {
+      "name": "HP Velotechnik",
+      "company_url": "http://www.hpvelotechnik.com",
+      "short_name": "HP Velotechnik",
+      "id": 1204
+    },
+    {
+      "name": "Habanero",
+      "company_url": "https://www.habcycles.com/",
+      "short_name": "Habanero",
+      "id": 1517
+    },
+    {
+      "name": "Haibike (Currietech)",
+      "company_url": "http://www.currietech.com/",
+      "short_name": "Haibike",
+      "id": 1279
+    },
+    {
+      "name": "Hallstrom",
+      "company_url": "http://www.hallstrom.no/",
+      "short_name": "Hallstrom",
+      "id": 1373
+    },
+    {
+      "name": "Hampsten Cycles",
+      "company_url": "http://www.hampsten.com/",
+      "short_name": "Hampsten Cycles",
+      "id": 1371
+    },
+    {
+      "name": "Handsome Cycles",
+      "company_url": "http://www.handsomecycles.com",
+      "short_name": "Handsome Cycles",
+      "id": 934
+    },
+    {
+      "name": "Hanford",
+      "company_url": "https://www.facebook.com/pages/Hanford-Cycles/230458813647205",
+      "short_name": "Hanford",
+      "id": 1238
+    },
+    {
+      "name": "Haro",
+      "company_url": "http://www.harobikes.com",
+      "short_name": "Haro",
+      "id": 105
+    },
+    {
+      "name": "Harry Quinn",
+      "company_url": "",
+      "short_name": "Harry Quinn",
+      "id": 162
+    },
+    {
+      "name": "Harvey Cycle Works",
+      "company_url": "http://harveykevin65.wix.com/harveycycleworks",
+      "short_name": "Harvey Cycle Works",
+      "id": 1097
+    },
+    {
+      "name": "Hasa",
+      "company_url": "http://www.hasa.com.tw/",
+      "short_name": "Hasa",
+      "id": 1181
+    },
+    {
+      "name": "Hase bikes",
+      "company_url": "http://hasebikes.com/",
+      "short_name": "Hase bikes",
+      "id": 163
+    },
+    {
+      "name": "Head",
+      "company_url": "",
+      "short_name": "Head",
+      "id": 164
+    },
+    {
+      "name": "Heinkel",
+      "company_url": "http://www.heinkeltourist.com/",
+      "short_name": "Heinkel",
+      "id": 166
+    },
+    {
+      "name": "Helkama",
+      "company_url": "http://www.helkamavelox.fi/en/",
+      "short_name": "Helkama",
+      "id": 165
+    },
+    {
+      "name": "Hercules Fahrrad GmbH & Co",
+      "company_url": "",
+      "short_name": "Hercules Fahrrad GmbH & Co",
+      "id": 11
+    },
+    {
+      "name": "Heritage",
+      "company_url": "http://www.heritagebicycles.com/",
+      "short_name": "Heritage",
+      "id": 995
+    },
+    {
+      "name": "Herkelmann",
+      "company_url": "http://www.herkelmannbikes.com/",
+      "short_name": "Herkelmann",
+      "id": 1216
+    },
+    {
+      "name": "Hero Cycles Ltd",
+      "company_url": "http://www.herocycles.com/",
+      "short_name": "Hero Cycles Ltd",
+      "id": 169
+    },
+    {
+      "name": "Heron",
+      "company_url": "http://www.heronbicycles.com/",
+      "short_name": "Heron",
+      "id": 1201
+    },
+    {
+      "name": "Hetchins",
+      "company_url": "http://www.hetchins.org/",
+      "short_name": "Hetchins",
+      "id": 171
+    },
+    {
+      "name": "Hija de la Coneja",
+      "company_url": "https://www.facebook.com/hijadelaconeja",
+      "short_name": "Hija de la Coneja",
+      "id": 1155
+    },
+    {
+      "name": "Hillman",
+      "company_url": "http://hillmancycles.com.au",
+      "short_name": "Hillman",
+      "id": 172
+    },
+    {
+      "name": "Hinton Cycles",
+      "company_url": "http://www.hintoncycles.com/",
+      "short_name": "Hinton Cycles",
+      "id": 1377
+    },
+    {
+      "name": "Hirschfeld",
+      "company_url": "",
+      "short_name": "Hirschfeld",
+      "id": 1149
+    },
+    {
+      "name": "Hoffman",
+      "company_url": "http://hoffmanbikes.com/",
+      "short_name": "Hoffman",
+      "id": 951
+    },
+    {
+      "name": "Holdsworth",
+      "company_url": "http://www.holdsworthbikes.co.uk/",
+      "short_name": "Holdsworth",
+      "id": 174
+    },
+    {
+      "name": "Huffy",
+      "company_url": "http://www.huffybikes.com",
+      "short_name": "Huffy",
+      "id": 175
+    },
+    {
+      "name": "Hufnagel",
+      "company_url": "http://www.hufnagelcycles.com/",
+      "short_name": "Hufnagel",
+      "id": 1173
+    },
+    {
+      "name": "Humber",
+      "company_url": "http://en.wikipedia.org/wiki/Humber_(bicycle)",
+      "short_name": "Humber",
+      "id": 176
+    },
+    {
+      "name": "Humble Frameworks",
+      "company_url": "http://www.humbleframeworks.cc",
+      "short_name": "Humble Frameworks",
+      "id": 954
+    },
+    {
+      "name": "Hunter",
+      "company_url": "http://www.huntercycles.com/",
+      "short_name": "Hunter",
+      "id": 972
+    },
+    {
+      "name": "Hurtu",
+      "company_url": "http://en.wikipedia.org/wiki/Hurtu",
+      "short_name": "Hurtu",
+      "id": 177
+    },
+    {
+      "name": "Hyper",
+      "company_url": "http://www.hyperbicycles.com/",
+      "short_name": "Hyper",
+      "id": 1136
+    },
+    {
+      "name": "IBEX",
+      "company_url": "http://ibexbikes.com/",
+      "short_name": "IBEX",
+      "id": 592
+    },
+    {
+      "name": "ICE Trikes (Inspired Cycle Engineering)",
+      "company_url": "http://www.icetrikes.co/",
+      "short_name": "ICE Trikes",
+      "id": 1109
+    },
+    {
+      "name": "ICan Cycling",
+      "company_url": "https://icancycling.com/collections/us-warehouse",
+      "short_name": "ICan Cycling",
+      "id": 1557
+    },
+    {
+      "name": "IRO Cycles",
+      "company_url": "http://www.irocycle.com",
+      "short_name": "IRO Cycles",
+      "id": 938
+    },
+    {
+      "name": "IZIP (Currietech)",
+      "company_url": "http://www.currietech.com/",
+      "short_name": "IZIP",
+      "id": 1278
+    },
+    {
+      "name": "Ibis",
+      "company_url": "http://www.ibiscycles.com/bikes/",
+      "short_name": "Ibis",
+      "id": 179
+    },
+    {
+      "name": "Ideal Bikes",
+      "company_url": "http://www.idealbikes.net/",
+      "short_name": "Ideal Bikes",
+      "id": 180
+    },
+    {
+      "name": "Identiti",
+      "company_url": "http://www.identitibikes.com/",
+      "short_name": "Identiti",
+      "id": 1070
+    },
+    {
+      "name": "Independent Fabrication",
+      "company_url": "http://www.ifbikes.com/",
+      "short_name": "Independent Fabrication",
+      "id": 184
+    },
+    {
+      "name": "Industrieverband Fahrzeugbau",
+      "company_url": "",
+      "short_name": "Industrieverband Fahrzeugbau",
+      "id": 182
+    },
+    {
+      "name": "Inglis (Retrotec)",
+      "company_url": "http://ingliscycles.com/",
+      "short_name": "Inglis",
+      "id": 1352
+    },
+    {
+      "name": "Innerlight Cycles",
+      "company_url": "http://www.innerlightcycles.com/",
+      "short_name": "Innerlight Cycles",
+      "id": 1184
+    },
+    {
+      "name": "Inspired",
+      "company_url": "http://www.inspiredbicycles.com/",
+      "short_name": "Inspired",
+      "id": 1405
+    },
+    {
+      "name": "Intense",
+      "company_url": "http://intensecycles.com/",
+      "short_name": "Intense",
+      "id": 600
+    },
+    {
+      "name": "Iride Bicycles",
+      "company_url": "http://www.irideusa.com/",
+      "short_name": "Iride Bicycles",
+      "id": 185
+    },
+    {
+      "name": "Iron Horse Bicycles",
+      "company_url": "http://www.ironhorsebikes.com/",
+      "short_name": "Iron Horse Bicycles",
+      "id": 116
+    },
+    {
+      "name": "Islabikes",
+      "company_url": "http://www.islabikes.com/",
+      "short_name": "Islabikes",
+      "id": 1063
+    },
+    {
+      "name": "Italvega",
+      "company_url": "http://en.wikipedia.org/wiki/Italvega",
+      "short_name": "Italvega",
+      "id": 186
+    },
+    {
+      "name": "Itera plastic bicycle",
+      "company_url": "",
+      "short_name": "Itera plastic bicycle",
+      "id": 187
+    },
+    {
+      "name": "Iver Johnson",
+      "company_url": "",
+      "short_name": "Iver Johnson",
+      "id": 188
+    },
+    {
+      "name": "Iverson",
+      "company_url": "",
+      "short_name": "Iverson",
+      "id": 189
+    },
+    {
+      "name": "JMC Bicycles",
+      "company_url": "http://www.jmccycles.com/",
+      "short_name": "JMC Bicycles",
+      "id": 190
+    },
+    {
+      "name": "Jamis",
+      "company_url": "http://www.jamisbikes.com/usa/index.html",
+      "short_name": "Jamis",
+      "id": 201
+    },
+    {
+      "name": "Jan Janssen",
+      "company_url": "http://www.janjanssen.nl/index.php",
+      "short_name": "Jan Janssen",
+      "id": 1123
+    },
+    {
+      "name": "Javelin",
+      "company_url": "http://www.javbike.com/",
+      "short_name": "Javelin",
+      "id": 1194
+    },
+    {
+      "name": "John Cherry bicycles",
+      "company_url": "http://www.sandsmachine.com/bp_chery.htm",
+      "short_name": "John Cherry bicycles",
+      "id": 1085
+    },
+    {
+      "name": "John Deere ",
+      "company_url": "",
+      "short_name": "John Deere ",
+      "id": 998
+    },
+    {
+      "name": "Johnny Loco",
+      "company_url": "http://www.JohnnyLoco.com",
+      "short_name": "Johnny Loco",
+      "id": 1569
+    },
+    {
+      "name": "Jorg & Olif",
+      "company_url": "http://jorgandolif.com",
+      "short_name": "Jorg & Olif",
+      "id": 1222
+    },
+    {
+      "name": "Juiced Riders",
+      "company_url": "http://www.juicedriders.com/",
+      "short_name": "Juiced Riders",
+      "id": 1406
+    },
+    {
+      "name": "Juliana Bicycles",
+      "company_url": "http://www.julianabicycles.com/en/us",
+      "short_name": "Juliana Bicycles",
+      "id": 1241
+    },
+    {
+      "name": "K2",
+      "company_url": "http://www.k2bike.com/",
+      "short_name": "K2",
+      "id": 192
+    },
+    {
+      "name": "KHS Bicycles",
+      "company_url": "http://khsbicycles.com/",
+      "short_name": "KHS Bicycles",
+      "id": 196
+    },
+    {
+      "name": "KTM",
+      "company_url": "http://www.ktm.com/us/ready-to-race.html",
+      "short_name": "KTM",
+      "id": 208
+    },
+    {
+      "name": "KW Bicycle",
+      "company_url": "http://www.kwcycles.com/",
+      "short_name": "KW Bicycle",
+      "id": 1107
+    },
+    {
+      "name": "Kalkhoff",
+      "company_url": "http://www.kalkhoff-bikes.com/",
+      "short_name": "Kalkhoff",
+      "id": 977
+    },
+    {
+      "name": "Keith Bontrager",
+      "company_url": "http://bontrager.com/history",
+      "short_name": "Keith Bontrager",
+      "id": 46
+    },
+    {
+      "name": "Kelly",
+      "company_url": "http://www.kellybike.com/index.html",
+      "short_name": "Kelly",
+      "id": 1487
+    },
+    {
+      "name": "Kellys Bicycles",
+      "company_url": "http://www.kellysbike.com/",
+      "short_name": "Kellys Bicycles",
+      "id": 1116
+    },
+    {
+      "name": "Kent",
+      "company_url": "http://www.kentbicycles.com/",
+      "short_name": "Kent",
+      "id": 193
+    },
+    {
+      "name": "Kestrel",
+      "company_url": "http://www.kestrelbicycles.com/",
+      "short_name": "Kestrel",
+      "id": 194
+    },
+    {
+      "name": "Kettler",
+      "company_url": "http://www.kettler.co.uk/",
+      "short_name": "Kettler",
+      "id": 195
+    },
+    {
+      "name": "Kinesis",
+      "company_url": "http://www.kinesisbikes.co.uk/",
+      "short_name": "Kinesis",
+      "id": 616
+    },
+    {
+      "name": "Kinesis Industry",
+      "company_url": "http://www.kinesis.com.tw/",
+      "short_name": "Kinesis Industry",
+      "id": 198
+    },
+    {
+      "name": "Kink",
+      "company_url": "http://www.kinkbmx.com",
+      "short_name": "Kink",
+      "id": 358
+    },
+    {
+      "name": "Kinn",
+      "company_url": "http://www.kinnbikes.com/",
+      "short_name": "Kinn",
+      "id": 1403
+    },
+    {
+      "name": "Kirk",
+      "company_url": "http://www.kirkframeworks.com/",
+      "short_name": "Kirk",
+      "id": 1150
+    },
+    {
+      "name": "Kish Fabrication",
+      "company_url": "http://www.kishbike.com/",
+      "short_name": "Kish Fabrication",
+      "id": 1029
+    },
+    {
+      "name": "Klein Bikes",
+      "company_url": "",
+      "short_name": "Klein Bikes",
+      "id": 325
+    },
+    {
+      "name": "Knolly",
+      "company_url": "http://knollybikes.com/",
+      "short_name": "Knolly",
+      "id": 1213
+    },
+    {
+      "name": "Koga-Miyata",
+      "company_url": "http://www.koga.com/koga_uk/",
+      "short_name": "Koga-Miyata",
+      "id": 20
+    },
+    {
+      "name": "Kogswell Cycles",
+      "company_url": "",
+      "short_name": "Kogswell Cycles",
+      "id": 205
+    },
+    {
+      "name": "Kona",
+      "company_url": "http://www.konaworld.com/",
+      "short_name": "Kona",
+      "id": 203
+    },
+    {
+      "name": "Kron",
+      "company_url": "http://kronbikes.com/",
+      "short_name": "Kron",
+      "id": 1190
+    },
+    {
+      "name": "Kronan",
+      "company_url": "http://www.kronan.com/en/cykel",
+      "short_name": "Kronan",
+      "id": 206
+    },
+    {
+      "name": "Kross SA",
+      "company_url": "http://www.kross.pl/",
+      "short_name": "Kross SA",
+      "id": 207
+    },
+    {
+      "name": "Kuota",
+      "company_url": "http://www.kuota.it/index.php",
+      "short_name": "Kuota",
+      "id": 209
+    },
+    {
+      "name": "Kustom Kruiser",
+      "company_url": "",
+      "short_name": "Kustom Kruiser",
+      "id": 1140
+    },
+    {
+      "name": "Kuwahara",
+      "company_url": "http://kuwahara-bike.com/",
+      "short_name": "Kuwahara",
+      "id": 210
+    },
+    {
+      "name": "LDG (Livery Design Gruppe)",
+      "company_url": "http://liverydesigngruppe.com/",
+      "short_name": "LDG",
+      "id": 1230
+    },
+    {
+      "name": "LOW//",
+      "company_url": "http://lowbicycles.com/",
+      "short_name": "LOW//",
+      "id": 1026
+    },
+    {
+      "name": "Land Shark",
+      "company_url": "http://landsharkbicycles.com/",
+      "short_name": "Land Shark",
+      "id": 1344
+    },
+    {
+      "name": "Lapierre",
+      "company_url": "http://www.lapierre-bikes.co.uk/",
+      "short_name": "Lapierre",
+      "id": 929
+    },
+    {
+      "name": "Larry Vs Harry",
+      "company_url": "http://www.larryvsharry.com/english/",
+      "short_name": "Larry Vs Harry",
+      "id": 1015
+    },
+    {
+      "name": "Laurin & Klement",
+      "company_url": "",
+      "short_name": "Laurin & Klement",
+      "id": 212
+    },
+    {
+      "name": "LeMond Racing Cycles",
+      "company_url": "https://en.wikipedia.org/wiki/LeMond_Racing_Cycles",
+      "short_name": "LeMond Racing Cycles",
+      "id": 213
+    },
+    {
+      "name": "Leader Bikes",
+      "company_url": "http://www.leaderbikeusa.com",
+      "short_name": "Leader Bikes",
+      "id": 933
+    },
+    {
+      "name": "Legacy Frameworks",
+      "company_url": "http://legacyframeworks.com/",
+      "short_name": "Legacy Frameworks",
+      "id": 952
+    },
+    {
+      "name": "Leopard",
+      "company_url": "http://www.leopardcycles.com/",
+      "short_name": "Leopard",
+      "id": 1372
+    },
+    {
+      "name": "Lightning Cycle Dynamics",
+      "company_url": "http://www.lightningbikes.com/",
+      "short_name": "Lightning Cycle Dynamics",
+      "id": 1035
+    },
+    {
+      "name": "Lightspeed",
+      "company_url": "http://www.litespeed.com/",
+      "short_name": "Lightspeed",
+      "id": 1111
+    },
+    {
+      "name": "Linus",
+      "company_url": "http://www.linusbike.com/",
+      "short_name": "Linus",
+      "id": 950
+    },
+    {
+      "name": "Liotto (Cicli Liotto Gino & Figli)",
+      "company_url": "http://www.liotto.com/",
+      "short_name": "Liotto",
+      "id": 1261
+    },
+    {
+      "name": "Litespeed",
+      "company_url": "http://www.litespeed.com/",
+      "short_name": "Litespeed",
+      "id": 215
+    },
+    {
+      "name": "Liteville",
+      "company_url": "http://www.liteville.de/",
+      "short_name": "Liteville",
+      "id": 1240
+    },
+    {
+      "name": "Loekie",
+      "company_url": "http://www.loekie.nl/",
+      "short_name": "Loekie",
+      "id": 19
+    },
+    {
+      "name": "Look",
+      "company_url": "http://www.lookcycle.com/",
+      "short_name": "Look",
+      "id": 369
+    },
+    {
+      "name": "Lotus",
+      "company_url": "",
+      "short_name": "Lotus",
+      "id": 217
+    },
+    {
+      "name": "Louis Garneau",
+      "company_url": "http://www.louisgarneau.com",
+      "short_name": "Louis Garneau",
+      "id": 637
+    },
+    {
+      "name": "Louison Bobet",
+      "company_url": "",
+      "short_name": "Louison Bobet",
+      "id": 216
+    },
+    {
+      "name": "Lycoming Engines",
+      "company_url": "http://www.lycoming.textron.com/",
+      "short_name": "Lycoming Engines",
+      "id": 94
+    },
+    {
+      "name": "Lynskey",
+      "company_url": "http://www.lynskeyperformance.com/",
+      "short_name": "Lynskey",
+      "id": 1088
+    },
+    {
+      "name": "M2S Bikes",
+      "company_url": "https://m2sbikes.com/",
+      "short_name": "M2S Bikes",
+      "id": 1563
+    },
+    {
+      "name": "MBK",
+      "company_url": "http://mbk-cykler.dk/",
+      "short_name": "MBK",
+      "id": 1301
+    },
+    {
+      "name": "MEC (Mountain Equipment Co-op)",
+      "company_url": "http://www.mec.ca/",
+      "short_name": "MEC",
+      "id": 1157
+    },
+    {
+      "name": "MMR",
+      "company_url": "http://www.mmrbikes.com/",
+      "short_name": "MMR",
+      "id": 1264
+    },
+    {
+      "name": "Madsen",
+      "company_url": "http://www.madsencycles.com/",
+      "short_name": "Madsen",
+      "id": 1117
+    },
+    {
+      "name": "Madwagon",
+      "company_url": "",
+      "short_name": "Madwagon",
+      "id": 1151
+    },
+    {
+      "name": "Magna",
+      "company_url": "http://www.magnabike.com/",
+      "short_name": "Magna",
+      "id": 122
+    },
+    {
+      "name": "Magnum Bikes",
+      "company_url": "https://www.magnumbikes.com/",
+      "short_name": "Magnum Bikes",
+      "id": 1550
+    },
+    {
+      "name": "Malvern Star",
+      "company_url": "http://www.malvernstar.com.au/",
+      "short_name": "Malvern Star",
+      "id": 218
+    },
+    {
+      "name": "ManKind",
+      "company_url": "http://mankindbmx.com/",
+      "short_name": "ManKind",
+      "id": 1092
+    },
+    {
+      "name": "Mango",
+      "company_url": "http://www.mangobikes.co.uk/",
+      "short_name": "Mango",
+      "id": 1195
+    },
+    {
+      "name": "Manhattan",
+      "company_url": "http://www.manhattancruisers.com/",
+      "short_name": "Manhattan",
+      "id": 969
+    },
+    {
+      "name": "Map Bicycles",
+      "company_url": "http://www.mapbicycles.com/",
+      "short_name": "Map Bicycles",
+      "id": 1290
+    },
+    {
+      "name": "Maraton",
+      "company_url": "http://www.bikemaraton.com/",
+      "short_name": "Maraton",
+      "id": 993
+    },
+    {
+      "name": "Marin Bikes",
+      "company_url": "http://www.marinbikes.com/2013/",
+      "short_name": "Marin Bikes",
+      "id": 219
+    },
+    {
+      "name": "Marinoni",
+      "company_url": "http://www.marinoni.qc.ca/indexEN.html",
+      "short_name": "Marinoni",
+      "id": 1158
+    },
+    {
+      "name": "Mars Cycles",
+      "company_url": "http://www.marscycles.com/",
+      "short_name": "Mars Cycles",
+      "id": 1484
+    },
+    {
+      "name": "Maruishi",
+      "company_url": "http://en.maruishi-bike.com.cn/",
+      "short_name": "Maruishi",
+      "id": 1036
+    },
+    {
+      "name": "Marukin",
+      "company_url": "http://www.marukin-bicycles.com/",
+      "short_name": "Marukin",
+      "id": 1175
+    },
+    {
+      "name": "Masi",
+      "company_url": "http://www.masibikes.com",
+      "short_name": "Masi",
+      "id": 104
+    },
+    {
+      "name": "Mason Cycles",
+      "company_url": "https://masoncycles.cc/",
+      "short_name": "Mason Cycles",
+      "id": 1588
+    },
+    {
+      "name": "Matchless",
+      "company_url": "",
+      "short_name": "Matchless",
+      "id": 220
+    },
+    {
+      "name": "Matra",
+      "company_url": "http://matra.com/pre-home/?___SID=U",
+      "short_name": "Matra",
+      "id": 221
+    },
+    {
+      "name": "Maverick",
+      "company_url": "http://www.maverickbike.com/",
+      "short_name": "Maverick",
+      "id": 1159
+    },
+    {
+      "name": "Maxcom",
+      "company_url": "http://maxcombike.com/",
+      "short_name": "Maxcom",
+      "id": 1497
+    },
+    {
+      "name": "Melon Bicycles",
+      "company_url": "http://www.melonbicycles.com/",
+      "short_name": "Melon Bicycles",
+      "id": 222
+    },
+    {
+      "name": "Mercian Cycles",
+      "company_url": "http://www.merciancycles.co.uk/",
+      "short_name": "Mercian Cycles",
+      "id": 223
+    },
+    {
+      "name": "Mercier",
+      "company_url": "http://www.cyclesmercier.com",
+      "short_name": "Mercier",
+      "id": 931
+    },
+    {
+      "name": "Merida Bikes",
+      "company_url": "http://www.merida.com",
+      "short_name": "Merida Bikes",
+      "id": 65
+    },
+    {
+      "name": "Merit Bikes",
+      "company_url": "http://meritbikes.com/en/",
+      "short_name": "Merit Bikes",
+      "id": 1529
+    },
+    {
+      "name": "Merlin",
+      "company_url": "http://www.merlinbike.com/",
+      "short_name": "Merlin",
+      "id": 224
+    },
+    {
+      "name": "MetaBikes",
+      "company_url": "http://meta-bikes.com/",
+      "short_name": "MetaBikes",
+      "id": 988
+    },
+    {
+      "name": "Metrofiets",
+      "company_url": "https://metrofiets.com",
+      "short_name": "Metrofiets",
+      "id": 1364
+    },
+    {
+      "name": "Micajah C. Henley",
+      "company_url": "",
+      "short_name": "Micajah C. Henley",
+      "id": 167
+    },
+    {
+      "name": "Micargi",
+      "company_url": "http://micargibicycles.com/",
+      "short_name": "Micargi",
+      "id": 1165
+    },
+    {
+      "name": "Miele bicycles",
+      "company_url": "http://www.mielebicycles.com/home.html",
+      "short_name": "Miele bicycles",
+      "id": 226
+    },
+    {
+      "name": "Mikkelsen",
+      "company_url": "http://www.mikkelsenframes.com/",
+      "short_name": "Mikkelsen",
+      "id": 1187
+    },
+    {
+      "name": "Milwaukee Bicycle Co.",
+      "company_url": "http://www.benscycle.net/",
+      "short_name": "Milwaukee Bicycle Co.",
+      "id": 227
+    },
+    {
+      "name": "MirraCo ",
+      "company_url": "http://mirrabikeco.com/",
+      "short_name": "MirraCo ",
+      "id": 1012
+    },
+    {
+      "name": "Mission Bicycles",
+      "company_url": "https://www.missionbicycle.com/",
+      "short_name": "Mission Bicycles",
+      "id": 990
+    },
+    {
+      "name": "Miyata",
+      "company_url": "http://www.miyatabicycles.com/",
+      "short_name": "Miyata",
+      "id": 229
+    },
+    {
+      "name": "Mizutani",
+      "company_url": "",
+      "short_name": "Mizutani",
+      "id": 1166
+    },
+    {
+      "name": "Momentum",
+      "company_url": "http://www.pedalmomentum.com/",
+      "short_name": "Momentum",
+      "id": 1387
+    },
+    {
+      "name": "Monark",
+      "company_url": "http://www.monarkexercise.se/",
+      "short_name": "Monark",
+      "id": 87
+    },
+    {
+      "name": "Mondia",
+      "company_url": "http://en.wikipedia.org/wiki/Mondia",
+      "short_name": "Mondia",
+      "id": 230
+    },
+    {
+      "name": "Mondraker",
+      "company_url": "http://www.mondraker.com/",
+      "short_name": "Mondraker",
+      "id": 1263
+    },
+    {
+      "name": "Mongoose",
+      "company_url": "http://www.mongoose.com/",
+      "short_name": "Mongoose",
+      "id": 118
+    },
+    {
+      "name": "Montague",
+      "company_url": "http://www.montaguebikes.com/",
+      "short_name": "Montague",
+      "id": 656
+    },
+    {
+      "name": "Moots Cycles",
+      "company_url": "http://moots.com/",
+      "short_name": "Moots Cycles",
+      "id": 232
+    },
+    {
+      "name": "Mosaic",
+      "company_url": "http://mosaiccycles.com/",
+      "short_name": "Mosaic",
+      "id": 1351
+    },
+    {
+      "name": "Moser Cicli",
+      "company_url": "http://www.ciclimoser.com/",
+      "short_name": "Moser Cicli",
+      "id": 233
+    },
+    {
+      "name": "Mosh",
+      "company_url": "",
+      "short_name": "Mosh",
+      "id": 1284
+    },
+    {
+      "name": "Mosso",
+      "company_url": "http://www.mosso.com.tw/",
+      "short_name": "Mosso",
+      "id": 1302
+    },
+    {
+      "name": "Moth Attack",
+      "company_url": "http://mothattack.com/",
+      "short_name": "Moth Attack",
+      "id": 1349
+    },
+    {
+      "name": "Motiv",
+      "company_url": "http://www.motivelectricbikes.com",
+      "short_name": "Motiv",
+      "id": 984
+    },
+    {
+      "name": "Motobecane",
+      "company_url": "http://www.motobecane.com/",
+      "short_name": "Motobecane",
+      "id": 234
+    },
+    {
+      "name": "Moulden",
+      "company_url": "",
+      "short_name": "Moulden",
+      "id": 1050
+    },
+    {
+      "name": "Moulton Bicycle",
+      "company_url": "http://www.moultonbicycles.co.uk/",
+      "short_name": "Moulton Bicycle",
+      "id": 235
+    },
+    {
+      "name": "Mountain Cycles",
+      "company_url": "",
+      "short_name": "Mountain Cycles",
+      "id": 1283
+    },
+    {
+      "name": "Muddy Fox",
+      "company_url": "http://www.muddyfoxusa.com/",
+      "short_name": "Muddy Fox",
+      "id": 237
+    },
+    {
+      "name": "Murray",
+      "company_url": "",
+      "short_name": "Murray",
+      "id": 236
+    },
+    {
+      "name": "Mutiny",
+      "company_url": "http://www.mutinybikes.com/",
+      "short_name": "Mutiny",
+      "id": 1067
+    },
+    {
+      "name": "Müsing (Musing)",
+      "company_url": "http://www.muesing-bikes.de/",
+      "short_name": "Müsing",
+      "id": 1361
+    },
+    {
+      "name": "NCM eBikes",
+      "company_url": "https://ncmbikes.de/",
+      "short_name": "NCM eBikes",
+      "id": 1592
+    },
+    {
+      "name": "NS Bikes",
+      "company_url": "http://www.ns-bikes.com/",
+      "short_name": "NS Bikes",
+      "id": 1011
+    },
+    {
+      "name": "Nakamura",
+      "company_url": "http://www.nakamura.no/",
+      "short_name": "Nakamura",
+      "id": 1285
+    },
+    {
+      "name": "Naked",
+      "company_url": "http://timetogetnaked.com/",
+      "short_name": "Naked",
+      "id": 1250
+    },
+    {
+      "name": "Nashbar",
+      "company_url": "http://Nashbar.com",
+      "short_name": "Nashbar",
+      "id": 957
+    },
+    {
+      "name": "National",
+      "company_url": "http://nationalmoto.com/",
+      "short_name": "National",
+      "id": 238
+    },
+    {
+      "name": "Neil Pryde",
+      "company_url": "http://www.neilprydebikes.com/",
+      "short_name": "Neil Pryde",
+      "id": 240
+    },
+    {
+      "name": "Neobike",
+      "company_url": "http://www.allproducts.com/bike/neobike/",
+      "short_name": "Neobike",
+      "id": 241
+    },
+    {
+      "name": "New Albion",
+      "company_url": "http://newalbioncycles.com/",
+      "short_name": "New Albion",
+      "id": 1071
+    },
+    {
+      "name": "Next",
+      "company_url": "http://next-bike.com/",
+      "short_name": "Next",
+      "id": 123
+    },
+    {
+      "name": "Niner",
+      "company_url": "http://www.ninerbikes.com/",
+      "short_name": "Niner",
+      "id": 1022
+    },
+    {
+      "name": "Nirve",
+      "company_url": "http://www.nirve.com/",
+      "short_name": "Nirve",
+      "id": 1176
+    },
+    {
+      "name": "Nishiki",
+      "company_url": "http://nishiki.com/",
+      "short_name": "Nishiki",
+      "id": 243
+    },
+    {
+      "name": "Nomad Cargo",
+      "company_url": "https://www.facebook.com/NomadCargo",
+      "short_name": "Nomad Cargo",
+      "id": 1408
+    },
+    {
+      "name": "Norco Bikes",
+      "company_url": "http://www.norco.com/",
+      "short_name": "Norco Bikes",
+      "id": 244
+    },
+    {
+      "name": "Normal Bicycles",
+      "company_url": "https://www.normalbicycles.com/",
+      "short_name": "Normal Bicycles",
+      "id": 1547
+    },
+    {
+      "name": "Norman Cycles",
+      "company_url": "http://www.normanmotorcycles.org.uk/",
+      "short_name": "Norman Cycles",
+      "id": 245
+    },
+    {
+      "name": "Northrock",
+      "company_url": "http://www.northrockbikes.com/",
+      "short_name": "Northrock",
+      "id": 1021
+    },
+    {
+      "name": "Novara",
+      "company_url": "",
+      "short_name": "Novara",
+      "id": 246
+    },
+    {
+      "name": "Nukeproof",
+      "company_url": "http://nukeproof.com/",
+      "short_name": "Nukeproof",
+      "id": 1282
+    },
+    {
+      "name": "Nymanbolagen",
+      "company_url": "",
+      "short_name": "Nymanbolagen",
+      "id": 248
+    },
+    {
+      "name": "OHM",
+      "company_url": "http://ohmcycles.com/",
+      "short_name": "OHM",
+      "id": 1262
+    },
+    {
+      "name": "OPEN",
+      "company_url": "https://opencycle.com/",
+      "short_name": "OPEN",
+      "id": 1551
+    },
+    {
+      "name": "Ocoee Bikes",
+      "company_url": "https://ocoeebikes.com",
+      "short_name": "Ocoee Bikes",
+      "id": 1579
+    },
+    {
+      "name": "Oleary",
+      "company_url": "https://olearybuiltbicycles.com/",
+      "short_name": "Oleary",
+      "id": 1539
+    },
+    {
+      "name": "Olmo",
+      "company_url": "http://www.olmobikes.com/",
+      "short_name": "Olmo",
+      "id": 1211
+    },
+    {
+      "name": "Omnium",
+      "company_url": "http://omniumcargo.dk/",
+      "short_name": "Omnium",
+      "id": 1384
+    },
+    {
+      "name": "On-One (On One)",
+      "company_url": "http://www.on-one.co.uk/",
+      "short_name": "On-One",
+      "id": 1226
+    },
+    {
+      "name": "Opel",
+      "company_url": "http://opelbikes.com/",
+      "short_name": "Opel",
+      "id": 249
+    },
+    {
+      "name": "Opus",
+      "company_url": "http://opusbike.com/en/",
+      "short_name": "Opus",
+      "id": 1074
+    },
+    {
+      "name": "Orange mountain bikes",
+      "company_url": "http://www.orangebikes.co.uk/",
+      "short_name": "Orange mountain bikes",
+      "id": 250
+    },
+    {
+      "name": "Orbea",
+      "company_url": "http://www.orbea.com/us-en/",
+      "short_name": "Orbea",
+      "id": 251
+    },
+    {
+      "name": "Orbit",
+      "company_url": "http://www.orbit-cycles.co.uk/",
+      "short_name": "Orbit",
+      "id": 980
+    },
+    {
+      "name": "Orient Bikes",
+      "company_url": "http://www.orient-bikes.gr/en",
+      "short_name": "Orient Bikes",
+      "id": 252
+    },
+    {
+      "name": "Origin8 (Origin-8)",
+      "company_url": "http://www.origin-8.com/",
+      "short_name": "Origin8",
+      "id": 948
+    },
+    {
+      "name": "Other",
+      "company_url": "",
+      "short_name": "Other",
+      "id": 100
+    },
+    {
+      "name": "Otis Guy",
+      "company_url": "http://www.otisguycycles.com/",
+      "short_name": "Otis Guy",
+      "id": 1347
+    },
+    {
+      "name": "Oyama",
+      "company_url": "http://www.oyama.eu/",
+      "short_name": "Oyama",
+      "id": 1033
+    },
+    {
+      "name": "PUBLIC bikes",
+      "company_url": "http://publicbikes.com/",
+      "short_name": "PUBLIC bikes",
+      "id": 974
+    },
+    {
+      "name": "Pacific Cycle",
+      "company_url": "http://www.pacific-cycles.com/",
+      "short_name": "Pacific Cycle",
+      "id": 115
+    },
+    {
+      "name": "Pake",
+      "company_url": "http://www.pakebikes.com",
+      "short_name": "Pake",
+      "id": 365
+    },
+    {
+      "name": "Panasonic",
+      "company_url": "",
+      "short_name": "Panasonic",
+      "id": 239
+    },
+    {
+      "name": "Paper Bicycle",
+      "company_url": "http://www.paper-bicycle.com/",
+      "short_name": "Paper Bicycle",
+      "id": 1147
+    },
+    {
+      "name": "Parkpre",
+      "company_url": "http://www.parkpre.com/",
+      "short_name": "Parkpre",
+      "id": 1023
+    },
+    {
+      "name": "Parlee",
+      "company_url": "http://www.parleecycles.com",
+      "short_name": "Parlee",
+      "id": 700
+    },
+    {
+      "name": "Pasculli",
+      "company_url": "http://www.pasculli.de",
+      "short_name": "Pasculli",
+      "id": 1444
+    },
+    {
+      "name": "Pashley Cycles",
+      "company_url": "http://www.pashley.co.uk/",
+      "short_name": "Pashley Cycles",
+      "id": 256
+    },
+    {
+      "name": "Patria",
+      "company_url": "http://www.patria.net/en/bicycles/",
+      "short_name": "Patria",
+      "id": 257
+    },
+    {
+      "name": "Pedego",
+      "company_url": "http://www.pedegoelectricbikes.com/",
+      "short_name": "Pedego",
+      "id": 1114
+    },
+    {
+      "name": "Pedersen bicycle",
+      "company_url": "http://www.pedersenbicycles.com/",
+      "short_name": "Pedersen bicycle",
+      "id": 258
+    },
+    {
+      "name": "Pegasus",
+      "company_url": "http://www.pegasus-bikes.de/startseite/",
+      "short_name": "Pegasus",
+      "id": 1404
+    },
+    {
+      "name": "Pegoretti",
+      "company_url": "http://www.gitabike.com/cgi-bin/shop/pegoretti_loadhome.cgi?file=pegoretti.html",
+      "short_name": "Pegoretti",
+      "id": 1142
+    },
+    {
+      "name": "Pereira",
+      "company_url": "http://www.pereiracycles.com/",
+      "short_name": "Pereira",
+      "id": 1189
+    },
+    {
+      "name": "Performance",
+      "company_url": "http://www.performancebike.com/bikes",
+      "short_name": "Performance",
+      "id": 1061
+    },
+    {
+      "name": "Peugeot",
+      "company_url": "http://www.peugeot.com/en/products-services/cycles",
+      "short_name": "Peugeot",
+      "id": 102
+    },
+    {
+      "name": "Phat Cycles",
+      "company_url": "http://www.phatcycles.com/",
+      "short_name": "Phat Cycles",
+      "id": 1062
+    },
+    {
+      "name": "Phillips Cycles",
+      "company_url": "http://www.phillipscycles.co.uk/",
+      "short_name": "Phillips Cycles",
+      "id": 260
+    },
+    {
+      "name": "Phoenix",
+      "company_url": "http://www.cccme.org.cn/",
+      "short_name": "Phoenix",
+      "id": 261
+    },
+    {
+      "name": "Pierce-Arrow",
+      "company_url": "http://www.pierce-arrow.org",
+      "short_name": "Pierce-Arrow",
+      "id": 262
+    },
+    {
+      "name": "Pilen",
+      "company_url": "http://www.pilencykel.se/site/en/home",
+      "short_name": "Pilen",
+      "id": 1202
+    },
+    {
+      "name": "Pinarello",
+      "company_url": "http://www.racycles.com/",
+      "short_name": "Pinarello",
+      "id": 263
+    },
+    {
+      "name": "Pinnacle (Evans Cycles)",
+      "company_url": "https://www.evanscycles.com/pinnacle_b",
+      "short_name": "Pinnacle",
+      "id": 1511
+    },
+    {
+      "name": "Pivot",
+      "company_url": "http://www.pivotcycles.com/",
+      "short_name": "Pivot",
+      "id": 1105
+    },
+    {
+      "name": "Planet X",
+      "company_url": "http://www.planet-x-bikes.co.uk/",
+      "short_name": "Planet X",
+      "id": 264
+    },
+    {
+      "name": "Pocket Bicycles",
+      "company_url": "",
+      "short_name": "Pocket Bicycles",
+      "id": 265
+    },
+    {
+      "name": "Pogliaghi",
+      "company_url": "http://en.wikipedia.org/wiki/Pogliaghi",
+      "short_name": "Pogliaghi",
+      "id": 266
+    },
+    {
+      "name": "Polygon",
+      "company_url": "http://www.polygonbikes.com/",
+      "short_name": "Polygon",
+      "id": 1104
+    },
+    {
+      "name": "Pope Manufacturing Company",
+      "company_url": "",
+      "short_name": "Pope Manufacturing Company",
+      "id": 267
+    },
+    {
+      "name": "Premium",
+      "company_url": "http://www.premiumbmx.com/",
+      "short_name": "Premium",
+      "id": 1141
+    },
+    {
+      "name": "Price",
+      "company_url": "http://www.price-bikes.ch/",
+      "short_name": "Price",
+      "id": 1375
+    },
+    {
+      "name": "Primus Mootry (PM Cycle Fabrication)",
+      "company_url": "http://www.primusmootry.com/",
+      "short_name": "Primus Mootry",
+      "id": 1340
+    },
+    {
+      "name": "Principia",
+      "company_url": "http://www.principia.dk/gb/",
+      "short_name": "Principia",
+      "id": 975
+    },
+    {
+      "name": "Priority Bicycles",
+      "company_url": "http://www.prioritybicycles.com/",
+      "short_name": "Priority Bicycles",
+      "id": 1390
+    },
+    {
+      "name": "Private label",
+      "company_url": "",
+      "short_name": "Private label",
+      "id": 211
+    },
+    {
+      "name": "Procycle Group",
+      "company_url": "http://www.procycle.com/en/default.asp",
+      "short_name": "Procycle Group",
+      "id": 269
+    },
+    {
+      "name": "Prodeco",
+      "company_url": "http://prodecotech.com/",
+      "short_name": "Prodeco",
+      "id": 1160
+    },
+    {
+      "name": "Propain",
+      "company_url": "https://www.propain-bikes.com/",
+      "short_name": "Propain",
+      "id": 1503
+    },
+    {
+      "name": "Prophete",
+      "company_url": "http://www.prophete.de/",
+      "short_name": "Prophete",
+      "id": 272
+    },
+    {
+      "name": "Puch",
+      "company_url": "http://www.puch.at/",
+      "short_name": "Puch",
+      "id": 88
+    },
+    {
+      "name": "Pure Cycles (Pure Fix)",
+      "company_url": "http://purefixcycles.com/",
+      "short_name": "Pure Cycles",
+      "id": 947
+    },
+    {
+      "name": "Python",
+      "company_url": "http://www.pythonbikes.com/",
+      "short_name": "Python",
+      "id": 1045
+    },
+    {
+      "name": "Python Pro",
+      "company_url": "http://pythonpro.dk/",
+      "short_name": "Python Pro",
+      "id": 1298
+    },
+    {
+      "name": "Quadrant Cycle Company",
+      "company_url": "",
+      "short_name": "Quadrant Cycle Company",
+      "id": 273
+    },
+    {
+      "name": "Quintana Roo",
+      "company_url": "http://www.quintanarootri.com/",
+      "short_name": "Quintana Roo",
+      "id": 275
+    },
+    {
+      "name": "REI (REI Co-op)",
+      "company_url": "https://www.rei.com/",
+      "short_name": "REI",
+      "id": 1518
+    },
+    {
+      "name": "RIH",
+      "company_url": "http://www.rih.nl",
+      "short_name": "RIH",
+      "id": 1001
+    },
+    {
+      "name": "RRB (Rat Rod Bikes)",
+      "company_url": "https://www.facebook.com/ratrodbikescom",
+      "short_name": "RRB",
+      "id": 945
+    },
+    {
+      "name": "Rabeneick",
+      "company_url": "http://www.rabeneick.de/bikes/",
+      "short_name": "Rabeneick",
+      "id": 1296
+    },
+    {
+      "name": "Rad Power Bikes",
+      "company_url": "https://www.radpowerbikes.com/",
+      "short_name": "Rad Power Bikes",
+      "id": 1525
+    },
+    {
+      "name": "Radio Bike Co",
+      "company_url": "http://www.radiobikes.com/",
+      "short_name": "Radio Bike Co",
+      "id": 1388
+    },
+    {
+      "name": "Radio Flyer",
+      "company_url": "http://www.radioflyer.com/trikes.html",
+      "short_name": "Radio Flyer",
+      "id": 276
+    },
+    {
+      "name": "Raleigh",
+      "company_url": "http://www.raleighusa.com/",
+      "short_name": "Raleigh",
+      "id": 277
+    },
+    {
+      "name": "Ram",
+      "company_url": "http://www.ram-bikes.com/eng/",
+      "short_name": "Ram",
+      "id": 997
+    },
+    {
+      "name": "Rambler",
+      "company_url": "http://en.wikipedia.org/wiki/Rambler_(bicycle)",
+      "short_name": "Rambler",
+      "id": 278
+    },
+    {
+      "name": "Rans Designs",
+      "company_url": "http://www.rans.com/",
+      "short_name": "Rans Designs",
+      "id": 279
+    },
+    {
+      "name": "Ratking",
+      "company_url": "http://www.ratkingframes.com/about/",
+      "short_name": "Ratking",
+      "id": 1540
+    },
+    {
+      "name": "Rawland Cycles",
+      "company_url": "https://www.rawlandcycles.com/",
+      "short_name": "Rawland Cycles",
+      "id": 1078
+    },
+    {
+      "name": "Razor",
+      "company_url": "http://www.razor.com/",
+      "short_name": "Razor",
+      "id": 280
+    },
+    {
+      "name": "Redline",
+      "company_url": "http://www.redlinebicycles.com",
+      "short_name": "Redline",
+      "id": 955
+    },
+    {
+      "name": "Redlof",
+      "company_url": "",
+      "short_name": "Redlof",
+      "id": 1041
+    },
+    {
+      "name": "Regina",
+      "company_url": "http://www.reginabikes.it/",
+      "short_name": "Regina",
+      "id": 1076
+    },
+    {
+      "name": "René Herse",
+      "company_url": "http://www.renehersebicycles.com/",
+      "short_name": "René Herse",
+      "id": 170
+    },
+    {
+      "name": "Republic",
+      "company_url": "http://www.republicbike.com/",
+      "short_name": "Republic",
+      "id": 971
+    },
+    {
+      "name": "Republic of China",
+      "company_url": "",
+      "short_name": "Republic of China",
+      "id": 254
+    },
+    {
+      "name": "Retrospec",
+      "company_url": "http://www.retrospecbicycles.com/",
+      "short_name": "Retrospec",
+      "id": 1180
+    },
+    {
+      "name": "Ribble",
+      "company_url": "http://www.ribblecycles.co.uk/",
+      "short_name": "Ribble",
+      "id": 1046
+    },
+    {
+      "name": "Ridgeback",
+      "company_url": "http://www.ridgeback.co.uk/",
+      "short_name": "Ridgeback",
+      "id": 281
+    },
+    {
+      "name": "Ridley",
+      "company_url": "http://www.ridley-bikes.com/be/nl/intro",
+      "short_name": "Ridley",
+      "id": 749
+    },
+    {
+      "name": "Riese und Müller",
+      "company_url": "http://www.en.r-m.de/",
+      "short_name": "Riese und Müller",
+      "id": 283
+    },
+    {
+      "name": "Ritchey",
+      "company_url": "http://ritcheylogic.com/",
+      "short_name": "Ritchey",
+      "id": 750
+    },
+    {
+      "name": "Ritte",
+      "company_url": "http://rittecycles.com/",
+      "short_name": "Ritte",
+      "id": 1051
+    },
+    {
+      "name": "Rivendell Bicycle Works",
+      "company_url": "http://www.rivbike.com/",
+      "short_name": "Rivendell Bicycle Works",
+      "id": 285
+    },
+    {
+      "name": "Roadmaster",
+      "company_url": "",
+      "short_name": "Roadmaster",
+      "id": 30
+    },
+    {
+      "name": "Roberts Cycles",
+      "company_url": "http://www.robertscycles.com/",
+      "short_name": "Roberts Cycles",
+      "id": 286
+    },
+    {
+      "name": "Robin Hood",
+      "company_url": "http://www.robinhoodcycles.com/",
+      "short_name": "Robin Hood",
+      "id": 287
+    },
+    {
+      "name": "Rock Lobster",
+      "company_url": "http://www.rocklobstercycles.com/",
+      "short_name": "Rock Lobster",
+      "id": 1135
+    },
+    {
+      "name": "Rocky Mountain Bicycles",
+      "company_url": "",
+      "short_name": "Rocky Mountain Bicycles",
+      "id": 270
+    },
+    {
+      "name": "Rodeo Adventure Labs",
+      "company_url": "http://www.rodeo-labs.com",
+      "short_name": "Rodeo Adventure Labs",
+      "id": 1548
+    },
+    {
+      "name": "Rodriguez",
+      "company_url": "http://www.rodbikes.com/",
+      "short_name": "Rodriguez",
+      "id": 1124
+    },
+    {
+      "name": "Roll Bicycle Company",
+      "company_url": "https://www.rollbicycles.com/",
+      "short_name": "Roll Bicycle Company",
+      "id": 1566
+    },
+    {
+      "name": "Rosko",
+      "company_url": "http://rosko.cc",
+      "short_name": "Rosko",
+      "id": 1478
+    },
+    {
+      "name": "Ross",
+      "company_url": "http://www.randyrrross.com/",
+      "short_name": "Ross",
+      "id": 288
+    },
+    {
+      "name": "Rossin",
+      "company_url": "http://rossinbikes.it/",
+      "short_name": "Rossin",
+      "id": 1069
+    },
+    {
+      "name": "Rover Company",
+      "company_url": "http://www.randyrrross.com/",
+      "short_name": "Rover Company",
+      "id": 289
+    },
+    {
+      "name": "Rowbike",
+      "company_url": "http://www.rowbike.com/",
+      "short_name": "Rowbike",
+      "id": 290
+    },
+    {
+      "name": "Royce Union ",
+      "company_url": "http://royceunionbikes.com/",
+      "short_name": "Royce Union ",
+      "id": 1000
+    },
+    {
+      "name": "Rudge-Whitworth",
+      "company_url": "",
+      "short_name": "Rudge-Whitworth",
+      "id": 291
+    },
+    {
+      "name": "S and M (S&M)",
+      "company_url": "http://www.sandmbikes.com",
+      "short_name": "S and M",
+      "id": 361
+    },
+    {
+      "name": "SCOTT",
+      "company_url": "http://www.scott-sports.com/global/en/",
+      "short_name": "SCOTT",
+      "id": 296
+    },
+    {
+      "name": "SE Bikes (SE Racing)",
+      "company_url": "http://www.sebikes.com",
+      "short_name": "SE Bikes",
+      "id": 363
+    },
+    {
+      "name": "Sage Titanium Bicycles",
+      "company_url": "https://sagetitanium.com/",
+      "short_name": "Sage Titanium Bicycles",
+      "id": 1543
+    },
+    {
+      "name": "Salsa",
+      "company_url": "http://salsacycles.com/",
+      "short_name": "Salsa",
+      "id": 764
+    },
+    {
+      "name": "Samchuly",
+      "company_url": "http://www.samchuly.co.kr/main/main.html",
+      "short_name": "Samchuly",
+      "id": 292
+    },
+    {
+      "name": "Sancineto",
+      "company_url": "",
+      "short_name": "Sancineto",
+      "id": 1186
+    },
+    {
+      "name": "Sanderson",
+      "company_url": "http://sanderson-cycles.com",
+      "short_name": "Sanderson",
+      "id": 1038
+    },
+    {
+      "name": "Santa Cruz",
+      "company_url": "http://www.santacruzbicycles.com/en",
+      "short_name": "Santa Cruz",
+      "id": 965
+    },
+    {
+      "name": "Santana Cycles",
+      "company_url": "http://www.santanatandem.com/",
+      "short_name": "Santana Cycles",
+      "id": 293
+    },
+    {
+      "name": "Saracen Cycles",
+      "company_url": "http://www.saracen.co.uk/",
+      "short_name": "Saracen Cycles",
+      "id": 294
+    },
+    {
+      "name": "Sava",
+      "company_url": "http://www.sava-bike.eu",
+      "short_name": "Sava",
+      "id": 1574
+    },
+    {
+      "name": "Scania AB",
+      "company_url": "http://scania.com/",
+      "short_name": "Scania AB",
+      "id": 295
+    },
+    {
+      "name": "Scapin",
+      "company_url": "http://www.scapin.com/en/",
+      "short_name": "Scapin",
+      "id": 1522
+    },
+    {
+      "name": "Scattante",
+      "company_url": "http://www.performancebike.com/webapp/wcs/stores/servlet/SubCategory_10052_10551_400759_-1_400345_400345",
+      "short_name": "Scattante",
+      "id": 942
+    },
+    {
+      "name": "Schindelhauer",
+      "company_url": "http://www.schindelhauerbikes.com/",
+      "short_name": "Schindelhauer",
+      "id": 1228
+    },
+    {
+      "name": "Schwinn",
+      "company_url": "http://www.schwinnbikes.com/",
+      "short_name": "Schwinn",
+      "id": 117
+    },
+    {
+      "name": "Sears Roebuck",
+      "company_url": "",
+      "short_name": "Sears Roebuck",
+      "id": 1027
+    },
+    {
+      "name": "Season",
+      "company_url": "http://seasonbikesbmx.com/",
+      "short_name": "Season",
+      "id": 1020
+    },
+    {
+      "name": "Sekai",
+      "company_url": "",
+      "short_name": "Sekai",
+      "id": 1143
+    },
+    {
+      "name": "Sekine",
+      "company_url": "",
+      "short_name": "Sekine",
+      "id": 1058
+    },
+    {
+      "name": "Sense",
+      "company_url": "http://sense-bike.com/",
+      "short_name": "Sense",
+      "id": 1568
+    },
+    {
+      "name": "Serotta",
+      "company_url": "http://serotta.com/",
+      "short_name": "Serotta",
+      "id": 297
+    },
+    {
+      "name": "Sette",
+      "company_url": "http://www.settebikes.com/",
+      "short_name": "Sette",
+      "id": 1297
+    },
+    {
+      "name": "Seven Cycles",
+      "company_url": "http://www.sevencycles.com/",
+      "short_name": "Seven Cycles",
+      "id": 298
+    },
+    {
+      "name": "Shadow Conspiracy",
+      "company_url": "http://www.theshadowconspiracy.com/",
+      "short_name": "Shadow Conspiracy",
+      "id": 845
+    },
+    {
+      "name": "Shelby Cycle Company",
+      "company_url": "",
+      "short_name": "Shelby Cycle Company",
+      "id": 299
+    },
+    {
+      "name": "Shinola",
+      "company_url": "http://www.shinola.com/",
+      "short_name": "Shinola",
+      "id": 1096
+    },
+    {
+      "name": "Shogun",
+      "company_url": "",
+      "short_name": "Shogun",
+      "id": 962
+    },
+    {
+      "name": "Shredder",
+      "company_url": "http://lilshredder.com/",
+      "short_name": "Shredder",
+      "id": 1010
+    },
+    {
+      "name": "Simcoe",
+      "company_url": "http://simcoebicycles.com/",
+      "short_name": "Simcoe",
+      "id": 1392
+    },
+    {
+      "name": "Simplon",
+      "company_url": "http://www.simplon.com",
+      "short_name": "Simplon",
+      "id": 1270
+    },
+    {
+      "name": "Simson",
+      "company_url": "",
+      "short_name": "Simson",
+      "id": 300
+    },
+    {
+      "name": "Sinclair Research",
+      "company_url": "http://www.sinclairzx.com/",
+      "short_name": "Sinclair Research",
+      "id": 301
+    },
+    {
+      "name": "Six-Eleven",
+      "company_url": "http://sixelevenbicycleco.com/",
+      "short_name": "Six-Eleven",
+      "id": 1353
+    },
+    {
+      "name": "Skyway ",
+      "company_url": "",
+      "short_name": "Skyway ",
+      "id": 999
+    },
+    {
+      "name": "Sohrab Cycles",
+      "company_url": "http://www.sohrab-cycles.com/index.php",
+      "short_name": "Sohrab Cycles",
+      "id": 303
+    },
+    {
+      "name": "Solex",
+      "company_url": "http://www.solexworld.com/en/",
+      "short_name": "Solex",
+      "id": 305
+    },
+    {
+      "name": "Solé (Sole bicycles)",
+      "company_url": "http://www.solebicycles.com/",
+      "short_name": "Solé",
+      "id": 304
+    },
+    {
+      "name": "Soma",
+      "company_url": "http://www.somafab.com",
+      "short_name": "Soma",
+      "id": 368
+    },
+    {
+      "name": "Somec",
+      "company_url": "http://www.somec.com/",
+      "short_name": "Somec",
+      "id": 306
+    },
+    {
+      "name": "Sondors",
+      "company_url": "http://gosondors.com/",
+      "short_name": "Sondors",
+      "id": 1411
+    },
+    {
+      "name": "Sonoma",
+      "company_url": "http://sonomabike.com/",
+      "short_name": "Sonoma",
+      "id": 1197
+    },
+    {
+      "name": "Soulcraft",
+      "company_url": "http://www.soulcraftbikes.com",
+      "short_name": "Soulcraft",
+      "id": 1267
+    },
+    {
+      "name": "Spalding Bicycles",
+      "company_url": "",
+      "short_name": "Spalding Bicycles",
+      "id": 364
+    },
+    {
+      "name": "Sparta B.V.",
+      "company_url": "",
+      "short_name": "Sparta B.V.",
+      "id": 21
+    },
+    {
+      "name": "Specialized",
+      "company_url": "http://www.specialized.com/us/en/home/",
+      "short_name": "Specialized",
+      "id": 307
+    },
+    {
+      "name": "Spectrum",
+      "company_url": "http://www.spectrum-cycles.com/",
+      "short_name": "Spectrum",
+      "id": 1276
+    },
+    {
+      "name": "Speedwell bicycles",
+      "company_url": "",
+      "short_name": "Speedwell bicycles",
+      "id": 308
+    },
+    {
+      "name": "Spicer",
+      "company_url": "http://www.spicercycles.com/",
+      "short_name": "Spicer",
+      "id": 1207
+    },
+    {
+      "name": "Splendid Cycles",
+      "company_url": "http://www.splendidcycles.com/",
+      "short_name": "Splendid Cycles",
+      "id": 1500
+    },
+    {
+      "name": "Spooky",
+      "company_url": "http://www.spookybikes.com",
+      "short_name": "Spooky",
+      "id": 953
+    },
+    {
+      "name": "Spot",
+      "company_url": "http://spotbrand.com/",
+      "short_name": "Spot",
+      "id": 1053
+    },
+    {
+      "name": "St. Tropez",
+      "company_url": "",
+      "short_name": "St. Tropez",
+      "id": 1018
+    },
+    {
+      "name": "Stages cycling",
+      "company_url": "http://www.stagescycling.com/stagespower",
+      "short_name": "Stages cycling",
+      "id": 1360
+    },
+    {
+      "name": "Staiger",
+      "company_url": "http://www.staiger-fahrrad.de/",
+      "short_name": "Staiger",
+      "id": 12
+    },
+    {
+      "name": "Standard Byke",
+      "company_url": "http://www.standardbyke.com/",
+      "short_name": "Standard Byke",
+      "id": 1144
+    },
+    {
+      "name": "Stanridge Speed",
+      "company_url": "http://www.stanridgespeed.com/",
+      "short_name": "Stanridge Speed",
+      "id": 1154
+    },
+    {
+      "name": "State Bicycle Co.",
+      "company_url": "http://www.statebicycle.com/",
+      "short_name": "State Bicycle Co.",
+      "id": 961
+    },
+    {
+      "name": "Steelman Cycles",
+      "company_url": "http://www.steelmancycles.com/",
+      "short_name": "Steelman Cycles",
+      "id": 1357
+    },
+    {
+      "name": "Stein Trikes",
+      "company_url": "http://www.steintrikes.com/index.php",
+      "short_name": "Stein Trikes",
+      "id": 979
+    },
+    {
+      "name": "Stelber Cycle Corp",
+      "company_url": "",
+      "short_name": "Stelber Cycle Corp",
+      "id": 311
+    },
+    {
+      "name": "Stella",
+      "company_url": "",
+      "short_name": "Stella",
+      "id": 312
+    },
+    {
+      "name": "Sterling Bicycle Co.",
+      "company_url": "",
+      "short_name": "Sterling Bicycle Co.",
+      "id": 313
+    },
+    {
+      "name": "Steve Potts",
+      "company_url": "http://www.stevepottsbicycles.com",
+      "short_name": "Steve Potts",
+      "id": 983
+    },
+    {
+      "name": "Stevens",
+      "company_url": "http://www.stevensbikes.de/2014/index.php",
+      "short_name": "Stevens",
+      "id": 1108
+    },
+    {
+      "name": "Stevenson Custom Bicycles",
+      "company_url": "http://stevensoncustombikes.com/",
+      "short_name": "Stevenson Custom Bicycles",
+      "id": 1229
+    },
+    {
+      "name": "Stinner",
+      "company_url": "http://www.stinnerframeworks.com/",
+      "short_name": "Stinner",
+      "id": 1482
+    },
+    {
+      "name": "Stoemper",
+      "company_url": "http://stoemper.com/",
+      "short_name": "Stoemper",
+      "id": 960
+    },
+    {
+      "name": "Stolen Bicycle Co.",
+      "company_url": "",
+      "short_name": "Stolen Bicycle Co.",
+      "id": 352
+    },
+    {
+      "name": "Strada Customs",
+      "company_url": "http://www.stradacustoms.com",
+      "short_name": "Strada Customs",
+      "id": 939
+    },
+    {
+      "name": "Stradalli Cycles",
+      "company_url": "http://www.carbonroadbikebicyclecycling.com/",
+      "short_name": "Stradalli Cycles",
+      "id": 1210
+    },
+    {
+      "name": "Strawberry Bicycle",
+      "company_url": "http://www.strawberrybicycle.com/",
+      "short_name": "Strawberry Bicycle",
+      "id": 1382
+    },
+    {
+      "name": "Strida",
+      "company_url": "",
+      "short_name": "Strida",
+      "id": 314
+    },
+    {
+      "name": "Strider",
+      "company_url": "http://www.striderbikes.com/",
+      "short_name": "Strider",
+      "id": 819
+    },
+    {
+      "name": "Stromer",
+      "company_url": "http://www.stromerbike.com/en/us",
+      "short_name": "Stromer",
+      "id": 1243
+    },
+    {
+      "name": "Strong Frames",
+      "company_url": "http://www.strongframes.com/",
+      "short_name": "Strong Frames",
+      "id": 1177
+    },
+    {
+      "name": "Stålhästen",
+      "company_url": "http://www.stalhasten.eu/st%C3%A5lh%C3%A4sten",
+      "short_name": "Stålhästen",
+      "id": 1072
+    },
+    {
+      "name": "Subrosa",
+      "company_url": "http://subrosabrand.com/",
+      "short_name": "Subrosa",
+      "id": 821
+    },
+    {
+      "name": "Sun",
+      "company_url": "",
+      "short_name": "Sun",
+      "id": 315
+    },
+    {
+      "name": "SunRace",
+      "company_url": "http://www.sunrace.com/",
+      "short_name": "SunRace",
+      "id": 825
+    },
+    {
+      "name": "Sunday",
+      "company_url": "http://www.sundaybikes.com",
+      "short_name": "Sunday",
+      "id": 355
+    },
+    {
+      "name": "Sunn",
+      "company_url": "https://www.facebook.com/sunn.bicycle",
+      "short_name": "Sunn",
+      "id": 1086
+    },
+    {
+      "name": "Supercross",
+      "company_url": "http://www.supercrossbmx.com/",
+      "short_name": "Supercross",
+      "id": 1496
+    },
+    {
+      "name": "Surly",
+      "company_url": "http://surlybikes.com",
+      "short_name": "Surly",
+      "id": 112
+    },
+    {
+      "name": "Surrey",
+      "company_url": "http://www.internationalsurreyco.com",
+      "short_name": "Surrey",
+      "id": 1191
+    },
+    {
+      "name": "Suzuki",
+      "company_url": "",
+      "short_name": "Suzuki",
+      "id": 318
+    },
+    {
+      "name": "Sweetpea Bicycles",
+      "company_url": "http://www.sweetpeabicycles.com/",
+      "short_name": "Sweetpea Bicycles",
+      "id": 1252
+    },
+    {
+      "name": "Swingset",
+      "company_url": "http://www.swingsetbicycles.com/",
+      "short_name": "Swingset",
+      "id": 1275
+    },
+    {
+      "name": "Swobo",
+      "company_url": "http://shop.swobo.com/",
+      "short_name": "Swobo",
+      "id": 963
+    },
+    {
+      "name": "SyCip",
+      "company_url": "http://sycip.com/",
+      "short_name": "SyCip",
+      "id": 1234
+    },
+    {
+      "name": "TET Cycles (Tom Teesdale Bikes)",
+      "company_url": "http://tetcycles.com/",
+      "short_name": "TET Cycles",
+      "id": 1232
+    },
+    {
+      "name": "TI Cycles of India",
+      "company_url": "",
+      "short_name": "TI Cycles of India",
+      "id": 323
+    },
+    {
+      "name": "Takara",
+      "company_url": "http://takarabikes.com/",
+      "short_name": "Takara",
+      "id": 949
+    },
+    {
+      "name": "Talisman",
+      "company_url": "",
+      "short_name": "Talisman",
+      "id": 1037
+    },
+    {
+      "name": "Tati Cycles",
+      "company_url": "http://taticycles.com/",
+      "short_name": "Tati Cycles",
+      "id": 1209
+    },
+    {
+      "name": "Taylor Bicycles (Paul Taylor)",
+      "company_url": "http://taylorbicycles.blogspot.com/",
+      "short_name": "Taylor Bicycles",
+      "id": 1294
+    },
+    {
+      "name": "Tern",
+      "company_url": "http://www.ternbicycles.com/us/",
+      "short_name": "Tern",
+      "id": 976
+    },
+    {
+      "name": "Terra Trike",
+      "company_url": "http://www.terratrike.com/",
+      "short_name": "Terra Trike",
+      "id": 1306
+    },
+    {
+      "name": "Terrible One",
+      "company_url": "http://www.terribleone.com",
+      "short_name": "Terrible One",
+      "id": 1299
+    },
+    {
+      "name": "Terrot",
+      "company_url": "",
+      "short_name": "Terrot",
+      "id": 319
+    },
+    {
+      "name": "Terry",
+      "company_url": "http://www.terrybicycles.com/",
+      "short_name": "Terry",
+      "id": 841
+    },
+    {
+      "name": "The Arthur Pequegnat Clock Company",
+      "company_url": "",
+      "short_name": "The Arthur Pequegnat Clock Company",
+      "id": 37
+    },
+    {
+      "name": "The Bicycle Forge",
+      "company_url": "http://www.bicycleforge.com/",
+      "short_name": "The Bicycle Forge",
+      "id": 1080
+    },
+    {
+      "name": "Thesis Bike ",
+      "company_url": "http://www.thesis.bike",
+      "short_name": "Thesis Bike ",
+      "id": 1549
+    },
+    {
+      "name": "Thorn Cycles",
+      "company_url": "",
+      "short_name": "Thorn Cycles",
+      "id": 321
+    },
+    {
+      "name": "Throne Cycles",
+      "company_url": "http://thronecycles.com/",
+      "short_name": "Throne Cycles",
+      "id": 1386
+    },
+    {
+      "name": "Thruster",
+      "company_url": "http://walmart.com",
+      "short_name": "Thruster",
+      "id": 1161
+    },
+    {
+      "name": "Thule",
+      "company_url": "http://www.thule.com",
+      "short_name": "Thule",
+      "id": 848
+    },
+    {
+      "name": "Ti Cycles",
+      "company_url": "http://ticycles.com/",
+      "short_name": "Ti Cycles",
+      "id": 985
+    },
+    {
+      "name": "Time",
+      "company_url": "http://www.time-sport.com/",
+      "short_name": "Time",
+      "id": 850
+    },
+    {
+      "name": "Titan",
+      "company_url": "http://www.titanracingbikes.com/",
+      "short_name": "Titan",
+      "id": 991
+    },
+    {
+      "name": "Titus",
+      "company_url": "http://www.titusti.com",
+      "short_name": "Titus",
+      "id": 1043
+    },
+    {
+      "name": "Tokyobike",
+      "company_url": "https://tokyobike.us/",
+      "short_name": "Tokyobike",
+      "id": 1542
+    },
+    {
+      "name": "Tomac",
+      "company_url": "http://www.tomac.com.au/",
+      "short_name": "Tomac",
+      "id": 1380
+    },
+    {
+      "name": "Tommasini",
+      "company_url": "http://tommasinibicycle.com/",
+      "short_name": "Tommasini",
+      "id": 1162
+    },
+    {
+      "name": "Tommaso",
+      "company_url": "http://tommasobikes.com/",
+      "short_name": "Tommaso",
+      "id": 970
+    },
+    {
+      "name": "Tony Hawk",
+      "company_url": "http://www.toysrus.com/",
+      "short_name": "Tony Hawk",
+      "id": 1164
+    },
+    {
+      "name": "Torelli",
+      "company_url": "http://www.torelli.com/",
+      "short_name": "Torelli",
+      "id": 1145
+    },
+    {
+      "name": "Torker",
+      "company_url": "",
+      "short_name": "Torker",
+      "id": 324
+    },
+    {
+      "name": "Total BMX",
+      "company_url": "https://totalbmx.com",
+      "short_name": "Total BMX",
+      "id": 1590
+    },
+    {
+      "name": "Tour de France",
+      "company_url": "http://cyclefg.com/",
+      "short_name": "Tour de France",
+      "id": 1163
+    },
+    {
+      "name": "Tout Terrain",
+      "company_url": "http://www.en.tout-terrain.de/",
+      "short_name": "Tout Terrain",
+      "id": 1505
+    },
+    {
+      "name": "Toyo",
+      "company_url": "http://toyoframe.com/",
+      "short_name": "Toyo",
+      "id": 1342
+    },
+    {
+      "name": "Traitor",
+      "company_url": "http://www.traitorcycles.com",
+      "short_name": "Traitor",
+      "id": 1271
+    },
+    {
+      "name": "Transition Bikes",
+      "company_url": "http://www.transitionbikes.com/",
+      "short_name": "Transition Bikes",
+      "id": 1019
+    },
+    {
+      "name": "Trayl",
+      "company_url": "http://traylcycling.com/",
+      "short_name": "Trayl",
+      "id": 1400
+    },
+    {
+      "name": "Trek",
+      "company_url": "http://www.trekbikes.com/us/en/",
+      "short_name": "Trek",
+      "id": 47
+    },
+    {
+      "name": "Tribe Bicycle Co",
+      "company_url": "http://tribebicycles.com/",
+      "short_name": "Tribe Bicycle Co",
+      "id": 1393
+    },
+    {
+      "name": "Trinx",
+      "company_url": "http://www.trinx.com/",
+      "short_name": "Trinx",
+      "id": 1287
+    },
+    {
+      "name": "Triumph Cycle",
+      "company_url": "",
+      "short_name": "Triumph Cycle",
+      "id": 326
+    },
+    {
+      "name": "Tubus",
+      "company_url": "http://www.tubus.com/",
+      "short_name": "Tubus",
+      "id": 1494
+    },
+    {
+      "name": "Tunturi",
+      "company_url": "",
+      "short_name": "Tunturi",
+      "id": 14
+    },
+    {
+      "name": "Turin",
+      "company_url": "http://www.turinbicycle.com/",
+      "short_name": "Turin",
+      "id": 1341
+    },
+    {
+      "name": "Turner Bicycles",
+      "company_url": "http://www.turnerbikes.com/",
+      "short_name": "Turner Bicycles",
+      "id": 328
+    },
+    {
+      "name": "Twin Six",
+      "company_url": "https://www.twinsix.com/",
+      "short_name": "Twin Six",
+      "id": 868
+    },
+    {
+      "name": "Umberto Dei",
+      "company_url": "http://umbertodei.it/index.htm",
+      "short_name": "Umberto Dei",
+      "id": 1004
+    },
+    {
+      "name": "Univega",
+      "company_url": "",
+      "short_name": "Univega",
+      "id": 329
+    },
+    {
+      "name": "Unknown",
+      "company_url": "",
+      "short_name": "Unknown",
+      "id": 877
+    },
+    {
+      "name": "Upland",
+      "company_url": "http://www.uplandbicycles.com/",
+      "short_name": "Upland",
+      "id": 1198
+    },
+    {
+      "name": "Urago",
+      "company_url": "",
+      "short_name": "Urago",
+      "id": 330
+    },
+    {
+      "name": "Utopia",
+      "company_url": "",
+      "short_name": "Utopia",
+      "id": 331
+    },
+    {
+      "name": "VSF Fahrradmanufaktur",
+      "company_url": "http://www.fahrradmanufaktur.de",
+      "short_name": "VSF Fahrradmanufaktur",
+      "id": 1248
+    },
+    {
+      "name": "Valdora",
+      "company_url": "",
+      "short_name": "Valdora",
+      "id": 332
+    },
+    {
+      "name": "Van Dessel",
+      "company_url": "http://www.vandesselsports.com/",
+      "short_name": "Van Dessel",
+      "id": 1272
+    },
+    {
+      "name": "Van Herwerden",
+      "company_url": "http://www.vanherwerden.nl/",
+      "short_name": "Van Herwerden",
+      "id": 1047
+    },
+    {
+      "name": "Vanilla",
+      "company_url": "http://www.thevanillaworkshop.com/",
+      "short_name": "Vanilla",
+      "id": 1251
+    },
+    {
+      "name": "Vanmoof",
+      "company_url": "http://vanmoof.com/",
+      "short_name": "Vanmoof",
+      "id": 1231
+    },
+    {
+      "name": "Vassago",
+      "company_url": "http://www.vassagocycles.com/",
+      "short_name": "Vassago",
+      "id": 1055
+    },
+    {
+      "name": "Velo Orange",
+      "company_url": "http://www.velo-orange.com/",
+      "short_name": "Velo Orange",
+      "id": 882
+    },
+    {
+      "name": "Velo Vie",
+      "company_url": "",
+      "short_name": "Velo Vie",
+      "id": 335
+    },
+    {
+      "name": "Velomotors",
+      "company_url": "",
+      "short_name": "Velomotors",
+      "id": 333
+    },
+    {
+      "name": "Velorbis",
+      "company_url": "http://www.velorbis.com/velorbis-collections/velorbis-bicycles",
+      "short_name": "Velorbis",
+      "id": 982
+    },
+    {
+      "name": "Veloretti",
+      "company_url": "https://www.veloretti.com/",
+      "short_name": "Veloretti",
+      "id": 1571
+    },
+    {
+      "name": "Verde",
+      "company_url": "http://verdebmx.com/2013completes/",
+      "short_name": "Verde",
+      "id": 968
+    },
+    {
+      "name": "Vicini",
+      "company_url": "http://www.vicini.it",
+      "short_name": "Vicini",
+      "id": 1481
+    },
+    {
+      "name": "Vilano",
+      "company_url": "http://www.vilanobikes.com",
+      "short_name": "Vilano",
+      "id": 981
+    },
+    {
+      "name": "Villy Customs",
+      "company_url": "",
+      "short_name": "Villy Customs",
+      "id": 337
+    },
+    {
+      "name": "Vindec High Riser",
+      "company_url": "",
+      "short_name": "Vindec High Riser",
+      "id": 338
+    },
+    {
+      "name": "Viner",
+      "company_url": "",
+      "short_name": "Viner",
+      "id": 1514
+    },
+    {
+      "name": "Virtue",
+      "company_url": "http://www.virtuebike.com",
+      "short_name": "Virtue",
+      "id": 956
+    },
+    {
+      "name": "Viscount",
+      "company_url": "",
+      "short_name": "Viscount",
+      "id": 1082
+    },
+    {
+      "name": "Vision",
+      "company_url": "http://www.visiontechusa.com/",
+      "short_name": "Vision",
+      "id": 888
+    },
+    {
+      "name": "Vitus",
+      "company_url": "",
+      "short_name": "Vitus",
+      "id": 339
+    },
+    {
+      "name": "Viva",
+      "company_url": "http://www.vivabikes.com/",
+      "short_name": "Viva",
+      "id": 1188
+    },
+    {
+      "name": "Vivente",
+      "company_url": "http://www.viventebikes.com/",
+      "short_name": "Vivente",
+      "id": 1192
+    },
+    {
+      "name": "Volae",
+      "company_url": "",
+      "short_name": "Volae",
+      "id": 1249
+    },
+    {
+      "name": "Volagi",
+      "company_url": "http://www.volagi.com/",
+      "short_name": "Volagi",
+      "id": 1106
+    },
+    {
+      "name": "Volume",
+      "company_url": "",
+      "short_name": "Volume",
+      "id": 890
+    },
+    {
+      "name": "Voodoo",
+      "company_url": "http://voodoocycles.net/",
+      "short_name": "Voodoo",
+      "id": 1089
+    },
+    {
+      "name": "Vortrieb",
+      "company_url": "http://www.vortrieb.com/",
+      "short_name": "Vortrieb",
+      "id": 1075
+    },
+    {
+      "name": "VéloSoleX",
+      "company_url": "",
+      "short_name": "VéloSoleX",
+      "id": 334
+    },
+    {
+      "name": "Wabi Cycles",
+      "company_url": "http://www.wabicycles.com/index.html",
+      "short_name": "Wabi Cycles",
+      "id": 996
+    },
+    {
+      "name": "Waterford",
+      "company_url": "http://waterfordbikes.com/w/",
+      "short_name": "Waterford",
+      "id": 341
+    },
+    {
+      "name": "WeThePeople",
+      "company_url": "",
+      "short_name": "WeThePeople",
+      "id": 342
+    },
+    {
+      "name": "WeeRide",
+      "company_url": "http://www.weeride.com/",
+      "short_name": "WeeRide",
+      "id": 1039
+    },
+    {
+      "name": "Weehoo",
+      "company_url": "http://rideweehoo.com/",
+      "short_name": "Weehoo",
+      "id": 1118
+    },
+    {
+      "name": "Wilderness Trail Bikes",
+      "company_url": "",
+      "short_name": "Wilderness Trail Bikes",
+      "id": 343
+    },
+    {
+      "name": "Wilier Triestina",
+      "company_url": "http://www.wilier.com/",
+      "short_name": "Wilier Triestina",
+      "id": 344
+    },
+    {
+      "name": "Windsor",
+      "company_url": "http://www.windsorbicycles.com/",
+      "short_name": "Windsor",
+      "id": 946
+    },
+    {
+      "name": "Winora",
+      "company_url": "http://www.winora.de/",
+      "short_name": "Winora",
+      "id": 932
+    },
+    {
+      "name": "Winter Bicycles",
+      "company_url": "http://www.winterbicycles.com/",
+      "short_name": "Winter Bicycles",
+      "id": 1052
+    },
+    {
+      "name": "Witcomb Cycles",
+      "company_url": "",
+      "short_name": "Witcomb Cycles",
+      "id": 345
+    },
+    {
+      "name": "Wittson",
+      "company_url": "https://wittson.com/",
+      "short_name": "Wittson",
+      "id": 1595
+    },
+    {
+      "name": "Woom ",
+      "company_url": "https://us.woombikes.com/",
+      "short_name": "Woom ",
+      "id": 1562
+    },
+    {
+      "name": "WordLock",
+      "company_url": "http://wordlock.com/",
+      "short_name": "WordLock",
+      "id": 1254
+    },
+    {
+      "name": "WorkCycles",
+      "company_url": "http://www.workcycles.com/",
+      "short_name": "WorkCycles",
+      "id": 987
+    },
+    {
+      "name": "Worksman Cycles",
+      "company_url": "http://www.worksmancycles.com/",
+      "short_name": "Worksman Cycles",
+      "id": 346
+    },
+    {
+      "name": "Wright Cycle Company",
+      "company_url": "",
+      "short_name": "Wright Cycle Company",
+      "id": 347
+    },
+    {
+      "name": "X-Treme",
+      "company_url": "http://www.x-tremescooters.com",
+      "short_name": "X-Treme",
+      "id": 1077
+    },
+    {
+      "name": "Xds",
+      "company_url": "http://www.xdsbicycles.com/",
+      "short_name": "Xds",
+      "id": 1343
+    },
+    {
+      "name": "Xootr",
+      "company_url": "",
+      "short_name": "Xootr",
+      "id": 348
+    },
+    {
+      "name": "Xtracycle",
+      "company_url": "http://www.xtracycle.com/",
+      "short_name": "Xtracycle",
+      "id": 1007
+    },
+    {
+      "name": "YT",
+      "company_url": "https://us.yt-industries.com/",
+      "short_name": "YT",
+      "id": 1582
+    },
+    {
+      "name": "Yamaguchi Bicycles",
+      "company_url": "http://www.yamaguchibike.com/content/Index",
+      "short_name": "Yamaguchi Bicycles",
+      "id": 349
+    },
+    {
+      "name": "Yamaha",
+      "company_url": "",
+      "short_name": "Yamaha",
+      "id": 350
+    },
+    {
+      "name": "Yeti",
+      "company_url": "http://www.yeticycles.com",
+      "short_name": "Yeti",
+      "id": 1091
+    },
+    {
+      "name": "Yuba",
+      "company_url": "http://yubabikes.com/",
+      "short_name": "Yuba",
+      "id": 1003
+    },
+    {
+      "name": "Zigo",
+      "company_url": "",
+      "short_name": "Zigo",
+      "id": 351
+    },
+    {
+      "name": "Zinn Cycles",
+      "company_url": "http://zinncycles.com",
+      "short_name": "Zinn Cycles",
+      "id": 1215
+    },
+    {
+      "name": "Zycle Fix",
+      "company_url": "http://zyclefix.com/",
+      "short_name": "Zycle Fix",
+      "id": 1182
+    },
+    {
+      "name": "b'Twin",
+      "company_url": "http://www.btwin.com/en/home",
+      "short_name": "b'Twin",
+      "id": 1073
+    },
+    {
+      "name": "beixo",
+      "company_url": "http://www.beixo.com/",
+      "short_name": "beixo",
+      "id": 1368
+    },
+    {
+      "name": "de Fietsfabriek ",
+      "company_url": "http://www.defietsfabriek.nl/",
+      "short_name": "de Fietsfabriek ",
+      "id": 1122
+    },
+    {
+      "name": "di Florino",
+      "company_url": "",
+      "short_name": "di Florino",
+      "id": 1119
+    },
+    {
+      "name": "eZip",
+      "company_url": "http://www.currietech.com/",
+      "short_name": "eZip",
+      "id": 1170
+    },
+    {
+      "name": "eflow (Currietech)",
+      "company_url": "http://www.currietech.com/",
+      "short_name": "eflow",
+      "id": 1280
+    },
+    {
+      "name": "k.bedford customs",
+      "company_url": "http://www.kbedfordcustoms.com/",
+      "short_name": "k.bedford customs",
+      "id": 1445
+    },
+    {
+      "name": "silverback",
+      "company_url": "http://www.silverbacklab.com/",
+      "short_name": "silverback",
+      "id": 1479
+    },
+    {
+      "name": "sixthreezero",
+      "company_url": "http://www.sixthreezero.com/",
+      "short_name": "sixthreezero",
+      "id": 1006
+    },
+    {
+      "name": "van Andel/Bakfiets",
+      "company_url": "http://www.bakfiets.nl/",
+      "short_name": "van Andel/Bakfiets",
+      "id": 1121
+    },
+    {
+      "name": "Custom",
+      "company_url": "",
+      "short_name": "Custom",
+      "id": 9999
+    }
+  ]
+}

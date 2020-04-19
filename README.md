@@ -57,3 +57,87 @@ Projects need to be approved prior to launching into them, so take some time to 
 # in config/environment.rb add this line:
 ActiveRecord::Base.logger = nil
 ```
+
+# Biker Project
+* The Biker CLI app is an application that stores information on bike (Bicycles) owners, bikes and trips. 
+  The preliminary version of the application pulls from a CSV file.  Future versions will pull from 
+  https://bikeindex.org/api/v3/manufacturers? (which is the same data used to seed db).
+
+  Short demo video - https://youtu.be/CVx3YWbJG2g
+
+## Setup
+  Clone repo - git clone git@github.com:jeff-flatiron-bootcamp/ruby-project-guidelines-seattle-web-030920.git
+
+  Run - bundle install
+
+  To create and populate the database run the migration then run the seed by the following:
+
+    rake db:migrate
+
+    rake db:seed.rb
+  
+  Run the application 
+    ruby bin/run.rb
+
+## Run Instructions
+  Biker app is composed of different menus.  To move among menus enter 
+  a selection from the corresponding menu
+
+  To use a practice account use the first account in the db. 
+
+            ********  Login  **********       
+        Please enter your account name with no spaces.
+        
+        !back - previous menu
+        ***************************       
+
+        Account name:> qq
+
+  ### Once a user is logged in they can:
+
+    View/add bikes to their owned bike list
+
+    View/add trips to their trip list
+
+    Get a total distance of trips  
+
+## Standard Use Cases
+* [X] As a user, I want to be able to create a biker account.
+* [X] As a user, I want to be able to associate bikes to my biker account.
+* [X] As a user, I want to be able to be able create trips with my bike.
+* [X] As a user, I want to know how many trips I have taken.
+* [X] As a user, I want to know total miles for all trips.
+*     As a user, I want to know how many trips I have taken with a certain bike.
+* [x] As a user, I want to know the bike stolen status for all my bikes.
+
+## Table Relations
+### Associations
+  bikes>-biker
+
+  bikes-< Trip >-biker
+
+### Biker
+  has_many :bikes
+
+  has_many :trips
+
+### Bike
+  belongs_to :biker 
+
+  belongs_to :manufacturer
+
+  has_many :trips 
+
+### Trip
+  belongs_to :biker
+  
+  belongs_to :bike
+
+### Manufacturer   
+  has_many :bikes
+
+** Stretch Goal Use Cases
+* As a user, I want to associate a bike to a manufacturer 
+(Bonus work - pull manufacturer info from https://bikeindex.org/api/v3/manufacturers? url 
+* [X] optional use CSV file with seed data)
+
