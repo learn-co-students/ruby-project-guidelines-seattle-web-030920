@@ -10,6 +10,26 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20200327153131) do
+ActiveRecord::Schema.define(version: 20200505044300) do
+
+  create_table "employees", force: :cascade do |t|
+    t.string "name"
+    t.string "department"
+    t.string "password"
+  end
+
+  create_table "rooms", force: :cascade do |t|
+    t.string  "room_number"
+    t.string  "room_type_code"
+    t.string  "room_status"
+    t.boolean "occupied"
+  end
+
+  create_table "work_orders", force: :cascade do |t|
+    t.integer "employee_id"
+    t.integer "room_id"
+    t.boolean "active"
+    t.string  "details"
+  end
 
 end

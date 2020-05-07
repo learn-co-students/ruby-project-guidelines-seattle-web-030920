@@ -1,5 +1,5 @@
 require_relative '../config/environment'
-# require 'io/console'
 
-app = ComicsApp.new
+
+app = RoomsTracker.new
 app.run
