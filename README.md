@@ -57,3 +57,33 @@ Projects need to be approved prior to launching into them, so take some time to 
 # in config/environment.rb add this line:
 ActiveRecord::Base.logger = nil
 ```
+
+# RoomsTracker
+
+RoomsTracker is an application to manage room inventory, needs, and status details in a hotel or similar enterprise.
+
+## Installation
+
+To install, clone from the repository at https://github.com/djknudson/ruby-project-guidelines-seattle-web-030920. 
+
+From the root directory of the app use 
+```ruby 
+ruby rt.rb
+```
+Be sure Ruby is installed and updated on your machine. (For Ruby help, see https://www.ruby-lang.org/en/documentation/installation/)
+
+# User Stories
+
+User will be able to 
+
+* Create a user / employee and log in with a password
+* Update employee profiles
+* Delete employee profiles
+* View room status and occupancy
+* Update room status and occupancy
+* Create new work orders
+* Update work orders
+* Delete work orders
+* Current user can view context-specific work order report
+
+

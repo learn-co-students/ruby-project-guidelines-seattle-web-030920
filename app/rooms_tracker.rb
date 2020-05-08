@@ -73,6 +73,7 @@ class RoomsTracker
 
     def check_password
         if @password == @user.password
+            header
             puts "welcome back, #{@user.name}"
             puts
             press_any_key
@@ -269,8 +270,8 @@ class RoomsTracker
             t << :separator
         end
         WorkOrder.all.each do |work_order|
-            emp_name = Employee.find_by(id: "#{work_order.employee_id}").name
-            table.add_row ["#{work_order.id}", "#{work_order.room_id}", "#{work_order.employee_id} - #{emp_name}", "#{work_order.details}"]
+            # emp_name = Employee.find_by(id: "#{work_order.employee_id}").name- #{emp_name}"
+            table.add_row ["#{work_order.id}", "#{work_order.room_id}", "#{work_order.employee_id}", "#{work_order.details}"]
             table.add_separator
         end
         puts table
