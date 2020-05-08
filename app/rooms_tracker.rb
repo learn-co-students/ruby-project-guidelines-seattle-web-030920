@@ -1,16 +1,15 @@
 class RoomsTracker
 
+
     def run
         system "clear"
-        # byebug
         welcome
         login_screen
         main_menu
     end
     
     def welcome
-        display_user
-        system "clear"
+        header
         puts "Welcome to RoomTracker Inventory Management"
         puts "Created by David Knudson MMXX"
         puts
@@ -25,11 +24,8 @@ class RoomsTracker
     end
 
     def login_screen
-        # system 'clear'
-        puts "**********Login Screen**********"
+        header("login portal")
         puts
-        prompt = TTY::Prompt.new
-
         puts "1) employee roster"
         puts
         puts "2) login"
@@ -38,7 +34,7 @@ class RoomsTracker
         puts
 
          #TTY::Prompt keypress method constantly monitors keyboard for input
-        selection = prompt.keypress("please make your selection:")
+        selection = @prompt.keypress("please make your selection:")
         case selection
         when '1'
             view_employee_roster
@@ -49,8 +45,8 @@ class RoomsTracker
         when 'q'
             exit
         else
-            puts "invalid selection"
-            puts "please try again"
+            error
+            login_screen
         end
         
     end
@@ -58,7 +54,7 @@ class RoomsTracker
     def login
         system "clear"
         @user = nil
-        puts "**********Login**********"
+        header("login")
         puts
         puts "enter employee id:"
         @user = Employee.all.find_by(id: gets.chomp)
@@ -73,19 +69,18 @@ class RoomsTracker
         @password = STDIN.noecho(&:gets).chomp
 
         check_password
-        main_menu
     end
 
     def check_password
         if @password == @user.password
             puts "welcome back, #{@user.name}"
+            puts
+            press_any_key
         else
             system "clear"
-            puts "incorrect password".red
-            puts "try again".red
-            press_any_key
             @password = ""
             @user = nil
+            error
             login_screen
         end
     end
@@ -93,11 +88,9 @@ class RoomsTracker
 
 
     def main_menu
-        prompt = TTY::Prompt.new
+        @prompt = TTY::Prompt.new
         system 'clear'
-        puts "**********Main Menu**********"
-        puts
-        display_user
+        header("main menu")
         puts
         puts "1) Rooms"
         puts
@@ -113,7 +106,7 @@ class RoomsTracker
         puts
 
          #TTY::Prompt keypress method constantly monitors keyboard for input
-        selection = prompt.keypress("Please make your selection:")
+        selection = @prompt.keypress("Please make your selection:")
         case selection
         when '1'
             system "clear"
@@ -121,52 +114,29 @@ class RoomsTracker
         when '2'
            system "clear"
            work_order_menu
-           rooms_menu
         when '3'
             system "clear"
             @user.department == "Manager" ? employee_menu : (puts "access denied")
-            main_menu
         when 'q'
+            puts "Thank you for using RoomTracker!"
             exit
+        when 'l'
+            @user = nil
+            login_screen
         else
-            puts "invalid selection"
-            puts "please try again"
+            error
         end
     end
-
-
-    def press_any_key
-        print "< press any key to continue >"
-        STDIN.getch
-        print "            \r" # extra space to overwrite in case next sentence is short
-    end
-
-
-    # Experimenting with Terminal::Table gem
-    # def table_test
-    #     table = Terminal::Table.new do |t|
-    #         t << ['ID', 'Name', 'Department']
-    #         t << :separator
-    #         t.add_row [1, 'David', 'Chief']
-    #         t.add_separator
-    #         t.add_row [2, 'Dave', 'Lieutenant']
-    #     end
-        
-    #     puts table
-    # end
 
 
     # Menu 1 -- Room Functions
 
     def rooms_menu
-        system "clear"
-        # byebug
-        puts "**********Rooms Menu**********"
-        puts
-        display_user
-        puts
-        prompt = TTY::Prompt.new
+        @prompt = TTY::Prompt.new
 
+        system "clear"
+        header("rooms menu")
+        puts
         puts "1) room status report"
         puts
         puts "2) update room status"
@@ -175,7 +145,7 @@ class RoomsTracker
         puts
 
         #TTY::Prompt keypress method constantly monitors keyboard for input
-        selection = prompt.keypress("Please make your selection:")
+        selection = @prompt.keypress("Please make your selection:")
 
         case selection
         when '1'
@@ -184,22 +154,18 @@ class RoomsTracker
             rooms_menu
         when '2'
             system "clear"
+            room_report_table
             update_room_status
             rooms_menu
         when '3'
             main_menu
-        when 'l'
-            @user = nil
-            login_screen
         else
-            puts "invalid selection"
-            puts "please try again"
+            error
         end
     end
 
     def room_report_table
-        puts "**********Room Status Report**********"
-        display_user
+        header("room status report")
         puts
 
         #table created with terminal-table gem
@@ -208,27 +174,33 @@ class RoomsTracker
             t << :separator
         end
         Room.all.each do |room|
-            table.add_row ["#{room.room_number}", "#{room.room_type_code}", "#{room.room_status}", "#{room.occupied}"]
+            table.add_row ["#{room.room_number}", "#{room.room_type_code}", "#{room.room_status}", occupied_converter(room.occupied)]
             table.add_separator
         end
         puts table
         press_any_key
     end
 
+    #converts a boolean value to more readable for user
+    def occupied_converter(value)
+        if value == true
+            "OCC"
+        else
+            "VAC"
+        end
+    end
+
     def update_room_status
-        prompt = TTY::Prompt.new
-        system "clear"
-        puts "**********Update Room Status**********"
-        puts
-        display_user
+        @prompt = TTY::Prompt.new
+
+        header("update room status")
         puts
         puts "enter room number to update"
         room_to_be_updated = Room.find_by(id: gets.chomp.to_i)
-        room_to_be_updated.room_status = prompt.select("new status:", %w(Clean Dirty OOO))
-        room_to_be_updated.occupied = prompt.select("is this room vacant?", %w(true false))
+        room_to_be_updated.room_status = @prompt.select("new status:", %w(Clean Dirty OOO))
+        room_to_be_updated.occupied = @prompt.select("occupied status", %w(VAC OCC))
         press_any_key
         room_to_be_updated.save
-        puts "room #{room_to_be_updated.room_number} updated".red
         rooms_menu
     end
 
@@ -236,28 +208,25 @@ class RoomsTracker
     #Menu 2 -- Work Order Functions
 
     def work_order_menu
-        # byebug
-        system 'clear'
-        puts "**********Work Order Menu**********"
+        header("Work Order Menu")
         puts
-        display_user
         puts
-        prompt = TTY::Prompt.new
+        @prompt = TTY::Prompt.new
 
         puts "1) view all work orders"
         puts
-        puts "2) create new work order"
+        puts "2) view my work orders"
         puts
-        puts "3} update work order"
+        puts "3) create new work order"
         puts
-        puts "4) delete work order"
+        puts "4} update work order"
         puts
-        puts "5) return to work order menu"
+        puts "5) delete work order"
         puts
-        puts "q) to quit"
+        puts "6) return to main menu"
         puts
          #TTY::Prompt keypress method constantly monitors keyboard for input
-        selection = prompt.keypress("Please make your selection:")
+        selection = @prompt.keypress("Please make your selection:")
         case selection
         when '1'
             system "clear"
@@ -266,34 +235,64 @@ class RoomsTracker
             work_order_menu
         when '2'
             system "clear"
-            create_work_order
+            view_my_work_orders
+            press_any_key
             work_order_menu
         when '3'
             system "clear"
-            update_work_order
+            create_work_order
             work_order_menu
         when '4'
             system "clear"
+            view_all_work_orders
+            update_work_order
+            work_order_menu
+        when '5'
+            system "clear"
+            view_all_work_orders
             delete_work_order
             work_order_menu
-        when 'q'
-            exit
+        when '6'
+            system "clear"
+            main_menu
         else
-            puts "wtf do you want?"
+            error
+            work_order_menu
         end
     end
 
     def view_all_work_orders
-        puts "**********Active Work Orders**********"
-        puts
-        display_user
+        header("work orders report")
         puts
         table = Terminal::Table.new do |t|
             t << ['ID', 'Room Number', 'Assigned to', 'Details']
             t << :separator
         end
         WorkOrder.all.each do |work_order|
-            table.add_row ["#{work_order.id}", "#{work_order.room_id}", "#{work_order.employee_id}", "#{work_order.details}"]
+            emp_name = Employee.find_by(id: "#{work_order.employee_id}").name
+            table.add_row ["#{work_order.id}", "#{work_order.room_id}", "#{work_order.employee_id} - #{emp_name}", "#{work_order.details}"]
+            table.add_separator
+        end
+        puts table
+        press_any_key
+    end
+
+    def view_my_work_orders
+
+        #downcase and intepolate username into header
+        header("#{@user.name}'s work orders".downcase)
+        puts
+        table = Terminal::Table.new do |t|
+            t << ['ID', 'Room Number', 'Assigned to', 'Details']
+            t << :separator
+        end
+        
+        # my_work_orders = WorkOrder.select { |n| n.employee_id == @user.id}
+        if !@user.work_orders
+            work_order_menu
+        end
+        @user.work_orders.each do |work_order|
+            table.add_row ["#{work_order.id}", "#{work_order.room_id}", "#{work_order.employee_id} -- #{@user.name}", "#{work_order.details}"]
             table.add_separator
         end
         puts table
@@ -301,11 +300,9 @@ class RoomsTracker
     end
 
     def create_work_order
-        puts "**********Create Work Order**********"
+        header("create work order")
         puts
-        display_user
-        puts
-        # prompt = TTY::Prompt.new
+        # @prompt = TTY::Prompt.new
         new_work_order = WorkOrder.create
         puts "enter room number:"
         new_work_order.room_id = gets.chomp
@@ -321,11 +318,9 @@ class RoomsTracker
     end
 
     def update_work_order
-        puts "**********Update Work Order**********"
+        header("update work order")
         puts
-        display_user
-        puts
-        prompt = TTY::Prompt.new
+        @prompt = TTY::Prompt.new
         puts "enter work order id:"
         selected_id = gets.chomp.to_i
         to_be_updated = WorkOrder.find_by(id: "#{selected_id}")
@@ -345,7 +340,7 @@ class RoomsTracker
         puts "enter new description"
         to_be_updated.details = gets.chomp
         puts
-        confirm = prompt.yes?("are you sure you want to update work order #{to_be_updated.id}?")
+        confirm = @prompt.yes?("are you sure you want to update work order #{to_be_updated.id}?")
         confirm ? to_be_updated.save : work_order_menu
         puts "record updated"
         press_any_key
@@ -353,12 +348,9 @@ class RoomsTracker
     end
 
     def delete_work_order
-        system "clear"
-        puts "**********Delete Work Order**********"
+        header("delete work order")
         puts
-        display_user
-        puts
-        prompt = TTY::Prompt.new
+        @prompt = TTY::Prompt.new
         puts "enter work order id:"
         selected_id = gets.chomp.to_i
         to_be_deleted = WorkOrder.find_by(id: "#{selected_id}")
@@ -369,7 +361,7 @@ class RoomsTracker
             puts
             work_order_menu
         end
-        confirm = prompt.yes?("are you sure you want to delete work order ##{to_be_deleted.id}?")
+        confirm = @prompt.yes?("are you sure you want to delete work order ##{to_be_deleted.id}?")
         confirm ? to_be_deleted.delete : work_order_menu
         puts "record deleted"
         press_any_key
@@ -378,26 +370,24 @@ class RoomsTracker
     #Menu 3 -- Employee Functions
 
     def employee_menu
-        puts "**********Employee Functions**********"
-        puts
-        display_user
+        header("employee functions")
         puts
 
         #TTY::Prompt keypress method constantly monitors keyboard for input
-        prompt = TTY::Prompt.new
+        @prompt = TTY::Prompt.new
 
         puts "1) view the employee roster"
         puts
         puts "2) add employee"
         puts
-        puts "3) delete employee"
+        puts "3) update employee details"
         puts
-        puts "4) update employee details"
+        puts "4) delete employee"
         puts
         puts "5) return to main menu"
         puts
 
-        selection = prompt.keypress("Please make your selection:").to_i
+        selection = @prompt.keypress("Please make your selection:").to_i
         case selection
         when 1
             view_employee_roster
@@ -409,28 +399,25 @@ class RoomsTracker
             employee_menu
         when 3
             view_employee_roster
-            delete_employee
+            update_employee
             system 'clear'
             employee_menu
         when 4
             view_employee_roster
-            update_employee
+            delete_employee
             system 'clear'
             employee_menu
         when 5
             system "clear"
             main_menu
         else
-            puts "wtf do you want?"
+            error
+            press_any_key
         end
     end
 
     def view_employee_roster
-        puts "**********Employee Roster**********"
-        puts
-        display_user
-        puts
-
+        header("employee roster")
         # table created with terminal-table gem
         table = Terminal::Table.new do |t|
             t << ['ID', 'Name', 'Department']
@@ -445,32 +432,32 @@ class RoomsTracker
     end
 
     def add_employee
-        puts "**********Create Employee**********"
+        header("add new employee")
         puts
-        display_user
-        puts
-        prompt = TTY::Prompt.new
+        @prompt = TTY::Prompt.new
         new_employee = Employee.create
         puts "Welcome! Your new employee id is #{new_employee.id}."
+        puts
         puts "Enter employee name:"
         new_employee.name = gets.chomp
-        new_employee.department = prompt.select("Choose employee department:", %w(Office Housekeeping Maintenance Manager))
+        puts
+        new_employee.department = @prompt.select("Choose employee department:", %w(Office Housekeeping Maintenance Manager))
+        puts
         puts "Create a password:"
 
         # STDIN.noecho(&:gets).chomp allows chomp input with no echo
         new_employee.password = STDIN.noecho(&:gets).chomp
         new_employee.save
+        puts
         puts "Welcome aboard, #{new_employee.name}! Your department is #{new_employee.department}, and your id# is #{new_employee.id}."
+        puts
         press_any_key
     end
 
     def delete_employee
-        system "clear"
-        puts "**********Delete Employee**********"
+        header("delete employee")
         puts
-        display_user
-        puts
-        prompt = TTY::Prompt.new
+        @prompt = TTY::Prompt.new
         puts "enter employee id:"
         selected_id = gets.chomp.to_i
         to_be_deleted = Employee.find_by(id: "#{selected_id}")
@@ -481,20 +468,19 @@ class RoomsTracker
             puts
             employee_menu
         end
-        confirm = prompt.yes?("are you sure you want to delete #{to_be_deleted.name}?")
+        puts
+        confirm = @prompt.yes?("are you sure you want to delete #{to_be_deleted.name}?")
         confirm ? to_be_deleted.delete : employee_menu
+        puts
         puts "record deleted"
         press_any_key
         system 'clear'
     end
 
     def update_employee
-        system "clear"
-        puts "**********Update Employee**********"
+        header("update employee")
         puts
-        display_user
-        puts
-        prompt = TTY::Prompt.new
+        @prompt = TTY::Prompt.new
         puts "enter employee id:"
         selected_id = gets.chomp.to_i
         to_be_updated = Employee.find_by(id: "#{selected_id}")
@@ -505,23 +491,64 @@ class RoomsTracker
             puts
             employee_menu
         end
-        puts "updating employee #{to_be_updated.id}".red
+        puts
+        puts "updating employee #{to_be_updated.id}"
+        puts
         puts "enter new name:"
         to_be_updated.name = gets.chomp
         puts
-        to_be_updated.department = prompt.select("choose new department:", %w(Office Housekeeping Maintenance Manager))
+        to_be_updated.department = @prompt.select("choose new department:", %w(Office Housekeeping Maintenance Manager))
         puts
         puts "enter new password:"
         # STDIN.noecho(&:gets).chomp allows chomp input with no echo
         to_be_updated.password = STDIN.noecho(&:gets).chomp
-        confirm = prompt.yes?("are you sure you want to update employee #{to_be_updated.id}?")
+        puts
+        confirm = @prompt.yes?("are you sure you want to update employee #{to_be_updated.id}?")
         confirm ? to_be_updated.save : employee_menu
-        puts "record updated".red
+        puts
+        puts "record updated"
         press_any_key
         system "clear"
     end
 
+    #miscellaneous methods
+
     def find_employee_by_id(employee_id)
         Employee.all.find_by(id: employee_id)
+    end
+
+    def header(title=nil)
+        @prompt = TTY::Prompt.new
+        system "clear"
+        puts "
+        ██████╗ ██████╗ ██████╗███╗   █████████████████╗ █████╗ ████████╗  ███████████████╗ 
+        ██╔══████╔═══████╔═══██████╗ ████╚══██╔══██╔══████╔══████╔════██║ ██╔██╔════██╔══██╗
+        ██████╔██║   ████║   ████╔████╔██║  ██║  ██████╔█████████║    █████╔╝█████╗ ██████╔╝
+        ██╔══████║   ████║   ████║╚██╔╝██║  ██║  ██╔══████╔══████║    ██╔═██╗██╔══╝ ██╔══██╗
+        ██║  ██╚██████╔╚██████╔██║ ╚═╝ ██║  ██║  ██║  ████║  ██╚████████║  ███████████║  ██║
+        ╚═╝  ╚═╝╚═════╝ ╚═════╝╚═╝     ╚═╝  ╚═╝  ╚═╝  ╚═╚═╝  ╚═╝╚═════╚═╝  ╚═╚══════╚═╝  ╚═╝
+                                                                                            
+        ".blue
+        if @user
+            display_user
+        end
+        puts
+        if title
+            puts "***************#{title}***************"
+        end
+    end
+
+    def press_any_key
+        print "< press any key to continue >"
+        STDIN.getch
+        print "            \r" # extra space to overwrite in case next sentence is short
+    end
+
+    def error
+        system "clear"
+        puts "not quite!".red
+        puts "please try again".red
+        puts
+        press_any_key
     end
 end

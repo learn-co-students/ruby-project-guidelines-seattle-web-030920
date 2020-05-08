@@ -10,4 +10,3 @@ ActiveRecord::Base.logger = nil
 
 
 
-"dog cat"
