@@ -1,5 +1,5 @@
 
-User Stories
+## User Stories
 1. a user can log in, sign up
 2. a user can link to a bank account and transfer money
 2. a user can search for stocks
@@ -10,33 +10,33 @@ User Stories
 9. a user can check linked bank account
 10. a user can check account_balance (how much cash in the user account)
 
-Data relationships
+## Data relationships
 
-User
+## User
     has_many :trades
     has_many :stocks, through: :trades
     has_many :portfolios
     has_one :user_cash_holding
     has_one :bank_account, through: :user_cash_holding
 
-Stock
+## Stock
     has_many :trades
     has_many :users, through: :trades
     has_many :portfolios
     has_one :stock_rating
 
-StockRating
+## StockRating
     belongs_to :stock
 
-Trade
+## Trade
     belongs_to :user
     belongs_to :stock
 
-Portfolio
+## Portfolio
     belongs_to :user
     belongs_to :stock
 
-BankAccount
+## BankAccount
     has_one :user_cash_holding
     has_one :user, through: :user_cash_holding
 
@@ -44,7 +44,7 @@ UserCashHolding
     belongs_to :user
     belongs_to :bank_account
 
-User Guide
+## User Guide
 
 If this is your first time run this program. Run "rake db:seed" in console, this allows you to: 
   1. load the bank accounts data for later use, otherwise cannot connect to a bank account. 
@@ -67,7 +67,7 @@ To link to a bank account:
 
 If you want to exit the program, type "100" in the console to exit or log out your account.
 
-Fun detail: 
+## Fun detail: 
 if you don't have enough money to buy the amount of stocks you want to buy. It will promote the amount you can buy, or promote you to deposit more money.
 
 
