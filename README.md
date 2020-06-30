@@ -40,7 +40,7 @@
     has_one :user_cash_holding
     has_one :user, through: :user_cash_holding
 
-UserCashHolding
+## UserCashHolding
     belongs_to :user
     belongs_to :bank_account
 
