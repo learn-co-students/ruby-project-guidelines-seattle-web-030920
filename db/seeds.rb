@@ -2,7 +2,7 @@ require 'pry'
 Stop.destroy_all
 
 data_arr = []
-File.open("/Users/sarakhandaker/Development/code/ruby-project-guidelines-seattle-web-030920/google_daily_transit/stops.txt").each do
+File.open("/Users/sarakhandaker/Flatiron/code/ruby-project-guidelines-seattle-web-030920/google_daily_transit/stops.txt").each do
     |line| data_arr<< line 
 end
 data_arr.shift
