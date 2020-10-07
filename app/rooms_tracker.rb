@@ -34,6 +34,7 @@ class RoomsTracker
         puts
 
          #TTY::Prompt keypress method constantly monitors keyboard for input
+
         selection = @prompt.keypress("please make your selection:")
         case selection
         when '1'
@@ -87,7 +88,6 @@ class RoomsTracker
     end
 
 
-
     def main_menu
         @prompt = TTY::Prompt.new
         system 'clear'
@@ -107,6 +107,7 @@ class RoomsTracker
         puts
 
          #TTY::Prompt keypress method constantly monitors keyboard for input
+
         selection = @prompt.keypress("Please make your selection:")
         case selection
         when '1'
@@ -119,13 +120,16 @@ class RoomsTracker
             system "clear"
             @user.department == "Manager" ? employee_menu : (puts "access denied")
         when 'q'
-            puts "Thank you for using RoomTracker!"
+            header("Thank's #{@user.name}!!")
+            puts "***************for using RoomTracker***************"
             exit
         when 'l'
             @user = nil
             login_screen
         else
             error
+            press_any_key
+            main_menu
         end
     end
 
@@ -146,6 +150,7 @@ class RoomsTracker
         puts
 
         #TTY::Prompt keypress method constantly monitors keyboard for input
+
         selection = @prompt.keypress("Please make your selection:")
 
         case selection
@@ -226,7 +231,9 @@ class RoomsTracker
         puts
         puts "6) return to main menu"
         puts
+
          #TTY::Prompt keypress method constantly monitors keyboard for input
+
         selection = @prompt.keypress("Please make your selection:")
         case selection
         when '1'
@@ -270,9 +277,8 @@ class RoomsTracker
             t << :separator
         end
         WorkOrder.all.each do |work_order|
-            # emp_name = Employee.find_by(id: "#{work_order.employee_id}").name- #{emp_name}"
-            table.add_row ["#{work_order.id}", "#{work_order.room_id}", "#{work_order.employee_id}", "#{work_order.details}"]
-            table.add_separator
+                table.add_row ["#{work_order.id}", "#{work_order.room_id}", "#{work_order.employee_id}", "#{work_order.details}"]
+                table.add_separator
         end
         puts table
         press_any_key
@@ -470,6 +476,13 @@ class RoomsTracker
             employee_menu
         end
         puts
+        if to_be_deleted.work_orders
+            puts "employee has open work orders".red
+            puts "please close or reassign them to a diiferent employee".red
+            puts
+            press_any_key
+            work_order_menu
+        end
         confirm = @prompt.yes?("are you sure you want to delete #{to_be_deleted.name}?")
         confirm ? to_be_deleted.delete : employee_menu
         puts
@@ -507,7 +520,8 @@ class RoomsTracker
         confirm = @prompt.yes?("are you sure you want to update employee #{to_be_updated.id}?")
         confirm ? to_be_updated.save : employee_menu
         puts
-        puts "record updated"
+        puts "record updated".red
+        puts
         press_any_key
         system "clear"
     end
