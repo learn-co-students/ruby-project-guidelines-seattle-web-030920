@@ -8,5 +8,3 @@ require "tty-prompt"
 prompt = TTY::Prompt.new
 ActiveRecord::Base.logger = nil
 
-
-
